@@ -3,14 +3,14 @@ class Solution:
     @param A: an integer rotated sorted array
     @param target: an integer to be searched
     @return: an integer
-    Time : log(N)  Space (N)
     """
     def search(self, A, target):
         # write your code here
         if not A:
             return -1
-            
-        start, end = 0, len(A) - 1
+        start = 0
+        end = len(A) - 1
+        
         while start + 1 < end:
             mid = (start + end) // 2
             if A[mid] >= A[start]:
@@ -23,9 +23,11 @@ class Solution:
                     start = mid
                 else:
                     end = mid
-                    
+
         if A[start] == target:
             return start
         if A[end] == target:
             return end
         return -1
+                
+            
