@@ -1,4 +1,24 @@
 class Solution:
+    def addBinary(self, a: str, b: str) -> str:
+
+        a = list(a)
+        b = list(b)
+        res = ''
+        carry = 0
+
+        while a or b or carry:
+            if a:
+                carry += int(a.pop())
+            if b:
+                carry += int(b.pop())
+
+            res = str(carry % 2) + res
+            carry = carry // 2
+        return res
+
+    
+'''
+class Solution:
     """
     @param a: a number
     @param b: a number
@@ -30,3 +50,6 @@ class Solution:
         if carry == 1:
             sum = '1' + sum
         return sum
+
+
+'''

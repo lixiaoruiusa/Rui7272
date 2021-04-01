@@ -49,15 +49,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/高频120/medium_G" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/高频120/hard_facebook" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120\hard_facebook" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120\medium_G" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.Reverse Nodes in k-Group">
     <configuration name=" K Closest Points to Origin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,7 +84,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Factorization" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Reverse Nodes in k-Group" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -87,11 +92,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lintcode120/medium_l" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/高频120/hard_facebook" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lintcode120/medium_l/Factorization.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120\hard_facebook\Reverse Nodes in k-Group.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Reverse Nodes in k-Group" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.Subsets (1)" />
         <item itemvalue="Python.Subsets" />
         <item itemvalue="Python. K Closest Points to Origin" />
-        <item itemvalue="Python.Factorization" />
       </list>
     </recent_temporary>
   </component>
@@ -213,25 +218,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="672" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1610383814313" />
-    <state width="1882" height="160" key="GridCell.Tab.0.bottom" timestamp="1612907017280">
+    <state width="1899" height="160" key="GridCell.Tab.0.bottom" timestamp="1614016943259">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1882" height="160" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612907017280" />
-    <state width="1882" height="160" key="GridCell.Tab.0.center" timestamp="1612907017280">
+    <state width="1899" height="160" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614016943259" />
+    <state width="1899" height="160" key="GridCell.Tab.0.center" timestamp="1614016943259">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1882" height="160" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612907017280" />
-    <state width="1882" height="160" key="GridCell.Tab.0.left" timestamp="1612907017280">
+    <state width="1899" height="160" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614016943259" />
+    <state width="1899" height="160" key="GridCell.Tab.0.left" timestamp="1614016943259">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1882" height="160" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612907017280" />
-    <state width="1882" height="160" key="GridCell.Tab.0.right" timestamp="1612907017280">
+    <state width="1899" height="160" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614016943259" />
+    <state width="1899" height="160" key="GridCell.Tab.0.right" timestamp="1614016943259">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1882" height="160" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612907017280" />
-    <state x="486" y="155" width="1217" height="810" key="SettingsEditor" timestamp="1612885352009">
+    <state width="1899" height="160" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614016943259" />
+    <state x="337" y="87" width="1217" height="810" key="SettingsEditor" timestamp="1614038017094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="486" y="155" width="1217" height="810" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612885352009" />
+    <state x="337" y="87" width="1217" height="810" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614038017094" />
   </component>
 </project>

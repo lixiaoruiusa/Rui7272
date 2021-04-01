@@ -3,7 +3,7 @@ class Solution:
     @param source: 
     @param target: 
     @return: return the index
-    @Time: O(n) Space: O(1)
+    @Time: O(n^2) Space: O(1)
     """
     def strStr(self, source, target):
         if target is None:
@@ -20,3 +20,19 @@ class Solution:
                 return i
         else:
             return -1
+
+ '''
+    def strStr(self, haystack: str, needle: str) -> int:
+
+        if not needle:
+            return 0
+
+        if not haystack:
+            return -1
+
+        for i in range(len(haystack)):
+            if needle == haystack[i: i + len(needle)]:
+                return i
+
+        return -1
+'''
