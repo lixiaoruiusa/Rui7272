@@ -7,7 +7,7 @@ class Solution:
     @param: end: a string
     @param: dict: a set of string
     @return: An integer
-    @ Time ?? | Space deque ?? O(n)
+    @ Time w * d | Space deque O(n)
     """
 
     def ladderLength(self, start, end, dict):

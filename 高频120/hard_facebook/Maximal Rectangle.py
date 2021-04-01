@@ -8,10 +8,13 @@ class Solution:
     """
 
     def maximalRectangle(self, matrix):
-        if len(matrix) == 0:
+        if not matrix or not matrix[0]:
             return 0
+
         n, m = len(matrix), len(matrix[0])
+
         dp = [[0 for _ in range(m)] for _ in range(n)]
+
         for i in range(n):  # 每个位置上方有多少连续的1
             for j in range(m):
                 if i == 0 and matrix[i][j]:
@@ -22,7 +25,7 @@ class Solution:
         ans = 0
         for i in range(n):  # 把每一行作为底找最大矩形
             ans = max(ans, self.largestRectangleArea(dp[i][:]));
-        return ans;
+        return ans
 
     def largestRectangleArea(self, height):
         stack = []
@@ -41,23 +44,3 @@ class Solution:
                 i -= 1  # 拿着右边界， 寻找左边界；
             i += 1
         return Sum
-'''
-    def maximalRectangle(self, matrix):
-        if not matrix or not matrix[0]:
-            return 0
-        n = len(matrix[0])
-        height = [0] * (n + 1)
-        ans = 0
-        for row in matrix:
-            for i in range(n):
-                height[i] = height[i] + 1 if row[i] == '1' else 0
-            stack = [-1]
-            for i in range(n + 1):
-                while height[i] < height[stack[-1]]:
-                    h = height[stack.pop()]
-                    w = i - 1 - stack[-1]
-                    ans = max(ans, h * w)
-                stack.append(i)
-        return ans
-    
-'''

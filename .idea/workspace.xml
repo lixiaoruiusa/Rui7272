@@ -50,15 +50,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/高频120/hard_facebook" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120\hard_facebook" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120\medium_G" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120" />
     </key>
   </component>
   <component name="RunManager" selected="Python.Reverse Nodes in k-Group">
@@ -233,9 +234,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="160" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614016943259" />
-    <state x="486" y="155" width="1217" height="810" key="SettingsEditor" timestamp="1612885352009">
+    <state x="337" y="87" width="1217" height="810" key="SettingsEditor" timestamp="1614038017094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="486" y="155" width="1217" height="810" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612885352009" />
+    <state x="337" y="87" width="1217" height="810" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614038017094" />
   </component>
 </project>

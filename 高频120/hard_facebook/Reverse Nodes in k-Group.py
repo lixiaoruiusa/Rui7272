@@ -6,6 +6,7 @@ class ListNode(object):
         self.next = next
 """
 
+
 class Solution:
     """
     @param head: a ListNode
@@ -13,6 +14,7 @@ class Solution:
     @return: a ListNode
     @ O(n) time | O(1) space
     """
+
     def reverseKGroup(self, head, k):
         dummy = jump = ListNode(0)
         dummy.next = left = right = head
@@ -23,15 +25,32 @@ class Solution:
                 right = right.next
                 count += 1
 
-            if count == k: # if size k satisfied, reverse the inner linked list
-                pre, cur = right, left
+            if count == k:  # if size k satisfied, reverse the inner linked list
+                pre = right
+                cur = left
                 for _ in range(k):
                     cur.next = pre
                     cur = cur.next
-                    pre = cur   # standard reversing
+                    pre = cur  # standard reversing
 
-                jump.next, jump, left = pre, left, right  # connect two k-groups
+                jump.next = pre
+                jump = left
+                left = right  # connect two k-groups
 
             else:
                 return dummy.next
 
+
+'''
+def reverseList(self, head):
+    prev = None
+    curr = head
+
+    while curr:
+        next = curr.next
+        curr.next = prev
+        prev = curr
+        curr = next
+    
+    return prev
+'''

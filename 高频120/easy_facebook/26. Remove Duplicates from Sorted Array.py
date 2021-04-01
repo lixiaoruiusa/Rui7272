@@ -14,3 +14,25 @@ class Solution:
                 position += 1
                 nums[position] = nums[i]
         return position + 1
+
+
+
+
+    # leetcode
+    '''
+    class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        #  in-place and O(1) extra memory
+        
+        if not nums:
+            return 0
+        
+        index = 0
+        
+        for i in range(1, len(nums)):
+            if nums[i] != nums[i - 1]:
+                index += 1
+                nums[index] = nums[i]
+        
+        return index + 1
+    '''
