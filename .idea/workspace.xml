@@ -65,7 +65,7 @@
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120\medium_G" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.arrayOfProducts(leftrunningxrightrunning)">
+  <component name="RunManager" selected="Python.tournamentWinner">
     <configuration name="193. Longest Valid Parentheses" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,27 +79,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/高频120/easy_amazon/193. Longest Valid Parentheses.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Rui7272" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/分类/AlgoExpert" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/分类/AlgoExpert/2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,13 +150,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tournamentWinner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Rui7272" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AlgoExpert/Arrays" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AlgoExpert/Arrays/tournamentWinner.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tournamentWinner" />
         <item itemvalue="Python.arrayOfProducts(leftrunningxrightrunning)" />
         <item itemvalue="Python.488. Happy Number" />
         <item itemvalue="Python.193. Longest Valid Parentheses" />
         <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.2" />
       </list>
     </recent_temporary>
   </component>
@@ -221,38 +221,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="672" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1618435718082" />
-    <state width="1899" height="183" key="GridCell.Tab.0.bottom" timestamp="1618505865906">
+    <state width="1899" height="183" key="GridCell.Tab.0.bottom" timestamp="1618522964397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="183" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618505865906" />
-    <state width="1899" height="183" key="GridCell.Tab.0.center" timestamp="1618505865906">
+    <state width="1899" height="183" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618522964397" />
+    <state width="1899" height="183" key="GridCell.Tab.0.center" timestamp="1618522964397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="183" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618505865906" />
-    <state width="1899" height="183" key="GridCell.Tab.0.left" timestamp="1618505865906">
+    <state width="1899" height="183" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618522964397" />
+    <state width="1899" height="183" key="GridCell.Tab.0.left" timestamp="1618522964397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="183" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618505865906" />
-    <state width="1899" height="183" key="GridCell.Tab.0.right" timestamp="1618505865906">
+    <state width="1899" height="183" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618522964397" />
+    <state width="1899" height="183" key="GridCell.Tab.0.right" timestamp="1618522964397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="183" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618505865906" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1618505818759">
+    <state width="1899" height="183" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618522964397" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1618522964397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618505818759" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1618505818759">
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618522964397" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1618522964397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618505818759" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1618505818759">
+    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618522964397" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1618522964397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618505818759" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1618505818759">
+    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618522964397" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1618522964397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618505818759" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618522964397" />
     <state x="337" y="87" width="1217" height="810" key="SettingsEditor" timestamp="1614038017094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
