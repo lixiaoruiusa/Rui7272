@@ -15,7 +15,7 @@ class Solution:
     左边 end < newInterval.start, 
     右边 start > newInterval.end, 
     中间是和newInterval纠缠不清的，把中间的interval合并，最后把三部分加起来
-    @ Time: O(n)  Space: O(n) ?
+    @ Time: O(n)  Space: O(n)
     """
 
     def insert(self, intervals, newInterval):
@@ -32,7 +32,7 @@ class Solution:
             else:
                 start = min(interval.start, start)
                 end = max(interval.end, end)
-        tmp = Interval(start, end)  # ???Interval
+        tmp = Interval(start, end)
         return left + [tmp] + right
         
  

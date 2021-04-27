@@ -53,17 +53,20 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\AlgoExpert" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\AlgoExpert\Arrays" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120Leetcode" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120\hard_facebook" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120\medium_G" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.Reverse Nodes in k-Group">
-    <configuration name=" K Closest Points to Origin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.253. Meeting Rooms II(时间扫描线)">
+    <configuration name="253. Meeting Rooms II(时间扫描线)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -71,11 +74,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lintcode120/medium_l" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/Bloomberg" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lintcode120/medium_l/ K Closest Points to Origin.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\lirui\Desktop\GitHub\Rui7272\Company\Bloomberg\253. Meeting Rooms II(时间扫描线).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,7 +87,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Reverse Nodes in k-Group" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="438. Find All Anagrams in a String" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,11 +95,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/高频120/hard_facebook" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/Bloomberg" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120\hard_facebook\Reverse Nodes in k-Group.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/Bloomberg/438. Find All Anagrams in a String.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,7 +108,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Subsets (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="49. Group Anagrams" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,11 +116,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/高频120/medium_G" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/Bloomberg" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/高频120/medium_G/Subsets.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/Bloomberg/49. Group Anagrams.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +129,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Subsets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Candy crush" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,11 +137,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/高频120/medium_G" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/Bloomberg" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120\medium_G\Subsets.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/Bloomberg/Candy crush.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,7 +150,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="minRewards(dp_toright_toleft)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,11 +158,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/高频120/medium_G" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AlgoExpert/Arrays" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/高频120/medium_G/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AlgoExpert/Arrays/minRewards(dp_toright_toleft).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Reverse Nodes in k-Group" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.Subsets (1)" />
-        <item itemvalue="Python.Subsets" />
-        <item itemvalue="Python. K Closest Points to Origin" />
+        <item itemvalue="Python.253. Meeting Rooms II(时间扫描线)" />
+        <item itemvalue="Python.Candy crush" />
+        <item itemvalue="Python.438. Find All Anagrams in a String" />
+        <item itemvalue="Python.49. Group Anagrams" />
+        <item itemvalue="Python.minRewards(dp_toright_toleft)" />
       </list>
     </recent_temporary>
   </component>
@@ -214,29 +217,49 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="672" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610383814313">
+    <state x="672" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1618435718082">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="672" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1610383814313" />
-    <state width="1899" height="160" key="GridCell.Tab.0.bottom" timestamp="1614016943259">
+    <state x="672" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1618435718082" />
+    <state width="1899" height="183" key="GridCell.Tab.0.bottom" timestamp="1619493198570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="160" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614016943259" />
-    <state width="1899" height="160" key="GridCell.Tab.0.center" timestamp="1614016943259">
+    <state width="1899" height="183" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619493198570" />
+    <state width="1899" height="183" key="GridCell.Tab.0.center" timestamp="1619493198570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="160" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614016943259" />
-    <state width="1899" height="160" key="GridCell.Tab.0.left" timestamp="1614016943259">
+    <state width="1899" height="183" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619493198570" />
+    <state width="1899" height="183" key="GridCell.Tab.0.left" timestamp="1619493198570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="160" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614016943259" />
-    <state width="1899" height="160" key="GridCell.Tab.0.right" timestamp="1614016943259">
+    <state width="1899" height="183" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619493198570" />
+    <state width="1899" height="183" key="GridCell.Tab.0.right" timestamp="1619493198570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="160" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614016943259" />
+    <state width="1899" height="183" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619493198570" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1618522964397">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618522964397" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1618522964397">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618522964397" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1618522964397">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618522964397" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1618522964397">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618522964397" />
     <state x="337" y="87" width="1217" height="810" key="SettingsEditor" timestamp="1614038017094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="337" y="87" width="1217" height="810" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614038017094" />
+    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1617328819883">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="119" width="585" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1617328819883" />
   </component>
 </project>

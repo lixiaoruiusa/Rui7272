@@ -12,3 +12,9 @@ class Solution:
     #         result = result + int(num)**2
     #     return result
 
+
+
+
+
+
+
