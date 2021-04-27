@@ -1,6 +1,7 @@
-array = [1,2,3]
-res = [1]
 
+array = [1,1,2,2]
+array1 = set(array)
 
-res = res *  for _ in range(len(array) - 1)
-
+print(array1)
+for a in array1:
+    print(a)
