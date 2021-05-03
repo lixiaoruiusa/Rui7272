@@ -1,5 +1,6 @@
 
-s = 'acbbbccddd'
+s = 'abcdecbbbccddd'
+
 
 def remove_triple(s):
     finished = True
@@ -14,7 +15,5 @@ def remove_triple(s):
         return s
     else:
         return remove_triple(s)
-
-
 a = remove_triple(s)
 print(a)

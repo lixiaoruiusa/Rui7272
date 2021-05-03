@@ -65,7 +65,7 @@
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120\medium_G" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.253. Meeting Rooms II(时间扫描线)">
+  <component name="RunManager" selected="Python.Candy crush">
     <configuration name="253. Meeting Rooms II(时间扫描线)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,8 +173,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.253. Meeting Rooms II(时间扫描线)" />
         <item itemvalue="Python.Candy crush" />
+        <item itemvalue="Python.253. Meeting Rooms II(时间扫描线)" />
         <item itemvalue="Python.438. Find All Anagrams in a String" />
         <item itemvalue="Python.49. Group Anagrams" />
         <item itemvalue="Python.minRewards(dp_toright_toleft)" />
@@ -221,22 +221,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="672" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1618435718082" />
-    <state width="1899" height="183" key="GridCell.Tab.0.bottom" timestamp="1619493198570">
+    <state width="1899" height="183" key="GridCell.Tab.0.bottom" timestamp="1619621209563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="183" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619493198570" />
-    <state width="1899" height="183" key="GridCell.Tab.0.center" timestamp="1619493198570">
+    <state width="1899" height="183" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619621209563" />
+    <state width="1899" height="183" key="GridCell.Tab.0.center" timestamp="1619621209563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="183" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619493198570" />
-    <state width="1899" height="183" key="GridCell.Tab.0.left" timestamp="1619493198570">
+    <state width="1899" height="183" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619621209563" />
+    <state width="1899" height="183" key="GridCell.Tab.0.left" timestamp="1619621209563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="183" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619493198570" />
-    <state width="1899" height="183" key="GridCell.Tab.0.right" timestamp="1619493198570">
+    <state width="1899" height="183" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619621209563" />
+    <state width="1899" height="183" key="GridCell.Tab.0.right" timestamp="1619621209563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="183" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619493198570" />
+    <state width="1899" height="183" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619621209563" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1618522964397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
