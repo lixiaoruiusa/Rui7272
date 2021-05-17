@@ -65,7 +65,7 @@
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120\medium_G" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Candy crush">
+  <component name="RunManager" selected="Python.test">
     <configuration name="253. Meeting Rooms II(时间扫描线)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -108,7 +108,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="49. Group Anagrams" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="560. Subarray Sum Equals K" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,11 +116,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/Bloomberg" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/高频120Leetcode" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/Bloomberg/49. Group Anagrams.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/高频120Leetcode/560. Subarray Sum Equals K.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,7 +150,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="minRewards(dp_toright_toleft)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -158,11 +158,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AlgoExpert/Arrays" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AlgoExpert/Heaps" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AlgoExpert/Arrays/minRewards(dp_toright_toleft).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AlgoExpert/Heaps/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.560. Subarray Sum Equals K" />
         <item itemvalue="Python.Candy crush" />
         <item itemvalue="Python.253. Meeting Rooms II(时间扫描线)" />
         <item itemvalue="Python.438. Find All Anagrams in a String" />
-        <item itemvalue="Python.49. Group Anagrams" />
-        <item itemvalue="Python.minRewards(dp_toright_toleft)" />
       </list>
     </recent_temporary>
   </component>
@@ -221,22 +221,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="672" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1618435718082" />
-    <state width="1899" height="183" key="GridCell.Tab.0.bottom" timestamp="1620157493843">
+    <state width="1899" height="169" key="GridCell.Tab.0.bottom" timestamp="1621012413076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="183" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1620157493843" />
-    <state width="1899" height="183" key="GridCell.Tab.0.center" timestamp="1620157493843">
+    <state width="1899" height="169" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1621012413076" />
+    <state width="1899" height="169" key="GridCell.Tab.0.center" timestamp="1621012413076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="183" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1620157493843" />
-    <state width="1899" height="183" key="GridCell.Tab.0.left" timestamp="1620157493843">
+    <state width="1899" height="169" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1621012413076" />
+    <state width="1899" height="169" key="GridCell.Tab.0.left" timestamp="1621012413076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="183" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1620157493843" />
-    <state width="1899" height="183" key="GridCell.Tab.0.right" timestamp="1620157493843">
+    <state width="1899" height="169" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1621012413076" />
+    <state width="1899" height="169" key="GridCell.Tab.0.right" timestamp="1621012413076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="183" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1620157493843" />
+    <state width="1899" height="169" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1621012413076" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1618522964397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -257,9 +257,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="337" y="87" width="1217" height="810" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614038017094" />
-    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1617328819883">
+    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1621009575113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="119" width="585" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1617328819883" />
+    <state x="667" y="119" width="585" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1621009575113" />
+    <state x="623" y="225" key="search.everywhere.popup" timestamp="1620330256871">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1620330256871" />
   </component>
 </project>
