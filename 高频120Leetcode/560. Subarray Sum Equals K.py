@@ -5,11 +5,12 @@ class Solution:
         dic = {0: 1}
 
         for i in range(len(nums)):
-            print(i, dic)
+
             prefix_sum += nums[i]
 
             if prefix_sum - k in dic:
                 count += dic[prefix_sum - k]
+
 
             if prefix_sum in dic:
                 dic[prefix_sum] += 1
