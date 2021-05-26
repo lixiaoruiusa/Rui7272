@@ -19,5 +19,6 @@ class KthLargest:
 # param_1 = obj.add(val)
 
 
-# init nlogn time | space n
+# init nlogn time  # build 是 O(n)| space n
 # add logk time | space k space
+# O(n) time for buildHeap and O(n log n) to remove each node in order, so the complexity is O(n log n)
