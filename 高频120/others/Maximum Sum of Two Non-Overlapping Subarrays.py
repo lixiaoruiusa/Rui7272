@@ -3,10 +3,6 @@ Alice and Bob work in a beautiful orchard. There are N  apple trees in the orcha
 '''
 
 
-
-
-
-
 def solution(A, K, L):
     if K + L > len(A):
         return -1

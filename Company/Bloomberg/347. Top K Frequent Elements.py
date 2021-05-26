@@ -7,6 +7,7 @@ Input: nums = [1], k = 1
 Output: [1]
 """
 # O(nlogn) Time | O(n) Space
+# O(nlogk) if k < n, O(n) if k = n Time | O(n + k) space
 import heapq
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
@@ -45,6 +46,7 @@ class Solution:
 #
 # heap = []
 # print(counts)
+#
 # for item in counts.items():
 #     heapq.heappush(heap,(-item[1], item[0]))
 # print(heap)
