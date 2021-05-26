@@ -1,5 +1,6 @@
-import heapq
+# nlog(k) time | O(k) space
 
+import heapq
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         if not nums:
