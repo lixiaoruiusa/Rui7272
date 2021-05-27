@@ -53,16 +53,16 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\AlgoExpert" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\AlgoExpert\Arrays" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120Leetcode" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120\hard_facebook" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120\medium_G" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120_Lint" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120_Lint\array" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\AlgoExpert" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\AlgoExpert\Arrays" />
     </key>
   </component>
   <component name="RunManager" selected="Python.1472. Design Browser History">
@@ -257,10 +257,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="337" y="87" width="1217" height="810" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614038017094" />
-    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1621472713577">
+    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1622084702788">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="119" width="585" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1621472713577" />
+    <state x="667" y="119" width="585" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1622084702788" />
     <state x="623" y="225" key="search.everywhere.popup" timestamp="1620330256871">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
