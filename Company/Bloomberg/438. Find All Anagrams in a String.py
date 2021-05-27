@@ -33,3 +33,11 @@ class Solution:
                 out_put.append(i - np + 1)
 
         return out_put
+
+'''
+# 1 Build reference counter pCount for string p.
+# 2 Move sliding window along the string s:
+#  Recompute sliding window counter sCount at each step by adding one letter on the right and removing one letter on the left.
+#  If sCount == pCount, update the output list.
+# 3 Return output list.
+'''
