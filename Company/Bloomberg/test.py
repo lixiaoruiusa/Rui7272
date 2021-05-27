@@ -6,6 +6,14 @@ class Animal:
         print("hello, " + self.name)
 
 
+a1 = Animal("R")
+a2 = Animal("L")
+
+a1.say()
+exit(666)
+
+
+
 class Cat(Animal):
     def say(self):
         print("miao~~," + self.name)
