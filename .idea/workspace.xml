@@ -65,7 +65,7 @@
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\AlgoExpert\Arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.1472. Design Browser History">
+  <component name="RunManager" selected="Python.Items in Containers">
     <configuration name="1396. Design Underground System" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,27 +79,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/Bloomberg/1396. Design Underground System.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="144. Binary Tree Preorder Traversal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Rui7272" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/Tree" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/Tree/144. Binary Tree Preorder Traversal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,7 +108,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="347. Top K Frequent Elements" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Howmanyswaps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,11 +116,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/Bloomberg" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/Amazon" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/Bloomberg/347. Top K Frequent Elements.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/Amazon/Howmanyswaps.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Items in Containers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Rui7272" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/Amazon" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/Amazon/Items in Containers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Items in Containers" />
+        <item itemvalue="Python.Howmanyswaps" />
         <item itemvalue="Python.1472. Design Browser History" />
         <item itemvalue="Python.1396. Design Underground System" />
         <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.347. Top K Frequent Elements" />
-        <item itemvalue="Python.144. Binary Tree Preorder Traversal" />
       </list>
     </recent_temporary>
   </component>
@@ -217,26 +217,26 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="672" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1618435718082">
+    <state x="672" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1624489337235">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="672" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1618435718082" />
-    <state width="1899" height="169" key="GridCell.Tab.0.bottom" timestamp="1622069546528">
+    <state x="672" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1624489337235" />
+    <state width="1899" height="156" key="GridCell.Tab.0.bottom" timestamp="1623810336065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="169" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1622069546528" />
-    <state width="1899" height="169" key="GridCell.Tab.0.center" timestamp="1622069546528">
+    <state width="1899" height="156" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623810336065" />
+    <state width="1899" height="156" key="GridCell.Tab.0.center" timestamp="1623810336064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="169" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1622069546528" />
-    <state width="1899" height="169" key="GridCell.Tab.0.left" timestamp="1622069546528">
+    <state width="1899" height="156" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623810336064" />
+    <state width="1899" height="156" key="GridCell.Tab.0.left" timestamp="1623810336064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="169" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1622069546528" />
-    <state width="1899" height="169" key="GridCell.Tab.0.right" timestamp="1622069546528">
+    <state width="1899" height="156" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623810336064" />
+    <state width="1899" height="156" key="GridCell.Tab.0.right" timestamp="1623810336065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="169" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622069546528" />
+    <state width="1899" height="156" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623810336065" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1618522964397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -253,10 +253,6 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618522964397" />
-    <state x="337" y="87" width="1217" height="810" key="SettingsEditor" timestamp="1614038017094">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="337" y="87" width="1217" height="810" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614038017094" />
     <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1622084702788">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
