@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -49,65 +52,24 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/高频120/hard_facebook" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/高频120_Lint" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120\hard_facebook" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120\medium_G" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120_Lint" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120_Lint\array" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\AlgoExpert" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\AlgoExpert\Arrays" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120_Lint" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120\hard_facebook" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120\medium_G" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Items in Containers">
-    <configuration name="1396. Design Underground System" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Rui7272" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/Bloomberg" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/Bloomberg/1396. Design Underground System.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1472. Design Browser History" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Rui7272" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/Bloomberg" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/Bloomberg/1472. Design Browser History.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.骑士的最短路径II">
     <configuration name="Howmanyswaps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,6 +83,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/Amazon/Howmanyswaps.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="骑士的最短路径II" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Rui7272" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022NineChapter/L9 DP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022NineChapter/L9 DP/骑士的最短路径II.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -158,11 +141,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/Bloomberg" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/Bloomberg/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_new" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Rui7272" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_new.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.骑士的最短路径II" />
+        <item itemvalue="Python.test_new" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.Items in Containers" />
         <item itemvalue="Python.Howmanyswaps" />
-        <item itemvalue="Python.1472. Design Browser History" />
-        <item itemvalue="Python.1396. Design Underground System" />
-        <item itemvalue="Python.test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -217,49 +221,37 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="672" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1624489337235">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="733" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1642543988650">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="672" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1624489337235" />
-    <state width="1899" height="156" key="GridCell.Tab.0.bottom" timestamp="1623810336065">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="733" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1642543988650" />
+    <state width="1899" height="226" key="GridCell.Tab.0.bottom" timestamp="1643571760646">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1899" height="156" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623810336065" />
-    <state width="1899" height="156" key="GridCell.Tab.0.center" timestamp="1623810336064">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1515" height="111" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1642574430673" />
+    <state width="1899" height="226" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1643571760646" />
+    <state width="1899" height="226" key="GridCell.Tab.0.center" timestamp="1643571760646">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1899" height="156" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623810336064" />
-    <state width="1899" height="156" key="GridCell.Tab.0.left" timestamp="1623810336064">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1515" height="111" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1642574430672" />
+    <state width="1899" height="226" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1643571760646" />
+    <state width="1899" height="226" key="GridCell.Tab.0.left" timestamp="1643571760646">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1899" height="156" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623810336064" />
-    <state width="1899" height="156" key="GridCell.Tab.0.right" timestamp="1623810336065">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1515" height="111" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1642574430672" />
+    <state width="1899" height="226" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1643571760646" />
+    <state width="1899" height="226" key="GridCell.Tab.0.right" timestamp="1643571760646">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1899" height="156" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623810336065" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1618522964397">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1515" height="111" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1642574430672" />
+    <state width="1899" height="226" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1643571760646" />
+    <state x="274" y="46" width="849" height="592" maximized="true" key="dock-window-1" timestamp="1643330224008">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618522964397" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1618522964397">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="274" y="46" width="849" height="592" maximized="true" key="dock-window-1/0.0.1920.1032@0.0.1920.1032" timestamp="1643330224008" />
+    <state x="667" y="249" width="585" height="534" key="find.popup" timestamp="1641588185807">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618522964397" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1618522964397">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618522964397" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1618522964397">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618522964397" />
-    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1622084702788">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="667" y="119" width="585" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1622084702788" />
-    <state x="623" y="225" key="search.everywhere.popup" timestamp="1620330256871">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1620330256871" />
+    <state x="667" y="249" width="585" height="534" key="find.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1641588185807" />
   </component>
 </project>
