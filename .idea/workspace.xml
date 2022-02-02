@@ -69,8 +69,8 @@
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120\medium_G" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.骑士的最短路径II">
-    <configuration name="Howmanyswaps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.I_Stupid2">
+    <configuration name="300. Longest Increasing Subsequence" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,11 +78,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/Amazon" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022NineChapter/L9 DP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/Amazon/Howmanyswaps.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022NineChapter/L9 DP/300. Longest Increasing Subsequence.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,7 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Items in Containers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="I_Stupid2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,11 +120,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/Amazon" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/Microsoft" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/Amazon/Items in Containers.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/Microsoft/I_Stupid2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="I_am_stupid" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,11 +141,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/Microsoft" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/Microsoft/I_am_stupid.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.I_Stupid2" />
+        <item itemvalue="Python.I_am_stupid" />
+        <item itemvalue="Python.300. Longest Increasing Subsequence" />
         <item itemvalue="Python.骑士的最短路径II" />
         <item itemvalue="Python.test_new" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.Items in Containers" />
-        <item itemvalue="Python.Howmanyswaps" />
       </list>
     </recent_temporary>
   </component>
@@ -225,26 +225,26 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="733" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1642543988650" />
-    <state width="1899" height="226" key="GridCell.Tab.0.bottom" timestamp="1643571760646">
+    <state width="1899" height="226" key="GridCell.Tab.0.bottom" timestamp="1643770098271">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1515" height="111" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1642574430673" />
-    <state width="1899" height="226" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1643571760646" />
-    <state width="1899" height="226" key="GridCell.Tab.0.center" timestamp="1643571760646">
+    <state width="1899" height="226" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1643770098271" />
+    <state width="1899" height="226" key="GridCell.Tab.0.center" timestamp="1643770098271">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1515" height="111" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1642574430672" />
-    <state width="1899" height="226" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1643571760646" />
-    <state width="1899" height="226" key="GridCell.Tab.0.left" timestamp="1643571760646">
+    <state width="1899" height="226" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1643770098271" />
+    <state width="1899" height="226" key="GridCell.Tab.0.left" timestamp="1643770098271">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1515" height="111" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1642574430672" />
-    <state width="1899" height="226" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1643571760646" />
-    <state width="1899" height="226" key="GridCell.Tab.0.right" timestamp="1643571760646">
+    <state width="1899" height="226" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1643770098271" />
+    <state width="1899" height="226" key="GridCell.Tab.0.right" timestamp="1643770098271">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1515" height="111" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1642574430672" />
-    <state width="1899" height="226" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1643571760646" />
+    <state width="1899" height="226" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1643770098271" />
     <state x="274" y="46" width="849" height="592" maximized="true" key="dock-window-1" timestamp="1643330224008">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
