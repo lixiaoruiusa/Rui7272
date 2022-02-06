@@ -34,17 +34,6 @@ class Solution:
         return (0 <= i < len(grid) and 0 <= j < len(grid[0]) and (i,j) not in visited and grid[i][j] == "1")
 
 
-
-
-
-
-
-
-
-
-
-
-
 ------------------------------
 # DFS
 # Time (O(MN)) and Space (O(MN))

@@ -69,7 +69,7 @@
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120\medium_G" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.3. Longest Substring Without Repeating Characters">
+  <component name="RunManager" selected="Python.I_Stupid2">
     <configuration name="300. Longest Increasing Subsequence" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,9 +177,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.I_Stupid2" />
         <item itemvalue="Python.3. Longest Substring Without Repeating Characters" />
         <item itemvalue="Python.Calculate maximum greyness of image" />
-        <item itemvalue="Python.I_Stupid2" />
         <item itemvalue="Python.I_am_stupid" />
         <item itemvalue="Python.300. Longest Increasing Subsequence" />
       </list>
@@ -225,26 +225,42 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="733" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1642543988650" />
-    <state width="1899" height="226" key="GridCell.Tab.0.bottom" timestamp="1643921784975">
+    <state width="1899" height="226" key="GridCell.Tab.0.bottom" timestamp="1644114876540">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1515" height="111" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1642574430673" />
-    <state width="1899" height="226" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1643921784975" />
-    <state width="1899" height="226" key="GridCell.Tab.0.center" timestamp="1643921784975">
+    <state width="1899" height="226" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1644114876540" />
+    <state width="1899" height="226" key="GridCell.Tab.0.center" timestamp="1644114876540">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1515" height="111" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1642574430672" />
-    <state width="1899" height="226" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1643921784975" />
-    <state width="1899" height="226" key="GridCell.Tab.0.left" timestamp="1643921784975">
+    <state width="1899" height="226" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1644114876540" />
+    <state width="1899" height="226" key="GridCell.Tab.0.left" timestamp="1644114876540">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1515" height="111" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1642574430672" />
-    <state width="1899" height="226" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1643921784975" />
-    <state width="1899" height="226" key="GridCell.Tab.0.right" timestamp="1643921784975">
+    <state width="1899" height="226" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1644114876540" />
+    <state width="1899" height="226" key="GridCell.Tab.0.right" timestamp="1644114876540">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1515" height="111" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1642574430672" />
-    <state width="1899" height="226" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1643921784975" />
+    <state width="1899" height="226" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1644114876540" />
+    <state width="1899" height="344" key="GridCell.Tab.1.bottom" timestamp="1644114876540">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1644114876540" />
+    <state width="1899" height="344" key="GridCell.Tab.1.center" timestamp="1644114876540">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1644114876540" />
+    <state width="1899" height="344" key="GridCell.Tab.1.left" timestamp="1644114876540">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1644114876540" />
+    <state width="1899" height="344" key="GridCell.Tab.1.right" timestamp="1644114876540">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="344" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1644114876540" />
     <state x="274" y="46" width="849" height="592" maximized="true" key="dock-window-1" timestamp="1643330224008">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
