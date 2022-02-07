@@ -1,0 +1,106 @@
+"""
+1. 给一个int数组配对。例子： [1,2,2,1]: true, [7,7,7]: false, [1,2,2,3]: false
+2. 给一个函数find_min, 随便生成一个counterexample
+3. Minimum number o‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌f substrings to make each substring without repeated letter
+
+1. 给一个list，问是否能把所有相同的element组成pair，  检查下是否出现了偶数次
+2. debug，find_min 写一个counter example,  随机正整数
+3. 把string分割成不同的substring保证每个char在一个substring中出现了一次, 问#of substring， greedy做的，统‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌计最后一次出现的位置.
+
+第一题 给一个int数组，问你里面所有的元素是否能配对(相同的两个元素可以配成一对)。[1,2,2,1]: true, [7,7,7]: false, [1,2,2,3]: false
+第二题 给一个函数find_min，说是里面有bug，让你生成counterexample
+第三题 Minimum number of substrings to make each substring without repeated letter。 遇到重‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌复的字符就分割。
+"""
+1. Given an array N, return true if it is possible we can pair all the numbers in the array with equal values. E.g N = [1, 2, 2, 1] -> true as we can pair (N[0], N[3]) and (N[1], N[2]). N = [7, 7, 7] would return false.
+2. find_min function is implemented wrongly (the function was implemented to always return 0), write a function to return a counter example array of size n that when passed to find_min will always return a wrong answer. E.g n = 4, [100, 500, 200, 300].
+3. Given a string s, find the minimum number of substrings you can create without having the same letters repeating in each substring.
+E.‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌g world -> 1, as the string has no letters that occur more than once.
+dddd -> 4, as you can only create substring of each character.
+abba -> 2, as you can make substrings of ab, ba.
+cycle-> 2, you can create substrings of (cy, cle) or (c, ycle)
+
+今天刚刚做完的在线测试， 60分钟3道题
+第一题是array中看是不是所有number都可以有一个pair, 最后返回 boolean. Set or XOR 解决
+第二题是Debug题目 给了找最小的function 但是是以0做全局最小 题目是让generate一个input array 可以去fail掉这个find_min.
+第三题是给一个String 找最少split多少次可以使每个substring都可以是Unique chars, 最后返回substring‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌的个数 - Set解决
+都是最近的面经 大家赶紧冲！！！
+
+三道题 全是原题：1. 给input array 中 相同的integer 配对，如果能配完return true，有配不了队的return false
+2. 给find minimum elements function 找错
+以下内容需要积分高于 150 您已经可以浏览
+3. split string，要求每个split里面不能有重‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌复letter，return 最少split几次
+2月10号的 Hire Event
+
+在Linkedin被HR邀请去2.10的HE，先做了一个OA，题目跟地里大家说的都是一样的。
+1. 给一个int array，判断是否每一个int都能够跟别的int组成配对。[1, 2, 2, 1] -> True. [1, 3, 1] -> False 因为3没有配对的。
+解：XOR所有的int，看最后结果是0还是非0.
+2. 给一个有bug的find_min function，然后让我们写一个function去返回一个int array，能够让那个find_min返回错的结果。
+解：只要把最小的数（非0）放在那个array的第一位就好了
+3. 给一个string，按照没有重复char的方式去split这个string，能够split成多少块。
+解：iterate string，用一个set去存现在有的char，如果见到之前见过的，就increm‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌ent counter并且clear set。
+求米求米求米求米
+
+收到 巨硬云☁️ 的HE 邀请，然后hr 让做了个OA。
+题目和地里面报的一样，60分钟，3 题。 但是在做之前看了一下guideline， 提醒写一写 complexity analysis， 所以就把所有的analysis 加上去了
+1.给一个array，找出里面有没有哪个数不能和别的数组成pair eg.  {1, 2, 2, 3, 1} -> false (3不能pair)， {1, 1, 2, 2} -> true；
+    Solution 1: 用一个 Integer 的HashSet 存正在等待被pair 数字，然后 loop 一遍 array， 发现set 里面不存在的数就加进set，如果存在就remove， Time: O(n), Space: O(n)
+   Solution 2: XOr 所有的数，因为  a ^ a = 0, a ^ b ^ a ^ c ^ c = b. Time: O(n), Space: O(1)
+2. 给了一个有bug 的 找最小数 的function，让你写一个function 去生成反例。他的bug 起始定义min = 0， 然后依次用min 去和所有的数做比较。 这样所有全大于0 的数组就会return错误的结果0.
+solution： 返回全1 的数组。
+3.给一段string，问最少分成多少段substring 才能保证每个substring 里面没有duplicate char。
+Solution： 用set 存遇‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌到了哪些char， 发现重复就做一次cut。Time： O(n), Space: O(1), 因为是全小写英文字母
+
+这周刚做的，一个小时3道题，非常新鲜，而且也确实是之前看到的老题，第一次发面经求大米，谢谢各位了
+1. 给一个数组，如果这个数组每个数都能找到一个相同的数配对，则true, 反之false
+2. Debug, 有一个find_min的方法能返回数组中最小的数字，但是这个方法有错误，让你写一个方法返回长度为N的数组，并且使得find_min始终返回错误的最小值。
+3. 给一个字符串，需要分割这个字符串使得每个子串不得含有重复的字母，并且返回最少的子串个数
+我也是面试之前比较忐忑，做了才发现确实简单，比亚麻的轻松多了...
+下一步我也不知道是HE 还是常规VO，总之‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌电话里那人就说的event，然后面4个小时...
+总之，希望成功吧
+
+微软OA
+60分钟3道题目
+一共3道题 都很简单。新人发帖求米看看面经
+Q1 判断array里的数是否全都能配对成双，例如[1,1,2,2] 可以配对成 11 和 22 return true。[1,1,2] return false。
+解法 建一个Hashset 用来查重，没见过就加进Hashset, Hashset有了就删掉, 最后看Hashset是否为空。
+Q2 给了一个有bug的函数find_min(从数组中找最小值的)，min = 0，然后从index = 1到length，update min比较 min = Math.min(min, array)。需要写一个method return一个反例，然后call 函数find_min得到的结果是错误。
+解法 返回一个全部是正数的数组，min = 0 不会更新，数组里的最小值大于0，所以min是错的。
+Q3 input是string，需要把它拆开，让每一个subst‍‌‍‍‍‍‍‌‌‌‍‌‍‌‌‌‍‌‌‌ring里面的没有重复的char，返回最小拆分。例如 ”abca“ 要拆分为"abc", "a"结果返回2。 “ccc”返回3。
+解法 建一个‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌Hashset 用来查重，初始化一个count = 1，遇到重复的就代表可以切开count++，切完后reset HashSet，重复操作到遍历整个string，最后return count
+信任第一次发帖，祝大家早日上岸/跳槽成功。
+
+60分钟3道题目 和之前的一样
+oa一共3道题 都是很简单的题。新人发帖求米
+第一题 判断array里的数是否全都能配对成双，例如[1,2,2,1] 可以配对成[1,1], [2,2]。[1,2,2]则不行，因为没有额外的来跟1配对
+- 思路 写个hashset 来看是否有重合 外加一个count = 0， 然后有 count ++ 在不存在set中 count-- 存在set中 然后reset下这个hashset 最后看count == 0
+第二题 给了一个从数组中找最小值的函数find_min，min_ = 0，然后从第2个数开始去跟min_比较 min_ = min(min_, array)。需要写一个method return一个反例使得find_min得到的结果是错误
+-  显然如果array里的数全都是比0大的，那find_min返回的结果就是错的
+第三题 给一个string需要把它拆分，使得每一个subst‍‌‍‍‍‍‍‌‌‌‍‌‍‌‌‌‍‌‌‌ring里面的char都是unique的。求最小拆分。例如 ”abcab“ 应拆分为"abc", "ab"结果返回2。 “aaa”则返回3： “a","a","a"
+- 这题目思路其实很简单
+- count = 1
+- 从左到右过一遍index， 但是 写一个hashset 来keep track 是否这个character已经出现
+- 若果出现了 那么就需要substring 因为 这个character‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌不能在现在的substring中， 清空hashset， 然后再把这个character 放入hashset中 count++
+- 如果没有 那就把它放入hashset
+- 最终返回count
+
+oa一共3道题 都是很简单的题。新人发帖求米
+第一题 判断array里的数是否全都能配对成双，例如[1,2,2,1] 可以配对成[1,1], [2,2]。[1,2,2]则不行，因为没有额外的来跟1配对
+第二题 给了一个从数组中找最小值的函数find_min，min_ = 0，然后从第2个数开始去跟min_比较 min_ = min(min_, array[i])。需要写一个method return一个反例使得find_min得到的结果是错误的。显然如果array里的数全都是比0大的，那find_min返回的结果就是错的
+第三题 给一个string需要把它拆分，使得每一个substring里面的char都是unique的。求最小拆分。例如 ”abcab“ 应拆分为"abc", "ab"结果返回2。‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌ “aaa”则返回3： “a","a","a"
+
+----------分割线--------------------分割线--------------------分割线--------------------分割线--------------------分割线----------
+
+
+
+
+
+第一题，计算一个list里所有数字相乘之后的符号是什么，1/-1/0.
+第二题，计算一个list中两个相等的数字的最大index之差。
+第三题，一串数字，如果‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌必须移掉一个'5'，产生的最大数字是多少。
+
+
+[hide=100]1. 求数组所有数的乘积sign，简单遍历一遍就行了
+2. 给你一个效率低的方法实现，求数组中数值相等N个数index的最大差值，我是用HashMap存一遍再遍历存的表做的
+3. 给你一个数，让你remove任意一个‘5’,求各种情况中的最大值，可能有巧妙的方法但是他说不需要看performace主要是正确性, 我就是直接substring再比较做的。
+
+
