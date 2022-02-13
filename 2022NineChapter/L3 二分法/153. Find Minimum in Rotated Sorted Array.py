@@ -1,5 +1,6 @@
 # O(log N) time and O(1) space
-
+# 如果mid > right 说明最小点在右边， 切左边
+# 如果mid <= right 说明最小点在左边， 切右边
 class Solution:
     def findMin(self, nums: List[int]) -> int:
 
