@@ -20,23 +20,23 @@ class Solution:
         if not nums or len(nums) < 2:
             return 0
 
-        nums.sort()
-
+        nums = sorted(nums)
         left = 0
         right = len(nums) - 1
-        cnt = 0
+
+        res = []
         while left < right:
             if nums[left] + nums[right] == target:
-                cnt += 1
+                res.append([nums[left], nums[right]])
                 left += 1
                 right -= 1
                 while left < right and nums[left] == nums[left - 1]:
                     left += 1
-                while left < right and nums[right + 1] == nums[right]:
+                while left < right and nums[right] == nums[right + 1]:
                     right -= 1
-
             elif nums[left] + nums[right] < target:
                 left += 1
             else:
                 right -= 1
-        return cnt
+
+        return len(res)

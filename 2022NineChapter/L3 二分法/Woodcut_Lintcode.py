@@ -7,6 +7,8 @@ class Solution:
 
     # 时间复杂度: O(nlogk) 空间复杂度: O(1)
     # O(n log Len), Len为 n 段原木中最大的长度
+    # 1 木头的最大值 = min(所有原木中的最大值，所有原木总长度 / 木头目标段数)
+    # 2 结果在1 到 right 中，在结果集上二分
 
     def woodCut(self, L, k):
         if not L:

@@ -1,31 +1,26 @@
+# 注意i的去重
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
-        numbers = nums
-        if not numbers:
-            return []
 
-        numbers.sort()
-        if numbers[0] == numbers[-1] and numbers[0] != 0:
-            return []
-
+        nums = sorted(nums)
         res = []
-        for i in range(len(numbers) - 2):
-            if i != 0 and numbers[i] == numbers[i - 1]:
+        for i in range(len(nums) - 2):
+            if i > 0 and nums[i] == nums[i - 1]:
                 continue
-
             left = i + 1
-            right = len(numbers) - 1
+            right = len(nums) - 1
             while left < right:
-                if numbers[i] + numbers[left] + numbers[right] == 0:
-                    res.append([numbers[i], numbers[left], numbers[right]])
+                if nums[i] + nums[left] + nums[right] == 0:
+                    res.append([nums[i], nums[left], nums[right]])
                     left += 1
                     right -= 1
-                    while left < right and numbers[left] == numbers[left - 1]:
+                    while left < right and nums[left] == nums[left - 1]:
                         left += 1
-                    while left < right and numbers[right] == numbers[right + 1]:
+                    while left < right and nums[right] == nums[right + 1]:
                         right -= 1
-                elif numbers[i] + numbers[left] + numbers[right] < 0:
+                elif nums[i] + nums[left] + nums[right] < 0:
                     left += 1
                 else:
                     right -= 1
         return res
+

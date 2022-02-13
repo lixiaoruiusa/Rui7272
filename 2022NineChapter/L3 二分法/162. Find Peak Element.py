@@ -1,4 +1,5 @@
-# O(n) time and O(1) space
+# O(log(n)) time and O(1) space
+# 二分法比较mid左右的上升下降趋势
 class Solution:
     def findPeakElement(self, nums: List[int]) -> int:
 
@@ -22,4 +23,7 @@ class Solution:
             else:
                 return mid
 
-        return left if nums[left] >= nums[right] else right
+        if nums[left] >= nums[right]:
+            return left
+        else:
+            return right

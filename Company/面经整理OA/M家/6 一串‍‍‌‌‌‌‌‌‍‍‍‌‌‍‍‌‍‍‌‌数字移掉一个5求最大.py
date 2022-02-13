@@ -61,7 +61,6 @@ def solution(N):
     print("5 found on indices = ", fives)
     for k in fives:
         chars = list(N)
-
         chars[k] = ''
         print("Replace {} 5 in {} and get {}".format(k, N, int("".join(chars))))
         possibles.append(int("".join(chars)))
