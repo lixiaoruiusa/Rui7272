@@ -56,21 +56,21 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022Blind 75 LeetCode Questions\Array" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\Company\面经整理OA\A家" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120_Lint" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120_Lint" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120\hard_facebook" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120\medium_G" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L4 BFS" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022 OOD" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022Blind 75 LeetCode Questions\Array" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\Company\面经整理OA\A家" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.ts3">
-    <configuration name="152. Maximum Product Subarray" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.269. Alien Dictionary">
+    <configuration name="269. Alien Dictionary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,11 +78,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022Blind 75 LeetCode Questions/Array" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022NineChapter/L4 BFS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022Blind 75 LeetCode Questions/Array/152. Maximum Product Subarray.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022NineChapter/L4 BFS/269. Alien Dictionary.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -91,7 +91,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="311" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="444. Sequence Reconstruction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -99,11 +99,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/Amazon" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022NineChapter/L4 BFS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/Amazon/311.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022NineChapter/L4 BFS/444. Sequence Reconstruction.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,7 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MiniSwap01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Topological Sorting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,11 +120,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/面经整理OA/A家" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022NineChapter/L4 BFS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/面经整理OA/A家/MiniSwap01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022NineChapter/L4 BFS/Topological Sorting.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ts" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,11 +141,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022NineChapter/L3 二分法" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022NineChapter/L4 BFS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022NineChapter/L3 二分法/ts.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022NineChapter/L4 BFS/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.269. Alien Dictionary" />
+        <item itemvalue="Python.444. Sequence Reconstruction" />
+        <item itemvalue="Python.Topological Sorting" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.ts3" />
-        <item itemvalue="Python.ts" />
-        <item itemvalue="Python.MiniSwap01" />
-        <item itemvalue="Python.311" />
-        <item itemvalue="Python.152. Maximum Product Subarray" />
       </list>
     </recent_temporary>
   </component>
@@ -229,26 +229,26 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="803" y="406" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1644713764808" />
-    <state width="1899" height="169" key="GridCell.Tab.0.bottom" timestamp="1644726172794">
+    <state width="1899" height="169" key="GridCell.Tab.0.bottom" timestamp="1644908763609">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1515" height="111" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1642574430673" />
-    <state width="1899" height="169" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1644726172794" />
-    <state width="1899" height="169" key="GridCell.Tab.0.center" timestamp="1644726172794">
+    <state width="1899" height="169" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1644908763609" />
+    <state width="1899" height="169" key="GridCell.Tab.0.center" timestamp="1644908763609">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1515" height="111" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1642574430672" />
-    <state width="1899" height="169" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1644726172794" />
-    <state width="1899" height="169" key="GridCell.Tab.0.left" timestamp="1644726172794">
+    <state width="1899" height="169" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1644908763609" />
+    <state width="1899" height="169" key="GridCell.Tab.0.left" timestamp="1644908763609">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1515" height="111" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1642574430672" />
-    <state width="1899" height="169" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1644726172794" />
-    <state width="1899" height="169" key="GridCell.Tab.0.right" timestamp="1644726172794">
+    <state width="1899" height="169" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1644908763609" />
+    <state width="1899" height="169" key="GridCell.Tab.0.right" timestamp="1644908763609">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1515" height="111" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1642574430672" />
-    <state width="1899" height="169" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1644726172794" />
+    <state width="1899" height="169" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1644908763609" />
     <state width="1899" height="344" key="GridCell.Tab.1.bottom" timestamp="1644114876540">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
