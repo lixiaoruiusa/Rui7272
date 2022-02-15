@@ -12,7 +12,6 @@ DIRECTIONS = [
     (2, 1), (2, -1), (1, -2), (-1, -2),
 ]
 
-
 class Solution:
     """
     @param grid: a chessboard included 0 (false) and 1 (true)
