@@ -1,0 +1,120 @@
+
+https://leetcode.com/discuss/interview-question/1257969/wayfair-karat-interview-20-mins-scenario-based-system-design
+https://www.jianshu.com/p/fdbcba5fe5bc
+______________________________
+
+本帖最后由 exs 于 2022-2-9 14:27 编辑
+最新的网上家具厂 wayfa... 电面
+Karat的interviewer.  
+给出如下的输入,
+以下内容需要积分高于 110 您已经可以浏览
+每行包含[ seconds, name],  求1小时窗口以内的出现次数最多的name.
+[time(seconds), name]
+["1000", "c"]
+["2000", "a"]
+["2100", "b"]
+["2020", "a"]
+["3020", "b"]
+["9020", "b"]
+["5020", "d"]
+["2010", "a"]
+答案: a
+做法: 先按时间排序,   然后放到类似这种数据结构: TreeMap<name, Pr‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌iorityQueue<time>> .
+如果有更好的做法请大家指点, 谢谢.
+____________________
+Position: Senior Software Engineer (Wayfair L4)
+Location: Boston, MA
+Interview format: Live Coding interview with a third party interviewing company called Karat, which companies like Wayfair, Compass, etc. use for it's first technical screening. The recruiter mentioned that it would be a 45-50 minute interview, with first 20 minutes revolving around System Design design concepts, followed by coding questions. I was asked two coding questions, and roughly 5 to 6 scenario based questions on System design. I shall add the link to coding quesitons asked at the end of this post.
+
+Questions:
+
+I do not remember the exact wording of the the questions, but can give a general idea from what I remember. Roughly 5 or 6 different scenario based questions were asked revolving around system design concepts. I can roughly recall the following:
+
+For the following scenarios, which would be better - Strong consistency/Eventual consistency. Explain reasons why. About 3 scenarios were given, one of which was a Banking application.
+
+The interview gave a scenario for Google docs and multiple users can access the same document, and google docs uses a Round Robin load balancing approach. Do you see any issues with using such an approach.
+
+One question was related to finding the max throughput of a system. It was sort of like a graph diagram, with various about 6 stages labeled A to F, and the throughput they operate on. I was asked to calculate the max throuhput of the system.
+
+One question was related to a scenario where they were using a relational database, and two tables were provided with a foreign key reference. They wanted to see how we can scale such a system (I believe they were looking for data partitioning/sharding techniques that we could apply.)
+
+Another scenario was something like that there was a bug on an application, and you ended up having a lot of failed requests. You have a database that stores all IDs that are there, and you also have large log files from about 500 different production servers that log the IDs of the successful requests. How would you come up with a solution to find the IDs that were missing/
+
+Overall, a good understanding of core system design concepts such as load balancing,caching, map-reduce, throughput, etc. should be helpful to answer these questions.
+
+Links to coding questions asked:
+
+https://leetcode.com/discuss/interview-question/1257950/Wayfair-or-Karat-Interview-or-L4-Senior-Software-Engineer-or-Question-1-Find-Contiguous-URL-History
+https://leetcode.com/discuss/interview-question/1257952/Wayfair-or-Karat-Interview-or-L4-Senior-Software-Engineer-or-Question-2-Find-Purchased-Users-data
+Result: The recruiter reached out the next day to move forward to the Virtual onsite interview. Any pointers for that would be really appreciated. Thanks!
+Kindly upvote if this post was helpful! Thank you, and happy leetcoding :)
+
+----------------------------------------------------------------------------------------------
+
+Karat 面经
+System design：
+还是经典的那五道题，
+1. facebook 怎么显示好友数量， 答：group by count
+2. Google doc的load balancing 用round robin 有什么问题，答：有些服务器用户使用时间长短不一，server 的使用率不一样，建议用capacity-based load balancing
+3. doc sign 的logs， 如何快速恢复 答：partition  然后parallel processing
+4. strong vs eventual consistency
+5. pipeline bottoleneck， 找处理最慢的点就可以， follow up: 给了5更多的介绍，如何提速。 答：加server，加load balancer
+Coding 1:
+忘保存了，简单描述一下。
+公司进出门禁，有一些数据不正确，要return 两个list ，比如
+[
+["John" : "exit"]
+["John" : "enter"]
+]
+missing_enter = ["John"] missing_exit = ["John"]
+因为John 没有enter 就exit了，最后John 只有enter 也没exit，所以在两个list 里面。还有一些其他use cases，很简单，hashmap 扫两遍
+Coding 2:
+跟第一题很像，给的是时间24 小时制，乱序，然后找出在一个小时里，visit 超过三次以上
+[
+["John" : "800"]  # 8 am
+["John" : "850"]
+["John" : "820"]
+["J‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌ohn" : "810"]
+["John" : "940"]
+["Steve" : "810"]
+]
+John [800, 810, 820, 850]
+先hashmap, 然后排序，然后找一小时里出现3次以上的visit
+总体比较简单，但是时间很紧，我第二题写了一大半，没完全做完，感觉也过了，麻烦大家加点大米！！！
+
+------------------------------------------------------------------------------------
+一个三哥：
+先自我介绍，我给了他不到2分钟介绍自己，反正都是走流程
+然后5题
+每个都是类似system design
+中等作文篇幅
+费解
+要迅速踩点
+他念还不如不念 我后来不让他念了 自己看
+还有20多分钟
+开始做题
+从一个grid里找一个word
+code 完需要 测试 两组 test caces
+时间到
+这帮karat‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌的孙子 以大题量 中等难度著称 要特别 注意时间
+
+-------------------------------------------------------
+前段时间面的，今天补上分享吧。在职跳，但Recruiter说只有l4，感觉很尴尬。
+系统设计还是那5道题，地址都有，没有标准答案。
+coding题是word search，但是要求输出所有位置的坐标。
+面试官很沉默，表情中等，你不问， 对方也不会多说什么。貌似越来越多的公司都找他家面试，这是趋势吗？
+
+__________
+首先，面试官给了5个system design的题目，说要求在20分钟内做完，也就是每个题目4分钟。坑啊
+1. 想要在FB用户名旁边显示该用户的好友数，不改变schema的情况下怎么设计?
+2. 以下哪些场景适合strong consistency，哪些适合eventual consistency？
+    - 系统需要在20ms作出响应
+    - 记录用户的输入（不需要response）
+    - 银行存款
+3. Google doc, 分配方法是docId % serverInstanceId, 一共100个server, 有什么问题, 怎么修?
+4. 有个esign系统, SignedDocuments table里头记录了所有的签了和没签的file, 然后出问题了, 几个小时掉了50%的request. 500个server自己本身的log file里头会记录所有成功了的sign的文件, 问你现在怎么办, 说是系统很大, 需要可以scale的办法
+5. 有个pipeline, 每个步骤都只能处理一定量的数据, 然后只有当所有的数据处理完了才算结束. 就是比如A - 30 per second 到B - 50 到C - 10 和 D - 100, 问你这个pipeline的throughput是多少. 这个简单。
+然后40分钟写代码。
+给了一个graph, 以vector<pair<int, int>>的形式[ [parent, child], [parent, child], ... ], 写个function来给出只有一个pare‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌nt的node和没有parent的node, 用两个array来做答案
+这个楼主很快写好了。
+然后又出了题目说给两个node, 找出他们是否有共同的ancerstor. 这个测试的时候10个test case楼主对了4个，后面crash了但是楼主没有时间修了。
