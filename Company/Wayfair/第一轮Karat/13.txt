@@ -1,7 +1,389 @@
 
+
+
 https://leetcode.com/discuss/interview-question/1257969/wayfair-karat-interview-20-mins-scenario-based-system-design
 https://www.jianshu.com/p/fdbcba5fe5bc
 ______________________________
+code不一样：处理log， [accessTime, user_id, resouce_id]。第一题：每个user的最早和最晚access time。需要自己print出来。第二题，resourceID被access的次数，五分钟的window。
+值得注意的地方：时间有限，可能也是我能力不足。卡时间很严，千万不能耽误任何时间。不能另外create一个class，不会work的。又是耽误时间的地方。。。对方还道歉说他也不知道不能create一个新的class，我想的是，你有诚意的话，你‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌能多给我几分钟吗？整个过程在record，延时是不可能的。
+第二题稍难一丢丢，应该最好的做法是2-pointer。可惜没写完。实在不理解自己怎么会在第一题上用了20 分钟。
+马上约了第二次，好在还有一次机会。不知道第二次SD会不会不一样，求有经验的指点一下。
+另外，求米！最近找工作用米太快了。
+--------------------------------------
+
+Wayfair外包给Karat做电面，所有Karat的题都可以参考这个：https://www.jianshu.com/p/fdbcba5fe5bc
+Karat是20min system design + 40min coding
+以下内容需要积分高于 140 您已经可以浏览
+system design是经典五道题
+(1) facebook显示好友数量
+(2) google doc的load balance
+(3) esign挂了两天，数据库有数据，server的log有id，怎么重新发送没成功的。
+(4) Strong consistency vs. Eventual consistency。bank +  web api with 20 millisecond response time + web page click analysis
+(5) 给一个图，计算throughput。找最小的那个就行，之后问怎么提升。
+coding question是 merge meeting intervals，不过是找所有人都没有会的空余时间，有限制条件时间是0 - 2400，前后两个interval不要忘了，我用的TreeMap做。
+follow up是meeting rooms，给定rooms，带size，给定meetings‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌，有size， 有 interval，检查所有会议是不是都能安排上。
+这块其实我思路对，但不是特别清晰。
+我想的是还是TreeMap，不过value不是Integer，是一个List，end在前，start在后，按照size decreasing
+这一问不用写代码，说思路就行。
+周五面完，周一通知过了约VO
+----------------------------------------------
+基本是老题：
+1. 上来自我介绍
+2. System Design 5题：
+1）Facebook发post显示好友数量 我答的Select count(*) from Relationship where user_id1 in ( select user_id from User = name='Mark' )  group by user_id1. 感觉错了。。
+2）Google Doc 的load balancer用round robin有什么缺点？ 我说有可能不同doc被访问频率不一样。解决方案地里说capacity-based load balancing，我也看见了，但是我不知道什么是capacity-based load balancing， 所以说用LRU和cache。。。访问少的就存到storage里面去。。。估计又错了。。。
+3）strong consistency vs eventual consistency 这题给了三个情况，问每个情况最好用哪种。我抓住strong慢但数据新，eventual快但数据旧来答（不知道对不对，昨晚看了一篇文章最后一个自然段）1.需要20ms返回结果: eventual 2. 需要记录网站每个click: strong 3. 银行转账：strong
+4）如何快速回复logs。给条件是有一个table记录了所有的log info，有一些log记录了ID。地里说用partition+parrellel,我也这么说，结果被追问具体怎么做，我又说用ID 去map具体信息用hash找到具体的partition，不知道对不对。
+5）bottle neck题，从图片判断，直接说了最小的数值。
+3. 剩下30分钟coding：
+和这个帖子的一模一样https://www.1point3acres.com/bbs/thread-803669-1-1.html
+1）地里原题， 里扣拔妖妖
+2）输入两个array of strings 返回最长公共连续部分。好像是DP但我不‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌会，我用set求公共集，然后找连续部分，但这个解法的问题是没考虑顺序。。。写完有bug没时间调了。。方法也错了。。。
+---------------------------------------
+唯fair 卡洛特
+coding
+找到最长的共同连续元素，比如，连续共同的有start，和 pink，registrer，orange，后者更长，是正确答案
+String[] user0 = {"/start", "/green", "/blue", "/pink", "/register", "/orange", "/one/two"};
+String[] user1 = {"/start", "/pink", "/register", "/orange", "/red", "a"};
+后面是五个问题，感觉大同小异，可以讨论一下
+求大米！谢谢老板们！
+Q1:
+We are working on a mobile app that allows users to share videos of up to 1
+minutes in length with other users.
+Each video has a configurable time to live, which can range from 5 minutes to 24 hours,
+and the video is immediately deleted at the end of that time.
+The system has been extremely popular in its first year, so we need to scale for
+the coming year.
+What information would you require to predict that resource costs for the next year?
+Q2:
+You have been hired by a company which builds smart freezers.
+Previous versions of these devices sent data to a computer using an ethernet connection,
+and this computer was responsible for calculations, instructions, and data logging.
+For the newest models we've decided to make the system autonomous, using a low cost micro-controller inside of the appliance,
+with no network or computer required.
+As we port the functionality, what are some important considerations we need to keep in mind?
+Q3:
+We run a web service that aggregates statistics for sporting events.
+This service depends on third-party APIs to receive real-time and historical data for our statistics.
+Unfortunately, one of these APIs has recently become unreliable, with frequent outages,
+which has reduced the quality of our statistics.
+What are some ways we could updates our system to minimize the impact of these outages?
+Q4:
+We are designing a mobile app for children, where they draw a character and our app animated it.
+These characters are then placed in to various interactive environments.
+The animation process for the characters is fairly processor intensive so we will use a server farm for this.
+After processing, the server sends the animated result back to the app.
+The interactive environments are all downloadable from the same server farm.
+What are some thing we can do to minimize the cost of this server farm?
+Q5:
+You've developed a web app for use by home cooks to store their favorite recipes and create shopping lists of the
+ingredients that the recipes need. Each recipe's ingredients list is stored in our central database.
+The service has recently been adopted by the restaurant industry and is exploding in popularity.
+Unf‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌ortunately, our service has been struggling to keep up with this traffic.
+What are some possible reasons for the slowdown of the service and what improvement could we make?
+---------------------------------------
+
+Karat面试，
+1. facebook 怎么显示好友数量
+2. Google doc的load balancing 用round robin 有什么问题
+3. doc sign 的logs， 如何快速恢复
+4. strong vs eventual consistency
+5. 计算max throughput
+coding：
+1. enter no badge or exit no badge 那道題
+2. 一小时内acce‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌ss多次 lc 原题 就是给的时间太短了 没全写完
+希望可以过这一轮
+--------------------------------------
+System design:
+1. facebook 加一个count 如何显示好友数量？ 给了两个table 就答了join两个table 如何scale？ 答了partition/sharding
+2. google doc load balancer 用 round robin 有什么问题？ 每个doc使用时间不一样，可能有的server都是时间很长的doc，改用capacity based load balancing
+3. strong vs eventual consistency
+4. doc sign有个table记录doc是否被所有人signed；另外一个log记录当doc被所有人signed之后发出的notification，现在有bug导致很多notification failed，找出failed doc id?   同一时间段内从table得到的doc id - log得到的doc id
+5. pipeline bottleneck？ 处理的最慢的  如何改善？  最慢的server partition， 加 LB
+Coding:
+input: collection of [student_id, course]  找出每个两两studen‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌t pair share的course，如果当前pair没有share的course，就是空。返回整个collection of [pair, courses]
+output: i.e. [id_pair ("0, 1") -> courses ("Economics", "English")]
+用了hashmap做
+------------------------------
+
+还是那个OA似的标准流程：系统设计5小题 + Coding 1题
+系统设计全是原题，版里有人发过。Coding 题是门禁刷卡，详见 https://www.jianshu.com/p/fdbcba5fe5bc 写完感觉应该就算过了
+因为时间比较充足，面试官又拿了一题讨论了一下思路：最大多次出现小组 写起来挺麻烦的，不知道有没有大佬能给个简单的思路。
+--------------------------------
+OA 两部分，System Design和Coding
+System Design
+1. 要求实现Facebook的total count of current friends功能。给了两个表。- 可以join然后count
+2. Google Doc每个server只能handle一个document，一个document可以有很多人使用。目前是用round robin的load balancing，有什么问题。- 有的server可能会成为hot spot，可以用connection based load balancing
+3. 给了几个scenario，问应该用strong还是eventual consistency。- latency低的或者不要求实时准确的可以用eventual
+4. 假设系统在document sign了之后会发自动的notification。给了两个信息，一个是database记录doc是什么时候被sign的，一个是log记录有哪些doc id发了邮件。问现在系统有bug，怎么发现哪些doc有问题没发出邮件。- 根据时间从DB里取所有的id在减去log里的
+5. 给了一张图，问throughput是多少。- 选处理能力最少的那个bottleneck
+Coding
+是 https://www.jianshu.com/p/fdbcba5fe5bc 里的“2. 返回空闲时间段”那题。
+可以把所有人的时间放进一个list里，根据开始时间排序。然后从前往后比，如果有空就记录下来，如果重叠就记录住当前的最大的会议结束时间。用这个会议结束时间再比后面的开始时间。
+帖子里是把时间段‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌merge之后再取空白时间，方法差不多。
+目前生死未卜，求好运，求大米看面经
+补充内容 (2022-01-19 07:35 +8:00):
+=============================
+1/18号更新：
+刚收到消息，OA过了进下一轮
+---------------------------------
+
+Karat 面经
+System design：
+还是经典的那五道题，
+1. facebook 怎么显示好友数量， 答：group by count
+2. Google doc的load balancing 用round robin 有什么问题，答：有些服务器用户使用时间长短不一，server 的使用率不一样，建议用capacity-based load balancing
+3. doc sign 的logs， 如何快速恢复 答：partition  然后parallel processing
+4. strong vs eventual consistency
+5. pipeline bottoleneck， 找处理最慢的点就可以， follow up: 给了5更多的介绍，如何提速。 答：加server，加load balancer
+Coding 1:
+忘保存了，简单描述一下。
+公司进出门禁，有一些数据不正确，要return 两个list ，比如
+[
+["John" : "exit"]
+["John" : "enter"]
+]
+missing_enter = ["John"] missing_exit = ["John"]
+因为John 没有enter 就exit了，最后John 只有enter 也没exit，所以在两个list 里面。还有一些其他use cases，很简单，hashmap 扫两遍
+Coding 2:
+跟第一题很像，给的是时间24 小时制，乱序，然后找出在一个小时里，visit 超过三次以上
+[
+["John" : "800"]  # 8 am‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌
+["John" : "850"]
+["John" : "820"]
+["John" : "810"]
+["John" : "940"]
+["Steve" : "810"]
+]
+John [800, 810, 820, 850]
+先hashmap, 然后排序，然后找一小时里出现3次以上的visit
+总体比较简单，但是时间很紧，我第二题写了一大半，没完全做完，感觉也过了，麻烦大家加点大米！！！
+-----------------------------------
+
+
+20分钟sys design就是地里说的那五道 我也不知道答案 只问了四道 没问那个pipeline的 google docsign和document rr那两道感觉答得也不好 楼主也是第一次经历这种sys design的QA 感觉答不到点上 只会罗列概念……
+40分钟code 还是jianshu的题 overlap courses 第一问很快做完 bugfree 即便如此 第二问也只有15分钟不到 感觉面试官根本就没打算c‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌andidate到第二问……然后问完我思路 就剩两分钟了 而且我觉得都是她故意的……联系的hr放假去了 4号才回来 也不知道过没过
+新人在地里第一次发帖子 啥也不懂 多多包涵
+--------------------------------
+
+面到了面经里的那套题。
+Coding 1. 利特口811
+花了太多时间在这道题，只剩八分钟做第二题。
+Coding 2. https://www.jianshu.com/p/fdbcba5fe5bc里的2. Longest Common Continuous Subarray
+没怎么写。感觉是要挂了。
+Karat的面试小哥真的会花五‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌分钟解释题目。如果是做过的题目，感觉可以马上开始脑袋过一遍怎么写来节省时间。
+我写code的速度真的是太慢了。。加油加油
+----------------------------------------
+
+System design:
+1. facebook 加一个count 如何显示好友数量？ 给了两个table 就答了join两个table 如何scale？ 答了partition/sharding
+2. google doc load balancer 用 round robin 有什么问题？ 每个doc使用时间不一样，可能有的server都是时间很长的doc，改用capacity based load balancing
+3. strong vs eventual consistency
+4. doc sign有个table记录doc是否被所有人signed；另外一个log记录当doc被所有人signed之后发出的notification，现在有bug导致很多notification failed，找出failed doc id?   同一时间段内从table得到的doc id - log得到的doc id
+5. pipeline bottleneck？ 处理的最慢的  如何改善？  最慢的server partition， 加 LB
+Coding:
+input: collection of [student_id, course]  找出每个两两student pair share的course，如果当前pair没有share的course，就是空。返回整个collection of [pair, courses]
+‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌output: i.e. [id_pair ("0, 1") -> courses ("Economics", "English")]
+用了hashmap做
+--------------------------------
+
+回馈论坛不设限制，希望大家加米
+去年12月电面，是Karat面的，题目基本是面经里面的原题1. Google doc server的load balance使用round robin好不好
+2. Strong consistency和Eventual consistency的使用场景，选择题
+3. 给一个流程图，计算throughput, 然后问怎么提升性能
+还有一个题忘记了
+coding
+1. 找到最长的共同连续元素
+找到最长的共同连续元素，比如，连续共同的有start，和 pink，registrer，orange，后者更长，是正确答案
+String[] user0 = {"/start", "/green", "/blue", "/pink", "/register", "/orange", "/one/two"};
+String[] user1 = {"/start", "/pink", "/register", "‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌/orange", "/red", "a"};
+2. 蠡口拔妖妖
+1月VO 4轮
+1. coding - 判断回文串，最长回文串
+2. bq - 各种简历项目和BQ
+3. OOD - 停车场
+4. system design - 短网址
+------------------------------
+本帖最后由 gilbertyang 于 2022-2-8 23:28 编辑
+求加米～～
+第一部分还是经典的karat五小题，参考：https://leetcode.com/discuss/int ... based-system-design
+第二部分换了新题，利口期久变体，只需要考虑向下和向右情况，但是需要打印路径。
+原题如下：
+**
+After catching your classroom students cheating before, you realize your students are getting craftier and hiding words in 2D grids of letters. The word may start anywhere in the grid, and consecutive letters can be either immediately below or immediately to the right of the previous letter.
+Given a grid and a word, write a function that returns the location of the word in the grid as a list of coordinates. If there are multiple matches, return any one.
+grid1 = [
+['c', 'c', 'x', 't', 'i', 'b'],
+['c', 'c', 'a', 't', 'n', 'i'],
+['a', 'c', 'n', 'n', 't', 't'],
+['t', 'c', 's', 'i', 'p', 't'],
+['a', 'o', 'o', 'o', 'a', 'a'],
+['o', 'a', 'a', 'a', 'o', 'o'],
+['k', 'a', 'i', 'c', 'k', 'i'],
+]
+word1 = "catnip"
+word2 = "cccc"
+以下内容需要积分高于 188 您已经可以浏览
+word3 = "s"
+word4 = "bit"
+word5 = "aoi"
+word6 = "ki"
+word7 = "aaa"
+word8 = "ooo"
+grid2 = [['a']]
+word9 = "a"
+find_word_location(grid1, word1) => [ (1, 1), (1, 2), (1, 3), (2, 3), (3, 3), (3, 4) ]
+find_word_location(grid1, word2) =>
+[(0, 1), (1, 1), (2, 1), (3, 1)]
+OR [(0, 0), (1, 0), (1, 1), (2, 1)]
+OR [(0, 0), (0, 1), (1, 1), (2, 1)]
+OR [(1, 0), (1, 1), (2, 1), (3, 1)]
+find_word_location(grid1, word3) => [(3, 2)]
+find_word_location(grid1, word4) => [(0, 5), (1, 5), (2, 5)]
+find_word_location(grid1, word5) => [(4, 5), (5, 5), (6, 5)]
+find_word_location(grid1, word6) => [(6, 4), (6, 5)]
+find_word_location(grid1, ‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌word7) => [(5, 1), (5, 2), (5, 3)]
+find_word_location(grid1, word8) => [(4, 1), (4, 2), (4, 3)]
+find_word_location(grid2, word9) => [(0, 0)]
+r = number of rows
+c = number of columns
+w = length of the word
+*/
+
+--------------------------------------
+System Design:
+1. facebook 怎么显示好友数量，我说每次加好友的trigger一个pipeline去aggregate一下然后calculate就可以，面试官就说OK了
+2. Google doc的load balancing，就是简单的描述下如何parition，然后如何balance traffic就可以
+3. doc sign 的logs， 如何快速恢复：parition first 然后parallel processing
+4. strong vs eventual consistency， 非常简单，不多介绍了
+5. pipeline bottoleneck， 找处理最慢的点就可以
+coding2道， 感觉是比较新的题目，给一个matrix （0过+不过），第一道是找全部是0的row和col，第二道是找最近出口。
+# Copyright 2016-2021 Karat, Inc.  Please do not distribute or republish.
+# Write a function that takes a rectangular board with only +'s and O's, along with a starting point on the edge of the board, and returns the coordinates of the nearest exit to which it can travel.  If there is a tie, return any of the nearest exits.
+# Snakes may now move in any of four directions - up, down, left, or right - one square at a time, but they will never return to a square that they've already visited.  If a snake enters the board on an edge square, we want to catch it at a different exit square on the board's edge.
+# The snake is familiar with the board and will take the route to the nearest reachable exit, in terms of the number of squares it has to move through to get there. Note that there may not be a reachable exit.
+board_1 = [['+', '+', '+', '+', '+', '+', '+', '0', '0'],
+           ['+', '+', '0', '0', '0', '0', '0', '+', '+'],
+           ['0', '0', '0', '0', '0', '+', '+', '0', '+'],
+           ['+', '+', '0', '+', '+', '+', '+', '0', '0'],
+           ['+', '+', '0', '0', '0', '0', '0', '0', '+'],
+           ['+', '+', '0', '+', '+', '0', '+', '0', '+']]
+start_1_1 = (2, 0) # Expected output = (5, 2)
+start_1_2 = (0, 7) # Expected output = (0, 8)
+start_1_3 = (5, 2) # Expected output = (2, 0) or (5, 5)
+start_1_4 = (5, 5) # Expected output = (5, 7)
+board_2 = [['+', '+', '+', '+', '+', '+', '+'],
+           ['0', '0', '0', '0', '+', '0', '+'],
+           ['+', '0', '+', '0', '+', '0', '0'],
+           ['+', '0', '0', '0', '+', '+', '+'],
+           ['+', '+', '+', '+', '+', '+', '+']]
+start_2_1 = (1, 0) # Expected output = null (or a special value representing no possible exit)
+start_2_2 = (2, 6) # Expected output = null
+board_3 = [['+', '0', '+', '0', '+',],
+           ['0', '0', '+', '0', '0',],
+           ['+', '0', '+', '0', '+',],
+           ['0', '0', '+', '0', '0',],
+           ['+', '0', '+', '0', '+']]
+start_3_1 = (0, 1) # Expected output = (1, 0)
+start_3_2 = (4, 1) # Expected output = (3, 0)
+start_3_3 = (0, 3) # Expected output = (1, 4)
+start_3_4 = (4, 3) # Expected output = (3, 4)
+board_4 = [['+', '0', '+', '0', '+',],
+           ['0', '0', '0', '0', '0',],
+           ['+', '+', '+', '+', '+',],
+           ['0', '0', '0', '0', '0',],
+           ['+', '0', '+', '0', '+']]
+start_4_1 = (1, 0) # Expected output = (0, 1)
+start_4_2 = (1, 4) # Expected output = (0, 3)
+start_4_3 = (3, 0) # Expected output = (4, 1)
+start_4_4 = (3, 4) # Expected output = (4, 3)
+board_5 = [['+', '0', '0', '0', '+',],
+           ['+', '0', '+', '0', '+',],
+           ['+', '0', '0', '0', '+',],
+           ['+', '0', '+', '0', '+']]
+start_5_1 = (0, 1) # Expected output = (0, 2)
+start_5_2 = (3, 1) # Expected output = (0, 1)
+# Your function here:
+from collections import deque
+def find_passable_lanes(board):
+    '''
+    return all the row number and column number that can be passed without meeting walls
+    '''
+   
+    result = []
+    rows = []
+    cols = []
+   
+    def checkAllZeroInRow(board, rowIndex):
+        for i in range(len(board[0])):
+           if board[rowIndex] == '+':
+                return False
+        return True
+   
+    def checkAllZeroInCol(board, colIndex):
+        for i in range(len(board)):
+           if board[colIndex] == '+':
+                return False
+        return True               
+   
+    for i in range(len(board[0])):
+        if checkAllZeroInCol(board, i):
+           cols.append(i)  
+    for i in range(len(board)):
+        if checkAllZeroInRow(board, i):
+           rows.append(i)   
+                       
+    result.append(rows)
+    result.append(cols)
+    return result                  
+def findExit(board, start):
+    queue = deque()
+    queue.append(start)
+    visited = set()
+    while queue:
+        node = queue.popleft()
+        print(node)
+        if node != start and node not in visited:
+            if node[0]-1 >= 0 and board[node[0]-1][node[1]] == '0':
+                queue.append(board[node[‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌0]-1][node[1]])
+            elif node[0]-1 < 0:
+                return (node[0], node[1])
+            if node[0]+1 < len(board) and board[node[0]+1][node[1]] == '0':
+                queue.append(board[node[0]-1][node[1]])
+            elif node[0]+1 == len(board):
+                return (node[0], node[1])
+            if node[1]-1 >= 0 and board[node[0]][node[1]-1] == '0':
+                queue.append(board[node[0]][node[1]-1])
+            elif node[1]-1 < 0:
+                return (node[0], node[1])
+            if node[1]+1 < len(board[0]) and board[node[0]][node[1]+1] == '0':
+                queue.append(board[node[0]][node[1]+1])
+            elif node[1]+1 == len(board[0]):
+                return (node[0], node[1])
+            visited.add(node)
+            
+    return (None, None)
+print(findExit(board_1, (2, 0)))
+
+
+
+
+----------------------------------------------------
+2021年10月底收到HR的信，开始准备面试。期间挂了好些个厂，包括meta之类的一线厂。很快收到Karat面试的预约，题目毫无新意，全是往上可以找到的。第一轮面试题目包括：
+1. coding 题。力扣811，重点在于完成。面试官也都是karat聘的，感觉没有那么在意代码是否精巧优化。我的面试官人也很nice，老印口音不太重。做完了事
+2. 5个小system design问题。论坛上已经都说过了，一个不拉。按照那样复习就行了，会要求给一些具体的解释，但考虑到整个面试时间不是很长，不用说太多。
+Karat可以申请面第二次，所以不用太担心。当然第二次会换成什么题目我就不知道。
+HR效率很高，3天之后就告诉我过了，可以按照下一轮。下一轮的时间可以自己定，考虑我自己工作也很忙，所以就留了一个半月的时间。期间也确实只有间歇性的刷题，重点看OOD和App design.
+OA是12月，一共四轮，大概4个半小时。分别是：
+1. coding。字符串相加，忘了力扣题号了。相应的有2轮iteration:加上comma怎么算，用我的实现来计算Fabonacci。他们会给很大的数字来做test case，所以Fabonacci不能效率太低了。
+2. OOD。设计停车场。OOD真的是我的弱项，面试官感觉有点不是很耐烦，但还是会引导你答题，包括是否需要新的DB，新的类。逻辑的每一步应该在哪个类上实现，被谁调用。
+3. Leadership/BQ。基本上就是聊天，工作中遇到什么问题啊，如果有很难搞的同事怎么办啊。Client有很不现实的要求怎么办啊。聊的还挺开心的。
+4. App design。其实应该也算System design，但更关注于infra层面。题目是做一个类似shazam的系统，用户可以上传音乐片段10-30秒来判断是什么音乐。后台早就预存了很多音乐的signature。和面试官探讨了哪些需要用db，是否需要shard，是否需要load balan‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌cing，是否需要考虑region，是否需要cache等。我在计算存储和带宽上花了不少时间。中间也有一个点我始终get不到，可能我沟通还是缺点火候吧。
+第三方HR和Wayfair的HR小哥都很给力，1周以内就告诉我pass了。他们也跟的很紧，2021结束之前搞定了口头offer。求个大米吧。新年wayfair依然在招人，居然还有第三方HR联系我wayfair的职位，lol
+
+---------------------------------------------------
+
+
 
 本帖最后由 exs 于 2022-2-9 14:27 编辑
 最新的网上家具厂 wayfa... 电面
@@ -118,3 +500,40 @@ __________
 给了一个graph, 以vector<pair<int, int>>的形式[ [parent, child], [parent, child], ... ], 写个function来给出只有一个pare‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌nt的node和没有parent的node, 用两个array来做答案
 这个楼主很快写好了。
 然后又出了题目说给两个node, 找出他们是否有共同的ancerstor. 这个测试的时候10个test case楼主对了4个，后面crash了但是楼主没有时间修了。
+
+------------------------------------
+第三方电面
+3分钟寒暄了两句
+20分钟 5 道system design题，都跟地里一样的，不大记得全部了
+很多个机器同时发送到一个central server，会有什么问题
+如果有个service，每次process  10个videos就会crash，你会怎么去fix，同时保证服务还能运行
+一个手机游戏，分析在手机上处理数据，和云上处理数据区别
+如果sharding request based on 首个字母 [a-z]，会有什么问题，怎么去fix
+还有一道忘了
+但全部答出来了
+剩下时间 Coding:
+给你一堆 meeting time interval, [[800, 900], [1350, 1400], [1700, 1800]], start time inclusive, end time exclusive，注意这是24小时制，例如 900 -> 9:00, 1800->18:00
+写一个function, ifAvailble(meetings, startTime, endTime), 求在这段时间是否available
+标准interval问题，sort一下，然后看是否有overlap就行了
+看还有半个小时，面试官再来一题，也是一堆 meeting time intervals, 求从 00:00 到 24:‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌00 这段时间内，所有available的time interval
+如果 meetings=[[800, 900], [1350, 1400], [1700, 1800]], return [[0: 800], [900, 1350], [1400, 1700], [1800, 2400]]
+Sweeping line 也是秒了，但注意一下edge case, 当时题主漏了 [1800, 2400]，最后几分钟才补上的
+求大米呀！
+----------------------------------------------------
+第三方电面
+3分钟寒暄了两句
+20分钟 5 道system design题，都跟地里一样的，不大记得全部了
+很多个机器同时发送到一个central server，会有什么问题
+如果有个service，每次process  10个videos就会crash，你会怎么去fix，同时保证服务还能运行
+一个手机游戏，分析在手机上处理数据，和云上处理数据区别
+如果sharding request based on 首个字母 [a-z]，会有什么问题，怎么去fix
+还有一道忘了
+但全部答出来了
+剩下时间 Coding:
+给你一堆 meeting time interval, [[800, 900], [1350, 1400], [1700, 1800]], start time inclusive, end time exclusive，注意这是24小时制，例如 900 -> 9:00, 1800->18:00
+写一个function, ifAvailble(meetings, startTime, endTime), 求在这段时间是否available
+标准interval问题，sort一下，然后看是否有overlap就行了
+看还有半个小时，面试官再来一题，也是一堆 meeting time intervals, 求从 00:00 到 24:‍‍‌‌‌‌‌‌‍‍‍‌‌‍‍‌‍‍‌‌00 这段时间内，所有available的time interval
+如果 meetings=[[800, 900], [1350, 1400], [1700, 1800]], return [[0: 800], [900, 1350], [1400, 1700], [1800, 2400]]
+Sweeping line 也是秒了，但注意一下edge case, 当时题主漏了 [1800, 2400]，最后几分钟才补上的
+求大米呀！
