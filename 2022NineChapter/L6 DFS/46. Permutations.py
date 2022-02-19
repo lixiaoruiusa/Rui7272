@@ -1,19 +1,24 @@
 # Time O(N×N!) and a bit slower than (N!)  so it is N!/(N-K)!
 # Space O(N!) since one has to keep N! solutions.
+# 题意：全排列，nums中无重复元素
+# 思路：dfs里for loop中，判断num not in permutation即可，所以无需传入index
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
 
-        results = []
-        self.dfs(nums, [], results)
-        return results
+        if not nums:
+            return []
+        permutations = []
+        self.dfs(nums, permutations, [])
+        return permutations
 
-    def dfs(self, nums, cur_result, results):
-        if len(nums) == len(cur_result):
-            results.append(list(cur_result))
+    def dfs(self, nums, permutations, permutation):
+
+        if len(permutation) == len(nums):
+            permutations.append(list(permutation))
             return
 
         for num in nums:
-            if num not in cur_result:
-                cur_result.append(num)
-                self.dfs(nums, cur_result, results)
-                cur_result.pop()
+            if num not in permutation:
+                permutation.append(num)
+                self.dfs(nums, permutations, permutation)
+                permutation.pop()

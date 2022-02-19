@@ -4,26 +4,32 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
+# 题意：找BST中最接近target的点，返回root.val
+# 思路：打擂台，往target的方向走
 # O(H) time and O(1) space
 class Solution:
     def closestValue(self, root: Optional[TreeNode], target: float) -> int:
         if root is None:
-            return None
-        closest_d = float("inf")
-        while root:
-            if abs(root.val - target) < closest_d:
-                closest_d = abs(root.val - target)
-                closest = root.val
+            return
 
-            if root.val == target:
-                return root.val
-            elif root.val < target:
+        closest = float("inf")
+        res = root.val
+
+        while root:
+            if abs(root.val - target) < closest:
+                closest = abs(root.val - target)
+                res = root.val
+
+            if target < root.val:
+                root = root.left
+            elif target > root.val:
                 root = root.right
             else:
-                root = root.left
+                return root.val
+        return res
 
-        return closest
-
+"""
 
 class Solution:
     def closestValue(self, root, target):
@@ -43,3 +49,4 @@ class Solution:
             return self.helper(root.right, target, closest)
         else:
             return self.helper(root.left, target, closest)
+"""
