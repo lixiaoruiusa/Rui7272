@@ -1,8 +1,6 @@
 # O(nlogk + k) time | O(n + k) space
 # where n is total elements and k is number of arrays
 import heapq
-
-
 def mergeSortedArrays(arrays):
     if not arrays or not arrays[0]:
         return
