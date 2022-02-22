@@ -1,8 +1,6 @@
 # 题意：返回第Nth丑数的值， eg n = 10 return 12 注释 [1, 2, 3, 4, 5, 6, 8, 9, 10, 12]
 # 思路：从1开始 生成丑数。用set记录是否遇到过，然后放入heap中，每次heap只pop一个数，所以current_ugly就是结果
 import heapq
-
-
 class Solution:
     def nthUglyNumber(self, n: int) -> int:
 
