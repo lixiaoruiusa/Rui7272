@@ -8,7 +8,7 @@
 
 """
 
-# Time Complexity: O(1)O(1) for both push and pop operations.
+# Time Complexity: O(1) for both push and pop operations.
 # Space Complexity: O(N)
 
 class FreqStack:
