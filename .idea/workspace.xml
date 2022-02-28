@@ -56,13 +56,6 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\Hashmap／ Hashset题目" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022 OOD" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120_Lint" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120\hard_facebook" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120\medium_G" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\Stack题目" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\Queue题目" />
@@ -70,8 +63,15 @@
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\Heap／Priority Queue题目" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L4 BFS" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\Hashmap／ Hashset题目" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022 OOD" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120_Lint" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120\hard_facebook" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120\medium_G" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.1209. Remove All Adjacent Duplicates in String II">
+  <component name="RunManager" selected="Python.test">
     <configuration name="1209. Remove All Adjacent Duplicates in String II" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,27 +135,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Iamstupid" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Rui7272" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022NineChapter/L7 DS/Heap／Priority Queue题目" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022NineChapter/L7 DS/Heap／Priority Queue题目/Iamstupid.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="tencent" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,13 +156,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Rui7272" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.1209. Remove All Adjacent Duplicates in String II" />
         <item itemvalue="Python.1472. Design Browser History" />
         <item itemvalue="Python.227. Basic Calculator II" />
         <item itemvalue="Python.tencent" />
-        <item itemvalue="Python.Iamstupid" />
       </list>
     </recent_temporary>
   </component>
@@ -231,26 +231,26 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="803" y="406" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1644713764808" />
-    <state width="1899" height="169" key="GridCell.Tab.0.bottom" timestamp="1645770809710">
+    <state width="1899" height="169" key="GridCell.Tab.0.bottom" timestamp="1645936326969">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1515" height="111" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1642574430673" />
-    <state width="1899" height="169" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1645770809710" />
-    <state width="1899" height="169" key="GridCell.Tab.0.center" timestamp="1645770809710">
+    <state width="1899" height="169" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1645936326969" />
+    <state width="1899" height="169" key="GridCell.Tab.0.center" timestamp="1645936326969">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1515" height="111" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1642574430672" />
-    <state width="1899" height="169" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1645770809710" />
-    <state width="1899" height="169" key="GridCell.Tab.0.left" timestamp="1645770809710">
+    <state width="1899" height="169" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1645936326969" />
+    <state width="1899" height="169" key="GridCell.Tab.0.left" timestamp="1645936326969">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1515" height="111" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1642574430672" />
-    <state width="1899" height="169" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1645770809710" />
-    <state width="1899" height="169" key="GridCell.Tab.0.right" timestamp="1645770809710">
+    <state width="1899" height="169" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1645936326969" />
+    <state width="1899" height="169" key="GridCell.Tab.0.right" timestamp="1645936326969">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1515" height="111" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1642574430672" />
-    <state width="1899" height="169" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1645770809710" />
+    <state width="1899" height="169" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1645936326969" />
     <state width="1899" height="344" key="GridCell.Tab.1.bottom" timestamp="1644114876540">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
