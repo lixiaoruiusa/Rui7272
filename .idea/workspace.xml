@@ -29,7 +29,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a2e2c9e-ffc9-427f-8034-3e2c7e91fd7a" name="Default Changelist" comment="" />
+    <list default="true" id="7a2e2c9e-ffc9-427f-8034-3e2c7e91fd7a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/2022NineChapter/L7 DS/双指针（2 Pointer）/相向双指针/167. Two Sum II - Input Array Is Sorted.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +48,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1mFcGjWR07TrbFyCTgIN4SwZd4T" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -52,6 +58,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/2022NineChapter/L7 DS/Hashmap／ Hashset题目" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -219,7 +226,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="733" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1645033470915">
