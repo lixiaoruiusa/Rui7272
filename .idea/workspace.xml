@@ -29,7 +29,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a2e2c9e-ffc9-427f-8034-3e2c7e91fd7a" name="Default Changelist" comment="" />
+    <list default="true" id="7a2e2c9e-ffc9-427f-8034-3e2c7e91fd7a" name="Default Changelist" comment="2pp">
+      <change afterPath="$PROJECT_DIR$/2022NineChapter/L7 DS/双指针（2 Pointer）/相向双指针/167. Two Sum II - Input Array Is Sorted.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +48,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1mFcGjWR07TrbFyCTgIN4SwZd4T" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -52,16 +58,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/2022NineChapter/L7 DS/Hashmap／ Hashset题目" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\Stack题目" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\双指针（2 Pointer）\同向双指针" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\双指针（2 Pointer）" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\双指针（2 Pointer）\同向双指针：" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\Stack题目" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\Queue题目" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\Hashmap／ Hashset题目" />
@@ -221,6 +228,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2pp" />
+    <option name="LAST_COMMIT_MESSAGE" value="2pp" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="733" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1645033470915">
       <screen x="0" y="0" width="1920" height="1032" />
@@ -230,6 +241,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="803" y="406" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1644713764808" />
+    <state x="739" y="271" key="FileChooserDialogImpl" timestamp="1646451327931">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="739" y="271" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1646451327931" />
     <state width="1899" height="169" key="GridCell.Tab.0.bottom" timestamp="1646418295117">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -266,6 +281,14 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1899" height="344" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1644114876540" />
+    <state x="715" y="218" key="RollbackChangesDialog" timestamp="1646451702373">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="715" y="218" key="RollbackChangesDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1646451702373" />
+    <state x="461" y="161" key="SettingsEditor" timestamp="1646451509302">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="461" y="161" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1646451509302" />
     <state x="274" y="46" width="849" height="592" maximized="true" key="dock-window-1" timestamp="1643330224008">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
