@@ -59,23 +59,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/2022NineChapter/L7 DS/宽度优先搜索（BFS）" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\深度优先搜索（DFS）" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\并查集(to do)" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\Stack题目" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\双指针（2 Pointer）\同向双指针" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\宽度优先搜索（BFS）" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\Hashmap／ Hashset题目" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022 OOD" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120_Lint" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120\hard_facebook" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\Company" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\深度优先搜索（DFS）" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\并查集(to do)" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\Stack题目" />
     </key>
   </component>
   <component name="RunManager" selected="Python.105. Construct Binary Tree from Preorder and Inorder Traversal">
@@ -242,10 +242,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="803" y="406" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1644713764808" />
-    <state x="739" y="271" key="FileChooserDialogImpl" timestamp="1646451327931">
+    <state x="739" y="271" key="FileChooserDialogImpl" timestamp="1647290403992">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="739" y="271" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1646451327931" />
+    <state x="739" y="271" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1647290403992" />
     <state width="1899" height="169" key="GridCell.Tab.0.bottom" timestamp="1647193191974">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
