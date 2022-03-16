@@ -1,14 +1,14 @@
-# sort(key=lambda x:(x[0],-x[1]))
 # 题意：The Skyline Problem, 画大楼的轮廓
 # 思路：
 """
 扫描线，把[left, -1 * height])   ----保证了高的先被扫在前边
         [right, height])入swapline
 
-用堆记录当前最高的楼，
-如果新的h高，就划一笔；
-如果堆高；就默默push
-当扫到正数h的时候，要把堆里的remove走
+用堆记录所有走过的楼：
+h < 0，是左边，就push
+正数就是right边，就remove
+用prev记录上一个建筑的最高高度
+# 最高高度发生了变化，就append 结果
 """
 
 
@@ -19,30 +19,67 @@
 class Solution:
     def getSkyline(self, buildings: List[List[int]]) -> List[List[int]]:
 
-        swapline = []
+        sweepline = []
         for left, right, height in buildings:
-            swapline.append([left, -1 * height])
-            swapline.append([right, height])
+            sweepline.append([left, -1 * height])
+            sweepline.append([right, height])
 
-        swapline = sorted(swapline)
+        sweepline = sorted(sweepline)
 
         res = []
         heap = [0]
-
-        for x, h in swapline:
+        prev = 0
+        for x, h in sweepline:
             if h < 0:
-                tmp = heap[0]
-                heappush(heap, h)
-                if tmp != heap[0]:
-                    res.append([x, -h])
-
+                heapq.heappush(heap, h)
             else:
-                tmp = heap[0]
                 heap.remove(-h)
                 heapify(heap)
 
-                if tmp != heap[0]:
-                    res.append([x, -heap[0]])
+            # 加入或删除后当前的最高高度
+            curr_max = -heap[0]
+            # 最高高度发生了变化
+            if curr_max != prev:
+                res.append([x, curr_max])
+
+            prev = curr_max
 
         return res
 
+"""
+# Time complexity : O(NlogN)
+# Space complexity : O(N)
+
+from sortedcontainers import SortedList
+class Solution:
+    def getSkyline(self, buildings: List[List[int]]) -> List[List[int]]:
+        
+        sweepline = []
+        for left, right, height in buildings:
+            sweepline.append([left, -1 * height])
+            sweepline.append([right, height])
+        
+        sweepline = sorted(sweepline)
+
+        res = []
+        
+        running_h = SortedList([0])
+        
+        prev = 0
+        for x, h in sweepline:
+            if h < 0:
+                running_h.add(h)
+            else:
+                running_h.remove(-h)
+                
+            # 加入或删除后当前的最高高度
+            curr_max = -running_h[0]
+            # 最高高度发生了变化
+            if curr_max != prev:
+                res.append([x, curr_max])
+                
+            prev = curr_max
+
+        return res
+
+"""
