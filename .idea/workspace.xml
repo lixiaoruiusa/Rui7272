@@ -59,17 +59,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/2022NineChapter/L7 DS/扫描线算法（Sweep Line）" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Company/goldmansachs" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\扫描线算法（Sweep Line）" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\宽度优先搜索（BFS）" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\Hashmap／ Hashset题目" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022 OOD" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120_Lint" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\扫描线算法（Sweep Line）" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\Company" />
@@ -77,9 +70,16 @@
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\并查集(to do)" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\Company\goldmansachs" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\扫描线算法（Sweep Line）" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\宽度优先搜索（BFS）" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\Hashmap／ Hashset题目" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022 OOD" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.Iamstupid">
-    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Kth smallest and Largest Element in an Array(堆)">
+    <configuration name="平均分" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -87,11 +87,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022NineChapter/L7 DS/深度优先搜索（DFS）" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/goldmansachs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022NineChapter/L7 DS/深度优先搜索（DFS）/1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/goldmansachs/平均分.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,7 +100,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="105. Construct Binary Tree from Preorder and Inorder Traversal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="反转字符串" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,11 +108,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022NineChapter/L7 DS/深度优先搜索（DFS）" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/goldmansachs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022NineChapter/L7 DS/深度优先搜索（DFS）/105. Construct Binary Tree from Preorder and Inorder Traversal.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/goldmansachs/反转字符串.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,7 +121,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="125. Valid Palindrome" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="326. Power of Three" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,11 +129,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022NineChapter/L7 DS/双指针（2 Pointer）/背向双指针：(基本上全是回文串的题)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/goldmansachs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022NineChapter/L7 DS/双指针（2 Pointer）/背向双指针：(基本上全是回文串的题)/125. Valid Palindrome.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/goldmansachs/326. Power of Three.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,7 +142,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="226 Invert Binary Tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Kth smallest and Largest Element in an Array(堆)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,11 +150,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022NineChapter/L7 DS/深度优先搜索（DFS）" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/goldmansachs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022NineChapter/L7 DS/深度优先搜索（DFS）/226 Invert Binary Tree.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\lirui\Desktop\GitHub\Rui7272\Company\goldmansachs\Kth smallest and Largest Element in an Array(堆).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,7 +163,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Iamstupid" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -171,11 +171,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022NineChapter/L7 DS/扫描线算法（Sweep Line）" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022NineChapter/L7 DS/扫描线算法（Sweep Line）/Iamstupid.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Iamstupid" />
-        <item itemvalue="Python.105. Construct Binary Tree from Preorder and Inorder Traversal" />
-        <item itemvalue="Python.226 Invert Binary Tree" />
-        <item itemvalue="Python.1" />
-        <item itemvalue="Python.125. Valid Palindrome" />
+        <item itemvalue="Python.Kth smallest and Largest Element in an Array(堆)" />
+        <item itemvalue="Python.326. Power of Three" />
+        <item itemvalue="Python.反转字符串" />
+        <item itemvalue="Python.平均分" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -234,10 +234,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="2pp" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="733" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1645033470915">
+    <state x="733" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1647581675069">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="733" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1645033470915" />
+    <state x="733" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1647581675069" />
     <state x="803" y="406" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1644713764808">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -246,26 +246,26 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="739" y="271" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1647290403992" />
-    <state width="1899" height="169" key="GridCell.Tab.0.bottom" timestamp="1647393451586">
+    <state width="1899" height="169" key="GridCell.Tab.0.bottom" timestamp="1647585738332">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1515" height="111" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1642574430673" />
-    <state width="1899" height="169" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1647393451586" />
-    <state width="1899" height="169" key="GridCell.Tab.0.center" timestamp="1647393451586">
+    <state width="1899" height="169" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1647585738332" />
+    <state width="1899" height="169" key="GridCell.Tab.0.center" timestamp="1647585738332">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1515" height="111" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1642574430672" />
-    <state width="1899" height="169" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1647393451586" />
-    <state width="1899" height="169" key="GridCell.Tab.0.left" timestamp="1647393451586">
+    <state width="1899" height="169" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1647585738332" />
+    <state width="1899" height="169" key="GridCell.Tab.0.left" timestamp="1647585738332">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1515" height="111" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1642574430672" />
-    <state width="1899" height="169" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1647393451586" />
-    <state width="1899" height="169" key="GridCell.Tab.0.right" timestamp="1647393451586">
+    <state width="1899" height="169" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1647585738332" />
+    <state width="1899" height="169" key="GridCell.Tab.0.right" timestamp="1647585738332">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1515" height="111" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1642574430672" />
-    <state width="1899" height="169" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1647393451586" />
+    <state width="1899" height="169" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1647585738332" />
     <state width="1899" height="344" key="GridCell.Tab.1.bottom" timestamp="1644114876540">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
