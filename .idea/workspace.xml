@@ -59,27 +59,27 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/2022NineChapter/L7 DS/Hashmap／ Hashset题目" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Company/goldmansachs" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\扫描线算法（Sweep Line）" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\Company" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\深度优先搜索（DFS）" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\并查集(to do)" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\Stack题目" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\双指针（2 Pointer）\同向双指针" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\双指针（2 Pointer）" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\双指针（2 Pointer）\同向双指针：" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\Company\goldmansachs" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\扫描线算法（Sweep Line）" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\宽度优先搜索（BFS）" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\Hashmap／ Hashset题目" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022 OOD" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120_Lint" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120\hard_facebook" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\高频120\medium_G" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.125. Valid Palindrome">
-    <configuration name="1209. Remove All Adjacent Duplicates in String II" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Kth smallest and Largest Element in an Array(堆)">
+    <configuration name="平均分" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -87,11 +87,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022NineChapter/L7 DS/Stack题目" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/goldmansachs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022NineChapter/L7 DS/Stack题目/1209. Remove All Adjacent Duplicates in String II.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/goldmansachs/平均分.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,7 +100,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="125. Valid Palindrome" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="反转字符串" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,11 +108,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022NineChapter/L7 DS/双指针（2 Pointer）/背向双指针：(基本上全是回文串的题)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/goldmansachs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022NineChapter/L7 DS/双指针（2 Pointer）/背向双指针：(基本上全是回文串的题)/125. Valid Palindrome.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/goldmansachs/反转字符串.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,7 +121,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="409. Longest Palindrome" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="326. Power of Three" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,11 +129,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022NineChapter/L7 DS/双指针（2 Pointer）/背向双指针：(基本上全是回文串的题)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/goldmansachs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\双指针（2 Pointer）\背向双指针：(基本上全是回文串的题)\409. Longest Palindrome.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/goldmansachs/326. Power of Three.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,7 +142,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="归并排序（Merge Sort）" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Kth smallest and Largest Element in an Array(堆)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,11 +150,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022NineChapter/L7 DS/排序类（Sort）" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/goldmansachs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022NineChapter/L7 DS/排序类（Sort）/归并排序（Merge Sort）.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\lirui\Desktop\GitHub\Rui7272\Company\goldmansachs\Kth smallest and Largest Element in an Array(堆).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,10 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.125. Valid Palindrome" />
-        <item itemvalue="Python.归并排序（Merge Sort）" />
+        <item itemvalue="Python.Kth smallest and Largest Element in an Array(堆)" />
+        <item itemvalue="Python.326. Power of Three" />
+        <item itemvalue="Python.反转字符串" />
+        <item itemvalue="Python.平均分" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.1209. Remove All Adjacent Duplicates in String II" />
       </list>
     </recent_temporary>
   </component>
@@ -233,38 +234,38 @@
     <option name="LAST_COMMIT_MESSAGE" value="2pp" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="733" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1645033470915">
+    <state x="733" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1647581675069">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="733" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1645033470915" />
+    <state x="733" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1647581675069" />
     <state x="803" y="406" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1644713764808">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="803" y="406" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1644713764808" />
-    <state x="739" y="271" key="FileChooserDialogImpl" timestamp="1646451327931">
+    <state x="739" y="271" key="FileChooserDialogImpl" timestamp="1647290403992">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="739" y="271" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1646451327931" />
-    <state width="1899" height="169" key="GridCell.Tab.0.bottom" timestamp="1646418295117">
+    <state x="739" y="271" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1647290403992" />
+    <state width="1899" height="169" key="GridCell.Tab.0.bottom" timestamp="1647585738332">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1515" height="111" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1642574430673" />
-    <state width="1899" height="169" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1646418295117" />
-    <state width="1899" height="169" key="GridCell.Tab.0.center" timestamp="1646418295117">
+    <state width="1899" height="169" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1647585738332" />
+    <state width="1899" height="169" key="GridCell.Tab.0.center" timestamp="1647585738332">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1515" height="111" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1642574430672" />
-    <state width="1899" height="169" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1646418295117" />
-    <state width="1899" height="169" key="GridCell.Tab.0.left" timestamp="1646418295117">
+    <state width="1899" height="169" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1647585738332" />
+    <state width="1899" height="169" key="GridCell.Tab.0.left" timestamp="1647585738332">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1515" height="111" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1642574430672" />
-    <state width="1899" height="169" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1646418295117" />
-    <state width="1899" height="169" key="GridCell.Tab.0.right" timestamp="1646418295117">
+    <state width="1899" height="169" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1647585738332" />
+    <state width="1899" height="169" key="GridCell.Tab.0.right" timestamp="1647585738332">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1515" height="111" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1642574430672" />
-    <state width="1899" height="169" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1646418295117" />
+    <state width="1899" height="169" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1647585738332" />
     <state width="1899" height="344" key="GridCell.Tab.1.bottom" timestamp="1644114876540">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -285,21 +286,21 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="715" y="218" key="RollbackChangesDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1646451702373" />
-    <state x="461" y="161" key="SettingsEditor" timestamp="1646451509302">
+    <state x="461" y="161" key="SettingsEditor" timestamp="1647120113732">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="461" y="161" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1646451509302" />
+    <state x="461" y="161" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1647120113732" />
     <state x="274" y="46" width="849" height="592" maximized="true" key="dock-window-1" timestamp="1643330224008">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="274" y="46" width="849" height="592" maximized="true" key="dock-window-1/0.0.1920.1032@0.0.1920.1032" timestamp="1643330224008" />
-    <state x="667" y="249" width="585" height="534" key="find.popup" timestamp="1641588185807">
+    <state x="667" y="249" width="585" height="534" key="find.popup" timestamp="1647393584324">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="667" y="249" width="585" height="534" key="find.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1641588185807" />
-    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1644259954775">
+    <state x="667" y="249" width="585" height="534" key="find.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1647393584324" />
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1646697357102">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1644259954775" />
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1646697357102" />
   </component>
 </project>
