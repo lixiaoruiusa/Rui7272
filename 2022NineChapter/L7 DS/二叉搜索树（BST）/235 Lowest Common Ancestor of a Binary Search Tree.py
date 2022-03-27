@@ -3,7 +3,7 @@
 # 解法： 1 根 > p,q root.left
 #       2 根 < p,q root.right
 #       3 根与pq一大一小的时候 return root
-# Time Complexity: O(N)
+# Time Complexity: O(N)   n is from h to n
 # Space Complexity: O(1)
 
 # Definition for a binary tree node.
@@ -12,16 +12,6 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
-class Solution:
-    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
-
-        while root:
-            if root.val > p.val and root.val > q.val:
-                root = root.left
-            elif root.val < p.val and root.val < q.val:
-                root = root.right
-            else:
-                return root
 
 
 class Solution:
@@ -41,3 +31,15 @@ class Solution:
                 root = root.right
 
         return None
+
+
+class Solution:
+    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+
+        while root:
+            if root.val > p.val and root.val > q.val:
+                root = root.left
+            elif root.val < p.val and root.val < q.val:
+                root = root.right
+            else:
+                return root
