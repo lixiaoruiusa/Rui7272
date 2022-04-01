@@ -1,8 +1,8 @@
 # 题意：decode s到传统方式 Input: "3[a]2[bc]" ==> "aaabcbc"
 # 思路：用stack：1 数字 放到multi中
 #               2 字母 放到res = "" 中
-#               3 [ 入栈append，把 muti，res 放入
-#               4 ] 出栈pop，把 当前res * muti +
+#               3 [ 入栈append，把 (muti，res) 放入
+#               4 ] 出栈pop，factor, pre_res = stack.pop(), 把 pre_res + res * int(factor)
 #
 # O(n) time | O(n) space
 class Solution:
