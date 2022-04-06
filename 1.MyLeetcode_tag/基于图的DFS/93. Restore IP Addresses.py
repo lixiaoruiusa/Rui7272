@@ -11,25 +11,30 @@ class Solution:
             return []
 
         res = []
-        self.dfs(s, res, 0, [])
+        self.dfs(s, res, [], 0)
         return res
 
-    def dfs(self, s, res, start_idx, subset):
+    def dfs(self, s, res, path, index):
 
-        if len(subset) == 4 and start_idx == len(s):
-            res.append('.'.join(subset))
+        if index == len(s) and len(path) == 4:
+            res.append(".".join(list(path)))
             return
 
-        for i in range(start_idx, start_idx + 3):
-            if i >= len(s):
+        if len(path) > 4:
+            return
+
+            # 255 - 2,25,255
+        for j in range(index, index + 3):
+            # j有可能出界，很重要，会导致is_valid的位置溢出
+            if j >= len(s):
                 return
 
-            substring = s[start_idx: i + 1]
-
+            substring = s[index: j + 1]
             if self.is_valid(substring):
-                subset.append(substring)
-                self.dfs(s, res, i + 1, subset)
-                subset.pop()
+                path.append(substring)
+                self.dfs(s, res, path, j + 1)
+                path.pop()
+
 
     def is_valid(self, cur):
 
