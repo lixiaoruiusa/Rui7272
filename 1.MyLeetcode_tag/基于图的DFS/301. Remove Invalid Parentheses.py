@@ -4,6 +4,11 @@ DFS
 2 DFS 中 start为开始的index
 出口：left == 0 and right == 0 而且 is_valid
 
+
+Time Complexity : O(2^N)
+其中 n 为字符串的长度。考虑到一个字符串最多可能有 2^n个子序列，每个子序列可能需要进行一次合法性检测
+Space Complexity : O(N^2)
+其中 n 为字符串的长度。返回结果不计入空间复杂度，考虑到递归调用栈的深度，并且每次递归调用时需要复制字符串一次
 """
 
 
@@ -21,14 +26,21 @@ class Solution:
                 return
 
         for i in range(start, len(s)):
-            if i != start and s[i] == s[i - 1]:
+            # 去重 保证连续多个的时候只删除第一个
+            if i > start and s[i] == s[i - 1]:
                 continue
             if s[i] == '(' or s[i] == ')':
                 curr = s[: i] + s[i + 1:]
+                # try all possible to remove right, to keep the prefix valid  like ")("
                 if right > 0 and s[i] == ')':
                     self.dfs(curr, i, left, right - 1, res)
                 elif left > 0 and s[i] == '(':
                     self.dfs(curr, i, left - 1, right, res)
+
+                # if s[i] == '(':
+                #     self.dfs(curr, i, left - 1, right, res)
+                # if s[i] == ')':
+                #     self.dfs(curr, i, left, right - 1, res)
 
     def count_parentheses(self, s):
         left, right = 0, 0
