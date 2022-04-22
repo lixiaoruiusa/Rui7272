@@ -1,19 +1,27 @@
-s = "aaabbaa"
-# 输出为 a3b2a2
+# s = "aaabbaa"
+# # 输出为 a3b2a2
+#
+# res = []
+# count = 1
+#
+# left = 0
+# right = 0
+# while left < len(s)and right < len(s):
+#
+#     while left < len(s) and right < len(s) and s[left] == s[right]:
+#         right += 1
+#     res.append(s[left])
+#     res.append(str(right - left))
+#     left = right
+#
+# print(res)
+# result = "".join(res)
+# print(result)
 
-res = []
-count = 1
 
-left = 0
-right = 0
-while left < len(s)and right < len(s):
-
-    while left < len(s) and right < len(s) and s[left] == s[right]:
-        right += 1
-    res.append(s[left])
-    res.append(str(right - left))
-    left = right
-
-print(res)
-result = "".join(res)
-print(result)
+row = [set([]) for i in range(9)]
+col = [set([]) for i in range(9)]
+grid = [set([]) for i in range(9)]
+print(row)
+print(col)
+print(grid)
