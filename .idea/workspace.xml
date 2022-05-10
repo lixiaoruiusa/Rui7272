@@ -59,10 +59,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/1.MyLeetcode_tag/基于图的DFS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/1.MyLeetcode_tag/基于排列组合的DFS" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\1.MyLeetcode_tag\基于排列组合的DFS" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\1.MyLeetcode_tag\基于图的DFS" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\基于图的DFS" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\Company\goldmansachs" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\扫描线算法（Sweep Line）" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\1.MyLeetcode_tag\Stack题目" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\Company\JP" />
@@ -70,15 +77,8 @@
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\扫描线算法（Sweep Line）" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\Company" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\1.MyLeetcode_tag\基于图的DFS" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\基于图的DFS" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\Company\goldmansachs" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\扫描线算法（Sweep Line）" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\宽度优先搜索（BFS）" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.test (1)">
+  <component name="RunManager" selected="Python.588. Design In-Memory File System">
     <configuration name="1328. Break a Palindrome" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,7 +121,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="291 Word Pattern II" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="588. Design In-Memory File System" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,11 +129,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022NineChapter/L7 DS/基于图的DFS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/Coinbase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022NineChapter/L7 DS/基于图的DFS/291 Word Pattern II.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/Coinbase/588. Design In-Memory File System.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.588. Design In-Memory File System" />
         <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.166. Fraction to Recurring Decimal分数到小数" />
         <item itemvalue="Python.1328. Break a Palindrome" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.291 Word Pattern II" />
       </list>
     </recent_temporary>
   </component>
@@ -234,9 +234,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="2pp" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2653" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1649296343970">
-      <screen x="1920" y="0" width="1920" height="1032" />
+    <state x="733" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1652112725373">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
+    <state x="733" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1652112725373" />
     <state x="2653" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1649296343970" />
     <state x="733" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1647581675069" />
     <state x="803" y="406" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1644713764808">
@@ -247,35 +248,31 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="739" y="271" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1647290403992" />
-    <state width="1515" height="123" key="GridCell.Tab.0.bottom" timestamp="1650398660898">
-      <screen x="1920" y="0" width="1536" height="816" />
+    <state width="1899" height="168" key="GridCell.Tab.0.bottom" timestamp="1652148840258">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1515" height="111" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1642574430673" />
-    <state width="1187" height="167" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1649038546968" />
+    <state width="1899" height="168" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1652148840258" />
     <state width="1515" height="123" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1650398660898" />
     <state width="1899" height="169" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1648779434346" />
     <state width="1899" height="169" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1648437653977" />
-    <state width="1515" height="123" key="GridCell.Tab.0.center" timestamp="1650398660898">
-      <screen x="1920" y="0" width="1536" height="816" />
+    <state width="1899" height="168" key="GridCell.Tab.0.center" timestamp="1652148840258">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1515" height="111" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1642574430672" />
-    <state width="1187" height="167" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1649038546967" />
+    <state width="1899" height="168" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1652148840258" />
     <state width="1515" height="123" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1650398660898" />
     <state width="1899" height="169" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1648779434346" />
     <state width="1899" height="169" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1648437653977" />
-    <state width="1515" height="123" key="GridCell.Tab.0.left" timestamp="1650398660898">
-      <screen x="1920" y="0" width="1536" height="816" />
+    <state width="1899" height="168" key="GridCell.Tab.0.left" timestamp="1652148840258">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1515" height="111" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1642574430672" />
-    <state width="1187" height="167" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1649038546967" />
+    <state width="1899" height="168" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1652148840258" />
     <state width="1515" height="123" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1650398660898" />
     <state width="1899" height="169" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1648779434346" />
     <state width="1899" height="169" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1648437653977" />
-    <state width="1515" height="123" key="GridCell.Tab.0.right" timestamp="1650398660898">
-      <screen x="1920" y="0" width="1536" height="816" />
+    <state width="1899" height="168" key="GridCell.Tab.0.right" timestamp="1652148840258">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1515" height="111" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1642574430672" />
-    <state width="1187" height="167" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1649038546968" />
+    <state width="1899" height="168" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1652148840258" />
     <state width="1515" height="123" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1650398660898" />
     <state width="1899" height="169" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1648779434346" />
     <state width="1899" height="169" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1648437653977" />
@@ -303,20 +300,18 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="461" y="161" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1647120113732" />
-    <state x="274" y="46" width="849" height="592" maximized="true" key="dock-window-1" timestamp="1643330224008">
+    <state x="668" y="249" width="685" height="676" key="find.popup" timestamp="1651609345007">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="274" y="46" width="849" height="592" maximized="true" key="dock-window-1/0.0.1920.1032@0.0.1920.1032" timestamp="1643330224008" />
-    <state x="2454" y="197" width="548" height="534" key="find.popup" timestamp="1650486339070">
-      <screen x="1920" y="0" width="1536" height="816" />
-    </state>
+    <state x="668" y="249" width="685" height="676" key="find.popup/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1651609345007" />
     <state x="2454" y="197" width="548" height="534" key="find.popup/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1650486339070" />
     <state x="667" y="249" width="588" height="534" key="find.popup/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1648746605159" />
     <state x="2587" y="249" width="588" height="534" key="find.popup/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1649297856925" />
     <state x="667" y="249" width="585" height="534" key="find.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1648436633050" />
-    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1647882082559">
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1651609323688">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1651609323688" />
     <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1647882082559" />
   </component>
 </project>
