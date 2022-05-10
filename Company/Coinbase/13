@@ -7,10 +7,13 @@ https://www.1point3acres.com/bbs/thread-890611-1-1.html
 https://www.1point3acres.com/bbs/thread-886414-1-1.html
 
 经典文件系统。
-地里和刷题网的最优答案是trie。我在面的时候说可以hashmap，也可以trie，然后和面试官讨论了一下两种方法各自的优劣。还有说了一下极端情况下，trie可能不是那么快。然后他说可以选任意一种实现。感觉主要还是交流，多说怎么想的，为啥这么想，alternatives是啥，为啥等等。 聊了半天以后开始实现，我选了简单的hashmap。 没啥难度，然后反向BQ。 当天下午邮件通知过了。
+地里和刷题网的最优答案是trie。我在面的时候说可以hashmap，也可以trie，然后和面试官讨论了一下两种方法各自的优劣。
+还有说了一下极端情况下，trie可能不是那么快。然后他说可以选任意一种实现。
+感觉主要还是交流，多说怎么想的，为啥这么想，alternatives是啥，为啥等等。
+聊了半天以后开始实现，我选了简单的hashmap。
+没啥难度，然后反向BQ。 当天下午邮件通知过了。
 
 
-我被问了文件系统，差不多就是刷题网屋把拔。给的path不存在时要求throw exception，这点不同面试官要求可能不同，要记得确认。
 写完问了系统设计，怎么scale。以及怎么搜索给定folder path下的所有文件。
 他问了有哪些api，schema，db怎么存，整个workflow是怎么样的，怎么sharding
 实现- tail功能，给一个文件，给一个number n， 返回从n开始一直到最后一行的文件内容
