@@ -17,7 +17,6 @@ Pro：
 
 这个方法的一个问题是如果我们只想要给定路径中文件夹的列表，而不是文件的列表，访问将会变得低效。我们需要遍历当前文件夹所有内容一遍并检查是否是文件夹，才能得到我们想要的数据。
 
-https://leetcode.cn/problems/design-in-memory-file-system/solution/she-ji-nei-cun-wen-jian-xi-tong-by-leetcode/
 """
 
 

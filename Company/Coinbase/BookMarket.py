@@ -1,41 +1,66 @@
 """
-请问楼主关于 buy and sell textbooks 那道题 的input和output到底是什么啊？
-我的理解是这个market place 只有两个api ---> sell 和 buy
-大概就是这样一个object
+书籍买卖：要求是设计一个书籍买卖系统（包括所有的API）。开始系统就存一堆open offer to buy + open offer to sell：
+-	此时如果有人想出价 X 买书， 如果当时卖书的offer最低价 < X, 则返回最低价完成交易，否则把X放进open offer to buy的pool里面
+-	此时如果有人想出价 Y 卖书， 如果当时买书的offer最高价  > Y, 则返回最高价完成交易，否则把Y放进open offer to sell的pool里面。
 
-然后人们只能interact with sell and buy function. 所以每个order是individually added.
-"""
+follow up: offer to buy和sell都有时效性该怎么处理
+follow up: cancel order feature怎么处理
 
-"""
-之前刷面经以为妥妥的是 in memory file system
-结果出了 买卖书籍的题
-有点像股市的order book, 首先有一些 buy order， 再有一些 sell order
-这些order 不会匹配
-自己写个method去买/卖书，在提供一个你期望的价格
-我写的大概就是tradeBook(isBuy, price) 这样的一个method
-如果能匹配就提供order book里面最好的价格（buy就是最低的，sell就是最高的），不match 就加到order book里面
-我用的min max heap分别写了buyOrderbook 和 sellOrderBook
+follow up: production环境下有什么需要修改的。 需要从多个角度入手，比如检查输入变量， 用户非常多的话怎么办， 多线程的话要注意什么， 累积的buy和sell offer太多怎么办之类的。
 
-Follow up 1：我这个method地方有什么不OK的地方
-一开始想了半天也没想出来..觉得bug free
-后来我发现没有handle order book空了的情况，但面试官显然找的不是这个
-后来又谈到price上的问题，我才反应过来 price不能为负值。
-Follow up 2: 这些offer 会expire
-我就自己建了一个custom class 里面有一个expireDate
-在call我的method的时候，遇见expire的就poll掉，直到找到不expire的match..
-面试官也同意了，其实没完全写完就叫停了‍‍‌‍‌‌‍‍‌‍‌‍‌‌‍‍‍‌‌‍。紧接着问了问time complexity啥的
+解法：min heap and max heap, min heap is for sell offers, max heap is for buy offers.
+To deal with expiration time, just store a tuple of (price, expiration_timestamp), compare current timestamp with the timestamp in the entry, when doing the transaction,
+if the entry expired, just keep popping until a valid one is hit.
+In Python, max heap needs to be done by multiplying -1 to the value in it with standard heapq or encapsulating the data structure within a class to hide such complexity.
+
 
 """
+# sell [7,8,9]
+# buy [5,4,3]
+# eg: 6
 import heapq
-class BookMarket(object):
+class Bookmarket(object):
     def __init__(self) -> None:
-        self.buys = []
-        self.sells = []
+        # max heap is for buy offers
+        # min heap for sell offers
+        self.buy = []  # 要买书的，不愿意多花钱，所以最大值在上，要reach deal line
+        self.sell = []  # 要卖书的，想多卖钱，所以最小值在上，要reach deal line
+
+    def buy_book(self, price):
+        # 如果sell pool里没有了，或者 6 小于 7时， 不能成交
+        if not self.sell or price < self.sell[0]:
+            # 因为buy是最大堆，所以要push负数
+            heapq.heappush(self.buy, -price)
+        else:
+            deal = heapq.heappop(self.sell)
+
+            return deal
+
+    def sell_book(self, price):
+        # 如果buy pool里没有，或者 6 大于 5 时， 不能成交。 注意self.buy[0]是负数
+        if not self.buy or price > - self.buy[0]:
+            # 因为sell是最小堆，所以要push正数
+            heapq.heappush(self.sell, price)
+        else:
+            deal = -heapq.heappop(self.buy)
+
+            return deal
+
+bm = Bookmarket()
+bm.buy_book(5)
+bm.buy_book(4)
+bm.buy_book(3)
+bm.sell_book(7)
+bm.sell_book(8)
+bm.sell_book(9)
+# print(bm.buy)
+# print(bm.sell)
+bm.buy_book(10)
+# print(bm.buy)
+# print(bm.sell)
+bm.sell_book(4)
+# print(bm.buy)
+# print(bm.sell)
 
 
-    def buy(self, price):
-        pass
 
-
-    def sell(self, price):
-        pass
