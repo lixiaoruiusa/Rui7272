@@ -40,29 +40,29 @@ class FileSystem:
         res = []
         # 如果path为ls根目录下内容
         if path == '/':
-            for key in cur.child.keys():
+            for key in cur.child:
                 res.append(key)
             return sorted(res)
 
         # 如果path为ls某个具体目录下内容（['a', 'b', 'c', 'd']或者invalid['a', 'b', 'c', '']）
         path_list = path[1:].split('/')
         for ch in path_list:
-            if ch not in cur.child.keys():
+            if ch not in cur.child:
                 return []
             # 如果在就继续往下找
             cur = cur.child[ch]
 
-        for key in cur.child.keys():
-            res.append(key)
         if cur.is_file:
-            res.append(cur.name)
+            return [cur.name]
+        for key in cur.child:
+            res.append(key)
         return sorted(res)
 
     def mkdir(self, path: str) -> None:
         cur = self.root
         path_list = path[1:].split('/')
         for ch in path_list:
-            if ch not in cur.child.keys():
+            if ch not in cur.child:
                 cur.child[ch] = Trie()
             cur = cur.child[ch]
             cur.name = ch
@@ -71,7 +71,7 @@ class FileSystem:
         cur = self.root
         path_list = filePath[1:].split('/')
         for i, ch in enumerate(path_list):
-            if ch not in cur.child.keys():
+            if ch not in cur.child:
                 cur.child[ch] = Trie()
             cur = cur.child[ch]
             cur.name = ch
@@ -85,6 +85,7 @@ class FileSystem:
         for ch in path_list:
             cur = cur.child[ch]
         return cur.content
+
 
 """
 

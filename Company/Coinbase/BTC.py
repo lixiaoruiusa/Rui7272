@@ -62,10 +62,6 @@ def check_btc(data):
                 numbers_to_sell -= item['amount']
                 if numbers_to_sell <= 0:
                     heapq.heappush(heap, [unit_price, shares - numbers_to_sell, date])
-
-
-
-
             res.append()
         elif item['type'] == "buy":
             # {'date': 1, 'amount': 5, 'price': 25.0, 'type': 'buy'}
@@ -74,13 +70,6 @@ def check_btc(data):
             date = item['date']
             # [单价，数量, 日期]
             heapq.heappush(heap,[unit_price, shares, date])
-
-
-
-
-
-
-
 
 
 input = [{"date": 1, "amount": 5, "price": 25.0, "type": "buy"},

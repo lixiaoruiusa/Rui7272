@@ -78,28 +78,7 @@
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\Company\goldmansachs" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.BTC">
-    <configuration name="1328. Break a Palindrome" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Rui7272" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/JP" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/JP/1328. Break a Palindrome.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.test">
     <configuration name="166. Fraction to Recurring Decimal分数到小数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,13 +163,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Rui7272" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.MyLeetcode_tag" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.MyLeetcode_tag/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.BTC" />
         <item itemvalue="Python.588. Design In-Memory File System" />
         <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.166. Fraction to Recurring Decimal分数到小数" />
-        <item itemvalue="Python.1328. Break a Palindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -252,32 +252,32 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="739" y="271" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1647290403992" />
-    <state width="1899" height="168" key="GridCell.Tab.0.bottom" timestamp="1652214527615">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="1515" height="120" key="GridCell.Tab.0.bottom" timestamp="1652237563930">
+      <screen x="1920" y="0" width="1536" height="816" />
     </state>
-    <state width="1899" height="168" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1652214527615" />
-    <state width="1515" height="123" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1650398660898" />
+    <state width="1190" height="120" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1652235177748" />
+    <state width="1515" height="120" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1652237563930" />
     <state width="1899" height="169" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1648779434346" />
     <state width="1899" height="169" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1648437653977" />
-    <state width="1899" height="168" key="GridCell.Tab.0.center" timestamp="1652214527615">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="1515" height="120" key="GridCell.Tab.0.center" timestamp="1652237563930">
+      <screen x="1920" y="0" width="1536" height="816" />
     </state>
-    <state width="1899" height="168" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1652214527615" />
-    <state width="1515" height="123" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1650398660898" />
+    <state width="1190" height="120" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1652235177748" />
+    <state width="1515" height="120" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1652237563930" />
     <state width="1899" height="169" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1648779434346" />
     <state width="1899" height="169" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1648437653977" />
-    <state width="1899" height="168" key="GridCell.Tab.0.left" timestamp="1652214527615">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="1515" height="120" key="GridCell.Tab.0.left" timestamp="1652237563930">
+      <screen x="1920" y="0" width="1536" height="816" />
     </state>
-    <state width="1899" height="168" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1652214527615" />
-    <state width="1515" height="123" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1650398660898" />
+    <state width="1190" height="120" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1652235177748" />
+    <state width="1515" height="120" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1652237563930" />
     <state width="1899" height="169" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1648779434346" />
     <state width="1899" height="169" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1648437653977" />
-    <state width="1899" height="168" key="GridCell.Tab.0.right" timestamp="1652214527615">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="1515" height="120" key="GridCell.Tab.0.right" timestamp="1652237563930">
+      <screen x="1920" y="0" width="1536" height="816" />
     </state>
-    <state width="1899" height="168" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1652214527615" />
-    <state width="1515" height="123" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1650398660898" />
+    <state width="1190" height="120" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1652235177748" />
+    <state width="1515" height="120" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1652237563930" />
     <state width="1899" height="169" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1648779434346" />
     <state width="1899" height="169" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1648437653977" />
     <state width="1899" height="344" key="GridCell.Tab.1.bottom" timestamp="1644114876540">
@@ -304,10 +304,11 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="461" y="161" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1647120113732" />
-    <state x="1920" y="0" width="1550" height="880" key="dock-window-1" timestamp="1652204671641">
+    <state x="1920" y="0" width="1550" height="880" key="dock-window-1" timestamp="1652235044438">
       <screen x="1920" y="0" width="1536" height="816" />
     </state>
-    <state x="1920" y="0" width="1550" height="880" key="dock-window-1/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1652204671641" />
+    <state x="1920" y="0" width="1550" height="880" key="dock-window-1/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1652230244158" />
+    <state x="1920" y="0" width="1550" height="880" key="dock-window-1/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1652235044438" />
     <state x="668" y="249" width="685" height="676" key="find.popup" timestamp="1651609345007">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
