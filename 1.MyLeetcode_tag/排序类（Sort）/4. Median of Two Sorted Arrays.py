@@ -1,5 +1,54 @@
 # 题意：找两个sorted数组的中位数
 # 思路：
+"""
+# 二刷
+# Time O(min(n,m))
+1 目的是确定数组A和B的分割线的位置，因为两个左边一共贡献（m+n）/2个的元素
+2  L1|R1 和 L2|R2 要满足L1<= R2, L2 <= R1
+3 在短的数组上 binary search, 因为时间尽量小
+"""
+
+
+class Solution:
+    def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
+
+        size1 = len(nums1)
+        size2 = len(nums2)
+
+        if size1 > size2:
+            return self.findMedianSortedArrays(nums2, nums1)
+
+        # 在短的数组上二分，找正确的分割线
+        left = 0
+        right = size1
+
+        # 正确分割线的性质有L1|R1,L2|R2, 要找到L1 <= R2 and L2 <= R1的平衡的点
+        # 左右元素相同 或 左比右多一个（奇数情况） 故line1 + line2 = (size1+size2+1)//2
+        while left < right:
+            line1 = (left + right) // 2
+            line2 = (size1 + size2 + 1) // 2 - line1
+
+            if nums1[line1] < nums2[line2 - 1]:  # 往右找 R1 < L2
+                left = line1 + 1
+            else:
+                right = line1  # 往左找
+
+        # 出循环后left就是标准分割线位置了
+        line1 = left
+        line2 = (size1 + size2 + 1) // 2 - line1
+
+        # 为避免分割线某一边没有元素 我们将这种情况下的数定义为正无穷或负无穷 以避免在后续的比较被选出
+        L1 = (-float('inf') if line1 == 0 else nums1[line1 - 1])
+        R1 = (float('inf') if line1 == size1 else nums1[line1])
+        L2 = (-float('inf') if line2 == 0 else nums2[line2 - 1])
+        R2 = (float('inf') if line2 == size2 else nums2[line2])
+
+        if (size1 + size2) % 2 != 0:
+            return max(L1, L2)
+        else:
+            return (max(L1, L2) + min(R1, R2)) / 2
+
+
 # 1 在短的数组上二分, 不断刷选找到line1和line2的标准分割位置， 最终要找到  nums2[line2-1] < nums1[line1] 和 nums1[line1 - 1] < nums2[line2]的位置
 # 2 line1 = left， line2 = (size1 + size2 + 1) // 2 - line1  因为求的是两个数组中位数，
 # 3 判断line1和line2 的停止位置，分别在0 和len(a), 0 和len(b)的情况。
@@ -47,7 +96,7 @@ class Solution:
                 # 此时的分割线有可能是标准分割线 因此下一次查找区间[left , line1] 即当前位置要保留
                 right = line1
 
-                # 出循环后left就是标准分割线位置了
+        # 出循环后left就是标准分割线位置了
         line1 = left
         line2 = (size1 + size2 + 1) // 2 - line1
 
@@ -64,3 +113,32 @@ class Solution:
             return max(nums1LeftMax, nums2LeftMax)
         else:
             return (max(nums1LeftMax, nums2LeftMax) + min(nums1RightMin, nums2RightMin)) / 2
+
+
+# 方法1： merge两个数组，再找median
+# time O(m + n)
+# space O(m + n)
+class Solution:
+    def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
+
+        i = 0
+        j = 0
+        nums = []
+
+        while i < len(nums1) and j < len(nums2):
+            if nums1[i] < nums2[j]:
+                nums.append(nums1[i])
+                i += 1
+            else:
+                nums.append(nums2[j])
+                j += 1
+        if i < len(nums1):
+            nums += nums1[i:]
+        if j < len(nums2):
+            nums += nums2[j:]
+
+        if len(nums) % 2 != 0:
+            return nums[len(nums) // 2]
+        else:
+            return (nums[len(nums) // 2 - 1] + nums[len(nums) // 2]) / 2
+
