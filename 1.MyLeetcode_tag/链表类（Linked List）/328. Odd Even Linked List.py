@@ -1,7 +1,7 @@
 # 题意：把偶数位置的node串联在一起，放在奇数串的后边
 # 思路：
-# 建立 odd = odd_head = head 和 even = even_head = head.next
-# while loop 停止条件为 # 奇数总数时，even为none; 偶数总数时，even.next为none
+# 建立 p1 = odd_head = head 和 p2 = even_head = head.next
+# while p2 and p2.next
 # 1 -> 3 , 2-> 4 ，最后再把两串链接一起
 # Time complexity : O(n)
 # Space complexity : O(1)
@@ -16,15 +16,16 @@ class Solution:
         if not head or not head.next:
             return head
 
-        odd = odd_head = head
-        even = even_head = head.next
+        p1 = odd_head = head
+        p2 = even_head = head.next
 
-        while even and even.next:
-            odd.next = even.next
-            odd = even.next
-            even.next = odd.next
-            even = odd.next
+        while p2 and p2.next:
+            p1.next = p2.next
+            p1 = p2.next
 
-        odd.next = even_head
+            p2.next = p1.next
+            p2 = p1.next
+
+        p1.next = even_head
         return odd_head
 
