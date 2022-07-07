@@ -16,28 +16,48 @@ class Node:
 
 class Solution:
     def connect(self, root: 'Optional[Node]') -> 'Optional[Node]':
-
         if not root:
             return root
 
-        leftmost = root
+        cur = root
 
-        while leftmost.left:
-            # 遍历这层
-            head = leftmost
-            while head:
-                # CONNECTION 1
-                head.left.next = head.right
+        while cur:
+            # 每下一行的虚拟head，cur是上一行的node
+            dummy = Node(0)
+            prev = dummy
+            while cur:
+                if cur.left:
+                    prev.next = cur.left
+                    prev = prev.next
+                if cur.right:
+                    prev.next = cur.right
+                    prev = prev.next
 
-                # CONNECTION 2
-                if head.next:
-                    head.right.next = head.next.left
-
-                # 指针向后移动
-                head = head.next
-            # 去下一层的最左的节点
-            leftmost = leftmost.left
+                cur = cur.next
+            cur = dummy.next
         return root
+
+        # if not root:
+        #     return root
+        #
+        # leftmost = root
+        #
+        # while leftmost.left:
+        #     # 遍历这层
+        #     head = leftmost
+        #     while head:
+        #         # CONNECTION 1
+        #         head.left.next = head.right
+        #
+        #         # CONNECTION 2
+        #         if head.next:
+        #             head.right.next = head.next.left
+        #
+        #         # 指针向后移动
+        #         head = head.next
+        #     # 去下一层的最左的节点
+        #     leftmost = leftmost.left
+        # return root
 
 
 BFS 解法：
