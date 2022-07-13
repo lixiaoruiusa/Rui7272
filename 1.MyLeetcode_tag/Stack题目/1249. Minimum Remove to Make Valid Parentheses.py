@@ -1,30 +1,34 @@
 # 题意：删除最少的括号，使其成为valid的 Input: s = "a)b(c)d" Output: "ab(c)d"
-# 思路：用stack把左括号和index入栈，右括号检查是否pair，不pair是入栈。 最后把stack的index们放入set，把不在set的s中的值都加入结果
+# 思路：其实是找所有不valid的左右括号的位置，所以需要存index。左后remove掉不valid的括号，就是剩下好的结果。
+# 用stack把左括号和index入栈，右括号检查是否pair，不pair是入栈。 最后把stack的index们放入set，把不在set的s中的值都加入结果
 # Time O(n)
 # Space O(n)
 
 class Solution:
     def minRemoveToMakeValid(self, s: str) -> str:
 
+        if not s:
+            return s
+
         stack = []
-        for i, ch in enumerate(s):
-
+        for index, ch in enumerate(s):
             if ch == "(":
-                stack.append((i, ch))
-
+                stack.append([index, ch])
             elif ch == ")":
                 if stack and stack[-1][-1] == "(":
                     stack.pop()
                 else:
-                    stack.append((i, ch))
+                    stack.append([index, ch])
 
-        new_set = set()
+        index_memo = set()
         for i, ch in stack:
-            new_set.add(i)
+            index_memo.add(i)
+
         res = []
         for i, ch in enumerate(s):
-            if i not in new_set:
+            if i not in index_memo:
                 res.append(ch)
+
         return "".join(res)
 
 

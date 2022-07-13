@@ -6,7 +6,6 @@
 # isnumeric() 和isdigit（）都不能判断负数和小数
 """
 
-
 # Time Complexity : O(n)
 # Space Complexity : O(n)
 class Solution:
