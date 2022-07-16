@@ -19,14 +19,14 @@ def update_matrix(grid):
     visited = set()
     for i in range(len(grid)):
         for j in range(len(grid[0])):
-            if gird[i][j] == 1 and (i, j) not in visited:
+            if grid[i][j] == 1 and (i, j) not in visited:
                 visited.add((i, j))
                 dfs(grid, visited, i, j)
     return grid
 
 
 def dfs(grid, visited, i, j):
-    if not (0 <= i < len(grid) and 0 <= j < len(grid[0]) and grid[i][j] == 1)
+    if not (0 <= i < len(grid) and 0 <= j < len(grid[0]) and grid[i][j] == 1)：
         return
     grid[i][j] = 1
     visited.add((i, j))
@@ -39,7 +39,7 @@ def dfs(grid, visited, i, j):
 
 
 
-
+grid = [[1,1,1],[1,0,1],[1,1,1]]
 
 
 
