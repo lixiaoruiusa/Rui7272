@@ -78,7 +78,7 @@
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\基于图的DFS" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.undirected_graph">
+  <component name="RunManager" selected="Python.I_am_stupid">
     <configuration name="冒泡排序" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,7 +100,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="6 Get max value after remove 5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="I_am_stupid" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,11 +108,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/面经整理OA/A家/6HE" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/Microsoft" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/面经整理OA/A家/6HE/6 Get max value after remove 5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/Microsoft/I_am_stupid.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.I_am_stupid" />
         <item itemvalue="Python.undirected_graph" />
         <item itemvalue="Python.longestSubstringWithoutDuplication" />
         <item itemvalue="Python.shiftedBinarySearch" />
         <item itemvalue="Python.冒泡排序" />
-        <item itemvalue="Python.6 Get max value after remove 5" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +242,6 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="733" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1653352626276" />
-    <state x="2653" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1649296343970" />
     <state width="1899" height="198" key="GridCell.Tab.0.bottom" timestamp="1657505709680">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -292,12 +291,11 @@
     </state>
     <state x="1920" y="0" width="1550" height="880" key="dock-window-1/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1652276905302" />
     <state x="1920" y="0" width="1550" height="880" key="dock-window-1/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1652235044438" />
-    <state x="2454" y="197" width="548" height="534" key="find.popup" timestamp="1655776152162">
+    <state x="2454" y="197" width="548" height="534" key="find.popup" timestamp="1658001162091">
       <screen x="1920" y="0" width="1536" height="816" />
     </state>
     <state x="668" y="249" width="685" height="676" key="find.popup/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1651609345007" />
-    <state x="2454" y="197" width="548" height="534" key="find.popup/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1655776152162" />
-    <state x="2587" y="249" width="588" height="534" key="find.popup/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1649297856925" />
+    <state x="2454" y="197" width="548" height="534" key="find.popup/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1658001162091" />
     <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1651609323688">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>

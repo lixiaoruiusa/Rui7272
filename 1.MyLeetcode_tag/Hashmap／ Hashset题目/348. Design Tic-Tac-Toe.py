@@ -11,8 +11,8 @@ class TicTacToe:
         self.n = n      # total number
         self.row = [0 for _ in range(n)]
         self.col = [0 for _ in range(n)]
-        self.diag = 0
-        self.anti_diag = 0
+        self.diagonal = 0
+        self.anti_diagonal = 0
 
 
     def move(self, row: int, col: int, player: int) -> int:
@@ -44,6 +44,58 @@ class TicTacToe:
         return 0
 
 
+
+# Your TicTacToe object will be instantiated and called as such:
+# obj = TicTacToe(n)
+# param_1 = obj.move(row,col,player)
+
+
+"""
+Time Complexity: O(1)
+every move, we mark a particular row, column, diagonal, and anti-diagonal in constant time
+Space Complexity: O(n * n + 2n)
+"""
+class TicTacToe:
+
+    def __init__(self, n: int):
+        self.n = n
+        self.grid = [[0 for _ in range(n)] for _ in range(n)]
+
+        self.row = [0 for _ in range(n)]
+        self.col = [0 for _ in range(n)]
+        self.diagonal = 0
+        self.anti_diagonal = 0
+
+    def move(self, row: int, col: int, player: int) -> int:
+
+        if player == 1:
+            player_val = 1
+        else:
+            player_val = -1
+
+        if self.grid[row][col] != 0:
+            return "invalid"
+        self.grid[row][col] = player_val
+
+        # check if win
+        if row == col:
+            self.diagonal += player_val
+            if abs(self.diagonal) == self.n:
+                return player
+
+        if row + col == self.n - 1:
+            self.anti_diagonal += player_val
+            if abs(self.anti_diagonal) == self.n:
+                return player
+
+        self.row[row] += player_val
+        self.col[col] += player_val
+
+        if abs(self.row[row]) == self.n or abs(self.col[col]) == self.n:
+            return player
+
+        # 没胜利时return 0
+        return 0
 
 # Your TicTacToe object will be instantiated and called as such:
 # obj = TicTacToe(n)
