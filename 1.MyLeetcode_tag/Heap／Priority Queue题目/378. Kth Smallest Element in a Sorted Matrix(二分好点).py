@@ -25,12 +25,13 @@ class Solution:
                 left = mid
             else:
                 right = mid
-
+        # 停在left和right，肯定先检查左边(因为左边可能已经满足，右边更多)
         if self.get_num_less_equal(matrix, left) >= k:
             return left
         return right
 
     def get_num_less_equal(self, matrix, mid):
+        # 从第一行往下找，所以i，j 在右上角
         m = len(matrix)
         n = len(matrix[0])
         i = 0
@@ -44,19 +45,29 @@ class Solution:
                 j -= 1
         return count
 
-
-# 类似于merge多个数组的方法
-# time O(n) + klogn   上限是nlogn， n is len(matrix)
+# 二刷，方法2：
+# 这题不是往heap里放所有的，而是类似于merge多个数组的方法
+# time O(n) + klogn  n is len(matrix)
+# k 在最坏情况下是 n^2, 上限是n^2 log n
 # space O(n) for heap
 
 class Solution:
     def kthSmallest(self, matrix: List[List[int]], k: int) -> int:
-        n = len(matrix)
-        heap = [(matrix[i][0], i, 0) for i in range(n)]
-        heapq.heapify(heap)
+        if not matrix or not matrix[0]:
+            return
+
+        h = []
+        for i in range(len(matrix)):
+            h.append((matrix[i][0], i, 0))
+
+        # O(k)
+        heapq.heapify(h)
+
+        # O k(logk)
         for i in range(k):
-            res, index_of_arrays, index_of_array = heapq.heappop(heap)
-            if index_of_array == len(matrix[index_of_arrays]) - 1:
+            res, row, col = heapq.heappop(h)
+            if col == len(matrix[row]) - 1:
                 continue
-            heapq.heappush(heap, (matrix[index_of_arrays][index_of_array + 1], index_of_arrays, index_of_array + 1)) #加入这一行的下一个候选人
+            heapq.heappush(h, (matrix[row][col + 1], row, col + 1))
+
         return res
