@@ -1,3 +1,36 @@
+"""
+思路：这个题其实想明白了很简单，相向双指针算法就可以了，left, right分别指向0, n - 1，
+然后每次检测left是否认识right，是的话left++， 不是的话right --，直到停下来时候的那个数，可能是名人也可能不是。
+这时候再写一个for循环看看是不是所有人都认识他并且他谁也不认识就可以了
+"""
+# 节省call的方法，把memo[(x, y)] = True 放入字典，见下边
+
+# The knows API is already defined for you.
+# return a bool, whether a knows b
+# def knows(a: int, b: int) -> bool:
+
+class Solution:
+    def findCelebrity(self, n: int) -> int:
+
+        left = 0
+        right = n - 1
+
+        while left < right:
+            if knows(left, right):
+                left += 1
+            else:
+                right -= 1
+
+        candidate = left
+        for i in range(n):
+            if i != candidate and not knows(i, candidate):
+                return -1
+            if i != candidate and knows(candidate, i):
+                return -1
+        return candidate
+
+
+
 # 题意： 给n个人，检查里边有没有名人。名人就是只认识自己，不认识别人，看看存不存在一个这样的人
 # 思路：candidate = 0，一个loop选出candidate，一个loop检查candidate。
 # 筛选候选人: 因为这个名人不认识其他人，所以candidate = i就是潜在的名人，妙啊~~
