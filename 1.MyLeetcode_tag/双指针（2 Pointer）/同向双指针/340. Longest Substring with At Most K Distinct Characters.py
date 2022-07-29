@@ -5,7 +5,6 @@
 解释: 则 T 为 "ece"，所以长度为 3
 """
 
-
 # 思路：用sliding window，字典count元素，distinct记录unique，当distinct == k时候，打擂台结果，当distinct > k, 滑动左指针到valid位置
 #      最后要判断一下，从未达到k的情况，返回len(k)
 # Time complexity : O(N)

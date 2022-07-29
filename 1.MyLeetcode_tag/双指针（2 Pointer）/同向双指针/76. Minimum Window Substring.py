@@ -6,7 +6,7 @@ Output: "BANC"
 
 
 # 思路：sliding window的方法
-# 1 要设置一个cnt，记录达到数量的元素个数
+# 1 要设置一个cnt，记录达到数量的元素个数，也需要一个window的字典
 # 2 while cnt == len(count_t): 计算结果，左指针滑动
 # 3 同时要检查是否破坏了cnt，即 if s[left] in count_t and dic[s[left]] == count_t[s[left]] - 1
 # Time:  Time Complexity: O(n) n 是s的元素个数，最多sliding window访问2n

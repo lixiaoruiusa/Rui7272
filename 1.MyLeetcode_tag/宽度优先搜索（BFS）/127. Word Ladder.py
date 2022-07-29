@@ -1,4 +1,4 @@
-# Time Complexity: O(M^2 N), where M is the length of each word and N is the total number of words in the input word list.
+# Time Complexity: O(L^2 N), where L is the length of each word and N is the total number of words in the input word list.
 # Space Complexity:
 # O (nm) n为dict中单词个数，m为单词长度。用于bfs的队列最大需存下所有节点。
 # Visited dictionary would need a space of O(M×N) as each word is of length M.
@@ -36,6 +36,7 @@ class Solution:
         return 0
 
     def get_next_words(self, cur_word, wordList):
+        # 26 * L^2
         next_words = []
         for i in range(len(cur_word)):
             left = cur_word[:i]

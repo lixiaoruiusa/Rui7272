@@ -2,6 +2,27 @@
 # 思路：sliding window， cnt_zero的数量，while cnt_zero > 1 左指针移动，一直打擂台计算结果
 # Time complexity : O(n)
 # Space complexity : O(1)
+
+# 二刷
+class Solution:
+    def findMaxConsecutiveOnes(self, nums: List[int]) -> int:
+
+        res = 0
+
+        left = 0
+        cnt = 0
+        for right in range(len(nums)):
+            if nums[right] == 0:
+                cnt += 1
+
+            while cnt > 1:
+                if nums[left] == 0:
+                    cnt -= 1
+                left += 1
+            res = max(res, right - left + 1)
+        return res
+
+
 class Solution:
     def findMaxConsecutiveOnes(self, nums: List[int]) -> int:
 
