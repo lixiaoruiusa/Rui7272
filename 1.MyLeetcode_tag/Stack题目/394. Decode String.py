@@ -4,6 +4,11 @@
 #               3 [ 入栈append，把 (muti，res) 放入
 #               4 ] 出栈pop，factor, pre_res = stack.pop(), 把 pre_res + res * int(factor)
 #
+# eg: 3[a2[c]]
+# | 1 "c"  |
+# | 2, "a" |
+# | 3 , "" |
+# ----------
 # O(n) time | O(n) space
 class Solution:
     def decodeString(self, s: str) -> str:

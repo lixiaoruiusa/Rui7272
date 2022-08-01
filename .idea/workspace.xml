@@ -78,7 +78,28 @@
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit">
+  <component name="RunManager" selected="Python.62.约瑟夫环">
+    <configuration name="约瑟夫环" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Rui7272" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/Bloomberg" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\lirui\Desktop\GitHub\Rui7272\Company\Bloomberg\约瑟夫环.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="1201. Ugly Number III" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,27 +163,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="longestSubstringWithoutDuplication" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Rui7272" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AlgoExpert" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AlgoExpert/longestSubstringWithoutDuplication.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="undirected_graph" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -186,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.62.约瑟夫环" />
         <item itemvalue="Python.1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit" />
         <item itemvalue="Python.1201. Ugly Number III" />
         <item itemvalue="Python.I_am_stupid" />
         <item itemvalue="Python.undirected_graph" />
-        <item itemvalue="Python.longestSubstringWithoutDuplication" />
       </list>
     </recent_temporary>
   </component>
@@ -242,32 +242,32 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="733" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1653352626276" />
-    <state width="1515" height="145" key="GridCell.Tab.0.bottom" timestamp="1658375041866">
+    <state width="1515" height="145" key="GridCell.Tab.0.bottom" timestamp="1659378901382">
       <screen x="1920" y="0" width="1536" height="816" />
     </state>
     <state width="1899" height="198" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1657505709680" />
-    <state width="1515" height="145" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1658375041866" />
+    <state width="1515" height="145" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1659378901382" />
     <state width="1899" height="117" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1653416989136" />
     <state width="1899" height="117" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1653415517017" />
-    <state width="1515" height="145" key="GridCell.Tab.0.center" timestamp="1658375041866">
+    <state width="1515" height="145" key="GridCell.Tab.0.center" timestamp="1659378901382">
       <screen x="1920" y="0" width="1536" height="816" />
     </state>
     <state width="1899" height="198" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1657505709680" />
-    <state width="1515" height="145" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1658375041866" />
+    <state width="1515" height="145" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1659378901382" />
     <state width="1899" height="117" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1653416989135" />
     <state width="1899" height="117" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1653415517017" />
-    <state width="1515" height="145" key="GridCell.Tab.0.left" timestamp="1658375041866">
+    <state width="1515" height="145" key="GridCell.Tab.0.left" timestamp="1659378901382">
       <screen x="1920" y="0" width="1536" height="816" />
     </state>
     <state width="1899" height="198" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1657505709680" />
-    <state width="1515" height="145" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1658375041866" />
+    <state width="1515" height="145" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1659378901382" />
     <state width="1899" height="117" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1653416989135" />
     <state width="1899" height="117" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1653415517017" />
-    <state width="1515" height="145" key="GridCell.Tab.0.right" timestamp="1658375041866">
+    <state width="1515" height="145" key="GridCell.Tab.0.right" timestamp="1659378901382">
       <screen x="1920" y="0" width="1536" height="816" />
     </state>
     <state width="1899" height="198" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1657505709680" />
-    <state width="1515" height="145" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1658375041866" />
+    <state width="1515" height="145" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1659378901382" />
     <state width="1899" height="117" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1653416989135" />
     <state width="1899" height="117" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1653415517017" />
     <state width="1515" height="257" key="GridCell.Tab.1.bottom" timestamp="1656010153276">
