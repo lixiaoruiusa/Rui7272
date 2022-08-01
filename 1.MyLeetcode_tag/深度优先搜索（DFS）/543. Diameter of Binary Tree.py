@@ -8,20 +8,42 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
+
 class Solution:
     def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
-        self.longest = 0
-        self.dfs(root)
-        return self.longest
+        diameter = [0]
+        self.dfs(root, diameter)
+        return diameter[0]
 
-    def dfs(self, root):
-        if root is None:
+    def dfs(self, root, diameter):
+        if not root:
             return 0
 
-        left_height = self.dfs(root.left)
-        right_height = self.dfs(root.right)
-        root_height = 1 + max(left_height, right_height)
+        lh = self.dfs(root.left, diameter)
+        rh = self.dfs(root.right, diameter)
 
-        self.longest = max(self.longest, left_height + right_height)
+        cur_h = 1 + max(lh, rh)
 
-        return root_height
+        diameter[0] = max(diameter[0], lh + rh)
+
+        return cur_h
+
+
+# class Solution:
+#     def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
+#         self.longest = 0
+#         self.dfs(root)
+#         return self.longest
+#
+#     def dfs(self, root):
+#         if root is None:
+#             return 0
+#
+#         left_height = self.dfs(root.left)
+#         right_height = self.dfs(root.right)
+#         root_height = 1 + max(left_height, right_height)
+#
+#         self.longest = max(self.longest, left_height + right_height)
+#
+#         return root_height
