@@ -35,3 +35,4 @@ class Solution:
                 res = pre_res + res * int(factor)
 
         return res
+

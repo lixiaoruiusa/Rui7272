@@ -30,8 +30,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a2e2c9e-ffc9-427f-8034-3e2c7e91fd7a" name="Default Changelist" comment="2pp">
-      <change afterPath="$PROJECT_DIR$/2022NineChapter/L7 DS/双指针（2 Pointer）/相向双指针/167. Two Sum II - Input Array Is Sorted.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Rui7272.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Rui7272.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.MyLeetcode_tag/Stack题目/394. Decode String.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.MyLeetcode_tag/Stack题目/394. Decode String.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Company/Coinbase/588. Design In-Memory File System.py" beforeDir="false" afterPath="$PROJECT_DIR$/Company/Coinbase/588. Design In-Memory File System.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Company/goldmansachs/bq" beforeDir="false" afterPath="$PROJECT_DIR$/Company/Bloomberg/BFS 01矩阵 找路径.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +56,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1mFcGjWR07TrbFyCTgIN4SwZd4T" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -71,14 +78,14 @@
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\基于图的DFS" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Company/Bloomberg" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\1.MyLeetcode_tag\Queue题目" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\Company\面经整理OA\A家\6HE" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\1.MyLeetcode_tag\Stack题目" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\Company\JP" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.62.约瑟夫环">
+  <component name="RunManager" selected="Python.1201. Ugly Number III">
     <configuration name="约瑟夫环" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -186,7 +193,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.62.约瑟夫环" />
         <item itemvalue="Python.1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit" />
         <item itemvalue="Python.1201. Ugly Number III" />
         <item itemvalue="Python.I_am_stupid" />
@@ -227,79 +233,10 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2pp" />
     <option name="LAST_COMMIT_MESSAGE" value="2pp" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="586" y="194" key="#Inspections" timestamp="1652205836973">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="586" y="194" key="#Inspections/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1652205836973" />
-    <state x="733" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1653352626276">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="733" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1653352626276" />
-    <state width="1515" height="145" key="GridCell.Tab.0.bottom" timestamp="1659378901382">
-      <screen x="1920" y="0" width="1536" height="816" />
-    </state>
-    <state width="1899" height="198" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1657505709680" />
-    <state width="1515" height="145" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1659378901382" />
-    <state width="1899" height="117" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1653416989136" />
-    <state width="1899" height="117" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1653415517017" />
-    <state width="1515" height="145" key="GridCell.Tab.0.center" timestamp="1659378901382">
-      <screen x="1920" y="0" width="1536" height="816" />
-    </state>
-    <state width="1899" height="198" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1657505709680" />
-    <state width="1515" height="145" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1659378901382" />
-    <state width="1899" height="117" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1653416989135" />
-    <state width="1899" height="117" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1653415517017" />
-    <state width="1515" height="145" key="GridCell.Tab.0.left" timestamp="1659378901382">
-      <screen x="1920" y="0" width="1536" height="816" />
-    </state>
-    <state width="1899" height="198" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1657505709680" />
-    <state width="1515" height="145" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1659378901382" />
-    <state width="1899" height="117" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1653416989135" />
-    <state width="1899" height="117" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1653415517017" />
-    <state width="1515" height="145" key="GridCell.Tab.0.right" timestamp="1659378901382">
-      <screen x="1920" y="0" width="1536" height="816" />
-    </state>
-    <state width="1899" height="198" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1657505709680" />
-    <state width="1515" height="145" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1659378901382" />
-    <state width="1899" height="117" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1653416989135" />
-    <state width="1899" height="117" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1653415517017" />
-    <state width="1515" height="257" key="GridCell.Tab.1.bottom" timestamp="1656010153276">
-      <screen x="1920" y="0" width="1536" height="816" />
-    </state>
-    <state width="1515" height="257" key="GridCell.Tab.1.bottom/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1656010153276" />
-    <state width="1515" height="257" key="GridCell.Tab.1.center" timestamp="1656010153276">
-      <screen x="1920" y="0" width="1536" height="816" />
-    </state>
-    <state width="1515" height="257" key="GridCell.Tab.1.center/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1656010153276" />
-    <state width="1515" height="257" key="GridCell.Tab.1.left" timestamp="1656010153276">
-      <screen x="1920" y="0" width="1536" height="816" />
-    </state>
-    <state width="1515" height="257" key="GridCell.Tab.1.left/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1656010153276" />
-    <state width="1515" height="257" key="GridCell.Tab.1.right" timestamp="1656010153276">
-      <screen x="1920" y="0" width="1536" height="816" />
-    </state>
-    <state width="1515" height="257" key="GridCell.Tab.1.right/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1656010153276" />
-    <state x="1920" y="0" width="1550" height="880" key="dock-window-1" timestamp="1652276905302">
-      <screen x="1920" y="0" width="1536" height="816" />
-    </state>
-    <state x="1920" y="0" width="1550" height="880" key="dock-window-1/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1652276905302" />
-    <state x="1920" y="0" width="1550" height="880" key="dock-window-1/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1652235044438" />
-    <state x="2454" y="197" width="548" height="534" key="find.popup" timestamp="1658513369834">
-      <screen x="1920" y="0" width="1536" height="816" />
-    </state>
-    <state x="668" y="249" width="685" height="676" key="find.popup/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1651609345007" />
-    <state x="2454" y="197" width="548" height="534" key="find.popup/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1658513369834" />
-    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1651609323688">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1651609323688" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

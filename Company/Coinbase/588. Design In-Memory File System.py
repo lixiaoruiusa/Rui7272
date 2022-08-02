@@ -125,7 +125,7 @@ content_filePath = file_sys.readContentFromFile(filePath)
 # deleteFolder(path:string)
 # traverseRoot() lists all folders and subfolders from root folder.
 # create和delete需要验证路径是否有效，所有操作都是文件夹，没有文件。
-# follow up 1： traverse‍‍‌‍‌‌‍‍‌‍‌‍‌‌‍‍‍‌‌‍ 输出的结果要按照字典序
+# follow up 1： traverse‍输出的结果要按照字典序
 # follow up 2： 现实中实现这个类似的file system，需要考虑那些scalability和reliability的问题
 
 

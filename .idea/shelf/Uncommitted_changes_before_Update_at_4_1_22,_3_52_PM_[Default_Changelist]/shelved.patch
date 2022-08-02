@@ -1,0 +1,166 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AnalysisUIOptions\">\n    <option name=\"SCOPE_TYPE\" value=\"3\" />\n  </component>\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"BRANCH:origin/workingbranch\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </select>\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"7a2e2c9e-ffc9-427f-8034-3e2c7e91fd7a\" name=\"Default Changelist\" comment=\"2pp\">\n      <change afterPath=\"$PROJECT_DIR$/2022NineChapter/L7 DS/双指针（2 Pointer）/相向双指针/167. Two Sum II - Input Array Is Sorted.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Python Script\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1mFcGjWR07TrbFyCTgIN4SwZd4T\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/Company/goldmansachs\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"C:\\Users\\lirui\\Desktop\\GitHub\\Rui7272\\2022NineChapter\\L7 DS\\扫描线算法（Sweep Line）\" />\n      <recent name=\"C:\\Users\\lirui\\Desktop\\GitHub\\Rui7272\\Company\" />\n      <recent name=\"C:\\Users\\lirui\\Desktop\\GitHub\\Rui7272\\2022NineChapter\\L7 DS\\深度优先搜索（DFS）\" />\n      <recent name=\"C:\\Users\\lirui\\Desktop\\GitHub\\Rui7272\\2022NineChapter\\L7 DS\\并查集(to do)\" />\n      <recent name=\"C:\\Users\\lirui\\Desktop\\GitHub\\Rui7272\" />\n    </key>\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"C:\\Users\\lirui\\Desktop\\GitHub\\Rui7272\\Company\\goldmansachs\" />\n      <recent name=\"C:\\Users\\lirui\\Desktop\\GitHub\\Rui7272\\2022NineChapter\\L7 DS\\扫描线算法（Sweep Line）\" />\n      <recent name=\"C:\\Users\\lirui\\Desktop\\GitHub\\Rui7272\\2022NineChapter\\L7 DS\\宽度优先搜索（BFS）\" />\n      <recent name=\"C:\\Users\\lirui\\Desktop\\GitHub\\Rui7272\\2022NineChapter\\L7 DS\\Hashmap／ Hashset题目\" />\n      <recent name=\"C:\\Users\\lirui\\Desktop\\GitHub\\Rui7272\\2022 OOD\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Python.Kth smallest and Largest Element in an Array(堆)\">\n    <configuration name=\"平均分\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"Rui7272\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Company/goldmansachs\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Company/goldmansachs/平均分.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"反转字符串\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"Rui7272\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Company/goldmansachs\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Company/goldmansachs/反转字符串.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"326. Power of Three\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"Rui7272\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Company/goldmansachs\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Company/goldmansachs/326. Power of Three.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"Kth smallest and Largest Element in an Array(堆)\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"Rui7272\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Company/goldmansachs\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"C:\\Users\\lirui\\Desktop\\GitHub\\Rui7272\\Company\\goldmansachs\\Kth smallest and Largest Element in an Array(堆).py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"test\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"Rui7272\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/test.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Python.Kth smallest and Largest Element in an Array(堆)\" />\n        <item itemvalue=\"Python.326. Power of Three\" />\n        <item itemvalue=\"Python.反转字符串\" />\n        <item itemvalue=\"Python.平均分\" />\n        <item itemvalue=\"Python.test\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"7a2e2c9e-ffc9-427f-8034-3e2c7e91fd7a\" name=\"Default Changelist\" comment=\"\" />\n      <created>1609092685322</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1609092685322</updated>\n    </task>\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State>\n              <option name=\"FILTERS\">\n                <map>\n                  <entry key=\"branch\">\n                    <value>\n                      <list>\n                        <option value=\"origin/workingbranch\" />\n                      </list>\n                    </value>\n                  </entry>\n                </map>\n              </option>\n            </State>\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"2pp\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"2pp\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"733\" y=\"318\" key=\"#com.intellij.fileTypes.FileTypeChooser\" timestamp=\"1647581675069\">\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1032\" />\n    </state>\n    <state x=\"733\" y=\"318\" key=\"#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1032@0.0.1920.1032\" timestamp=\"1647581675069\" />\n    <state x=\"803\" y=\"406\" key=\"#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog\" timestamp=\"1644713764808\">\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1032\" />\n    </state>\n    <state x=\"803\" y=\"406\" key=\"#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1920.1032@0.0.1920.1032\" timestamp=\"1644713764808\" />\n    <state x=\"739\" y=\"271\" key=\"FileChooserDialogImpl\" timestamp=\"1647290403992\">\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1032\" />\n    </state>\n    <state x=\"739\" y=\"271\" key=\"FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032\" timestamp=\"1647290403992\" />\n    <state width=\"1899\" height=\"169\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1647585738332\">\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1032\" />\n    </state>\n    <state width=\"1515\" height=\"111\" key=\"GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816\" timestamp=\"1642574430673\" />\n    <state width=\"1899\" height=\"169\" key=\"GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032\" timestamp=\"1647585738332\" />\n    <state width=\"1899\" height=\"169\" key=\"GridCell.Tab.0.center\" timestamp=\"1647585738332\">\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1032\" />\n    </state>\n    <state width=\"1515\" height=\"111\" key=\"GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816\" timestamp=\"1642574430672\" />\n    <state width=\"1899\" height=\"169\" key=\"GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032\" timestamp=\"1647585738332\" />\n    <state width=\"1899\" height=\"169\" key=\"GridCell.Tab.0.left\" timestamp=\"1647585738332\">\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1032\" />\n    </state>\n    <state width=\"1515\" height=\"111\" key=\"GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816\" timestamp=\"1642574430672\" />\n    <state width=\"1899\" height=\"169\" key=\"GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032\" timestamp=\"1647585738332\" />\n    <state width=\"1899\" height=\"169\" key=\"GridCell.Tab.0.right\" timestamp=\"1647585738332\">\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1032\" />\n    </state>\n    <state width=\"1515\" height=\"111\" key=\"GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816\" timestamp=\"1642574430672\" />\n    <state width=\"1899\" height=\"169\" key=\"GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032\" timestamp=\"1647585738332\" />\n    <state width=\"1899\" height=\"344\" key=\"GridCell.Tab.1.bottom\" timestamp=\"1644114876540\">\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1032\" />\n    </state>\n    <state width=\"1899\" height=\"344\" key=\"GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032\" timestamp=\"1644114876540\" />\n    <state width=\"1899\" height=\"344\" key=\"GridCell.Tab.1.center\" timestamp=\"1644114876540\">\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1032\" />\n    </state>\n    <state width=\"1899\" height=\"344\" key=\"GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032\" timestamp=\"1644114876540\" />\n    <state width=\"1899\" height=\"344\" key=\"GridCell.Tab.1.left\" timestamp=\"1644114876540\">\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1032\" />\n    </state>\n    <state width=\"1899\" height=\"344\" key=\"GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032\" timestamp=\"1644114876540\" />\n    <state width=\"1899\" height=\"344\" key=\"GridCell.Tab.1.right\" timestamp=\"1644114876540\">\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1032\" />\n    </state>\n    <state width=\"1899\" height=\"344\" key=\"GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032\" timestamp=\"1644114876540\" />\n    <state x=\"715\" y=\"218\" key=\"RollbackChangesDialog\" timestamp=\"1646451702373\">\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1032\" />\n    </state>\n    <state x=\"715\" y=\"218\" key=\"RollbackChangesDialog/0.0.1920.1032@0.0.1920.1032\" timestamp=\"1646451702373\" />\n    <state x=\"461\" y=\"161\" key=\"SettingsEditor\" timestamp=\"1647120113732\">\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1032\" />\n    </state>\n    <state x=\"461\" y=\"161\" key=\"SettingsEditor/0.0.1920.1032@0.0.1920.1032\" timestamp=\"1647120113732\" />\n    <state x=\"274\" y=\"46\" width=\"849\" height=\"592\" maximized=\"true\" key=\"dock-window-1\" timestamp=\"1643330224008\">\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1032\" />\n    </state>\n    <state x=\"274\" y=\"46\" width=\"849\" height=\"592\" maximized=\"true\" key=\"dock-window-1/0.0.1920.1032@0.0.1920.1032\" timestamp=\"1643330224008\" />\n    <state x=\"667\" y=\"249\" width=\"585\" height=\"534\" key=\"find.popup\" timestamp=\"1647393584324\">\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1032\" />\n    </state>\n    <state x=\"667\" y=\"249\" width=\"585\" height=\"534\" key=\"find.popup/0.0.1920.1032@0.0.1920.1032\" timestamp=\"1647393584324\" />\n    <state x=\"623\" y=\"223\" width=\"672\" height=\"678\" key=\"search.everywhere.popup\" timestamp=\"1646697357102\">\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1032\" />\n    </state>\n    <state x=\"623\" y=\"223\" width=\"672\" height=\"678\" key=\"search.everywhere.popup/0.0.1920.1032@0.0.1920.1032\" timestamp=\"1646697357102\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -30,8 +30,10 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="7a2e2c9e-ffc9-427f-8034-3e2c7e91fd7a" name="Default Changelist" comment="2pp">
+-      <change afterPath="$PROJECT_DIR$/2022NineChapter/L7 DS/双指针（2 Pointer）/相向双指针/167. Two Sum II - Input Array Is Sorted.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/Rui7272.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Rui7272.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Company/goldmansachs/bq" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -100,7 +102,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="反转字符串" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration name="326. Power of Three" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="Rui7272" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -112,7 +114,7 @@
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/goldmansachs/反转字符串.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/goldmansachs/326. Power of Three.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -121,7 +123,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="326. Power of Three" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration name="Kth smallest and Largest Element in an Array(堆)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="Rui7272" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -133,7 +135,7 @@
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/goldmansachs/326. Power of Three.py" />
++      <option name="SCRIPT_NAME" value="C:\Users\lirui\Desktop\GitHub\Rui7272\Company\goldmansachs\Kth smallest and Largest Element in an Array(堆).py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -142,7 +144,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="Kth smallest and Largest Element in an Array(堆)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration name="反转字符串" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="Rui7272" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -154,7 +156,7 @@
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="C:\Users\lirui\Desktop\GitHub\Rui7272\Company\goldmansachs\Kth smallest and Largest Element in an Array(堆).py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/goldmansachs/反转字符串.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -188,7 +190,6 @@
+       <list>
+         <item itemvalue="Python.Kth smallest and Largest Element in an Array(堆)" />
+         <item itemvalue="Python.326. Power of Three" />
+-        <item itemvalue="Python.反转字符串" />
+         <item itemvalue="Python.平均分" />
+         <item itemvalue="Python.test" />
+       </list>
+@@ -227,80 +228,9 @@
+         </entry>
+       </map>
+     </option>
+-    <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="2pp" />
+     <option name="LAST_COMMIT_MESSAGE" value="2pp" />
+   </component>
+-  <component name="WindowStateProjectService">
+-    <state x="733" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1647581675069">
+-      <screen x="0" y="0" width="1920" height="1032" />
+-    </state>
+-    <state x="733" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1647581675069" />
+-    <state x="803" y="406" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1644713764808">
+-      <screen x="0" y="0" width="1920" height="1032" />
+-    </state>
+-    <state x="803" y="406" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1644713764808" />
+-    <state x="739" y="271" key="FileChooserDialogImpl" timestamp="1647290403992">
+-      <screen x="0" y="0" width="1920" height="1032" />
+-    </state>
+-    <state x="739" y="271" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1647290403992" />
+-    <state width="1899" height="169" key="GridCell.Tab.0.bottom" timestamp="1647585738332">
+-      <screen x="0" y="0" width="1920" height="1032" />
+-    </state>
+-    <state width="1515" height="111" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1642574430673" />
+-    <state width="1899" height="169" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1647585738332" />
+-    <state width="1899" height="169" key="GridCell.Tab.0.center" timestamp="1647585738332">
+-      <screen x="0" y="0" width="1920" height="1032" />
+-    </state>
+-    <state width="1515" height="111" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1642574430672" />
+-    <state width="1899" height="169" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1647585738332" />
+-    <state width="1899" height="169" key="GridCell.Tab.0.left" timestamp="1647585738332">
+-      <screen x="0" y="0" width="1920" height="1032" />
+-    </state>
+-    <state width="1515" height="111" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1642574430672" />
+-    <state width="1899" height="169" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1647585738332" />
+-    <state width="1899" height="169" key="GridCell.Tab.0.right" timestamp="1647585738332">
+-      <screen x="0" y="0" width="1920" height="1032" />
+-    </state>
+-    <state width="1515" height="111" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1642574430672" />
+-    <state width="1899" height="169" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1647585738332" />
+-    <state width="1899" height="344" key="GridCell.Tab.1.bottom" timestamp="1644114876540">
+-      <screen x="0" y="0" width="1920" height="1032" />
+-    </state>
+-    <state width="1899" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1644114876540" />
+-    <state width="1899" height="344" key="GridCell.Tab.1.center" timestamp="1644114876540">
+-      <screen x="0" y="0" width="1920" height="1032" />
+-    </state>
+-    <state width="1899" height="344" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1644114876540" />
+-    <state width="1899" height="344" key="GridCell.Tab.1.left" timestamp="1644114876540">
+-      <screen x="0" y="0" width="1920" height="1032" />
+-    </state>
+-    <state width="1899" height="344" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1644114876540" />
+-    <state width="1899" height="344" key="GridCell.Tab.1.right" timestamp="1644114876540">
+-      <screen x="0" y="0" width="1920" height="1032" />
+-    </state>
+-    <state width="1899" height="344" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1644114876540" />
+-    <state x="715" y="218" key="RollbackChangesDialog" timestamp="1646451702373">
+-      <screen x="0" y="0" width="1920" height="1032" />
+-    </state>
+-    <state x="715" y="218" key="RollbackChangesDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1646451702373" />
+-    <state x="461" y="161" key="SettingsEditor" timestamp="1647120113732">
+-      <screen x="0" y="0" width="1920" height="1032" />
+-    </state>
+-    <state x="461" y="161" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1647120113732" />
+-    <state x="274" y="46" width="849" height="592" maximized="true" key="dock-window-1" timestamp="1643330224008">
+-      <screen x="0" y="0" width="1920" height="1032" />
+-    </state>
+-    <state x="274" y="46" width="849" height="592" maximized="true" key="dock-window-1/0.0.1920.1032@0.0.1920.1032" timestamp="1643330224008" />
+-    <state x="667" y="249" width="585" height="534" key="find.popup" timestamp="1647393584324">
+-      <screen x="0" y="0" width="1920" height="1032" />
+-    </state>
+-    <state x="667" y="249" width="585" height="534" key="find.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1647393584324" />
+-    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1646697357102">
+-      <screen x="0" y="0" width="1920" height="1032" />
+-    </state>
+-    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1646697357102" />
+-  </component>
+ </project>
+\ No newline at end of file
