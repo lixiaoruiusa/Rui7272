@@ -1,4 +1,3 @@
-
 """
 # 题意： 类似于实现一个set，有"insert", "remove", "insert", "getRandom"，要求O(1)
 # 思路：  val_index_dic = {} 记录val在array中的index
@@ -7,38 +6,78 @@
 #        getRandom: random.randint(0, len(self.array) - 1)
 """
 
-import random
+
 class RandomizedSet:
 
     def __init__(self):
-        self.val_index_dic = {}
-        self.array = []
+        self.nums = []  # to save number
+        self.dic = {}  # {num:index in nums}
 
     def insert(self, val: int) -> bool:
-        if val not in self.val_index_dic:
-            self.array.append(val)
-            self.val_index_dic[val] = self.array.index(val)
-            return True
-        return False
-
-    def remove(self, val: int) -> bool:
-        if val not in self.val_index_dic:
+        if val in self.dic:
             return False
 
-        if self.val_index_dic[val] != len(self.array) - 1:
-            new_index = self.val_index_dic[val]
-            new_num = self.array.pop()
-            self.array[new_index] = new_num
-            del self.val_index_dic[val]
-            self.val_index_dic[new_num] = new_index
+        self.nums.append(val)
+        # get index is O(1)
+        self.dic[val] = self.nums.index(val)
+        return True
+
+    def remove(self, val: int) -> bool:
+        if val not in self.dic:
+            return False
+
+        if self.dic[val] != len(self.nums) - 1:
+            new_index = self.dic[val]
+            new_number = self.nums.pop()
+
+            self.nums[new_index] = new_number
+            self.dic[new_number] = new_index
+            del self.dic[val]
+
         else:
-            self.array.pop()
-            del self.val_index_dic[val]
+            self.nums.pop()
+            del self.dic[val]
         return True
 
     def getRandom(self) -> int:
-        a = random.randint(0, len(self.array) - 1)
-        return self.array[a]
+        if not self.nums:
+            return False
+
+        i = random.randint(0, len(self.nums) - 1)  # both included
+        return self.nums[i]
+
+# import random
+# class RandomizedSet:
+#
+#     def __init__(self):
+#         self.val_index_dic = {}
+#         self.array = []
+#
+#     def insert(self, val: int) -> bool:
+#         if val not in self.val_index_dic:
+#             self.array.append(val)
+#             self.val_index_dic[val] = self.array.index(val)
+#             return True
+#         return False
+#
+#     def remove(self, val: int) -> bool:
+#         if val not in self.val_index_dic:
+#             return False
+#
+#         if self.val_index_dic[val] != len(self.array) - 1:
+#             new_index = self.val_index_dic[val]
+#             new_num = self.array.pop()
+#             self.array[new_index] = new_num
+#             del self.val_index_dic[val]
+#             self.val_index_dic[new_num] = new_index
+#         else:
+#             self.array.pop()
+#             del self.val_index_dic[val]
+#         return True
+#
+#     def getRandom(self) -> int:
+#         a = random.randint(0, len(self.array) - 1)
+#         return self.array[a]
 
 # Your RandomizedSet object will be instantiated and called as such:
 # obj = RandomizedSet()

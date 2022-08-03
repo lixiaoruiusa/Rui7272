@@ -70,13 +70,6 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\Company\面经整理OA\A家\6HE" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\Company\Coinbase" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\1.MyLeetcode_tag\基于排列组合的DFS" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\1.MyLeetcode_tag\基于图的DFS" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\基于图的DFS" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Company/Bloomberg" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\1.MyLeetcode_tag\Queue题目" />
@@ -84,9 +77,16 @@
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\1.MyLeetcode_tag\Stack题目" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\Company\JP" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\Company\面经整理OA\A家\6HE" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\Company\Coinbase" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\1.MyLeetcode_tag\基于排列组合的DFS" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\1.MyLeetcode_tag\基于图的DFS" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\2022NineChapter\L7 DS\基于图的DFS" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.1201. Ugly Number III">
-    <configuration name="约瑟夫环" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.BFS 01矩阵 找路径">
+    <configuration name="找频率最高的数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,28 +98,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\lirui\Desktop\GitHub\Rui7272\Company\Bloomberg\约瑟夫环.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1201. Ugly Number III" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Rui7272" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.MyLeetcode_tag/Heap／Priority Queue题目" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\lirui\Desktop\GitHub\Rui7272\1.MyLeetcode_tag\Heap／Priority Queue题目\1201. Ugly Number III.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\lirui\Desktop\GitHub\Rui7272\Company\Bloomberg\找频率最高的数.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="I_am_stupid" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="最深括号" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,11 +136,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/Microsoft" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/Bloomberg" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/Microsoft/I_am_stupid.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/Bloomberg/最深括号.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,7 +149,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="undirected_graph" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="236 Lowest Common Ancestor of a Binary Tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -178,11 +157,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/Microsoft/621面试" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.MyLeetcode_tag/深度优先搜索（DFS）" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/Microsoft/621面试/undirected_graph.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.MyLeetcode_tag/深度优先搜索（DFS）/236 Lowest Common Ancestor of a Binary Tree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BFS 01矩阵 找路径" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Rui7272" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/Bloomberg" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/Bloomberg/BFS 01矩阵 找路径.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,10 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.BFS 01矩阵 找路径" />
+        <item itemvalue="Python.最深括号" />
+        <item itemvalue="Python.找频率最高的数" />
+        <item itemvalue="Python.236 Lowest Common Ancestor of a Binary Tree" />
         <item itemvalue="Python.1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit" />
-        <item itemvalue="Python.1201. Ugly Number III" />
-        <item itemvalue="Python.I_am_stupid" />
-        <item itemvalue="Python.undirected_graph" />
       </list>
     </recent_temporary>
   </component>
@@ -238,6 +239,36 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2pp" />
     <option name="LAST_COMMIT_MESSAGE" value="2pp" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="721" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1659491791828">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="721" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1659491791828" />
+    <state width="1899" height="197" key="GridCell.Tab.0.bottom" timestamp="1659503992969">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="197" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1659503992969" />
+    <state width="1899" height="197" key="GridCell.Tab.0.center" timestamp="1659503992969">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="197" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1659503992969" />
+    <state width="1899" height="197" key="GridCell.Tab.0.left" timestamp="1659503992969">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="197" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1659503992969" />
+    <state width="1899" height="197" key="GridCell.Tab.0.right" timestamp="1659503992969">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1899" height="197" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1659503992969" />
+    <state x="667" y="249" width="598" height="534" key="find.popup" timestamp="1659499511816">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="667" y="249" width="598" height="534" key="find.popup/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1659499511816" />
+    <state x="623" y="223" key="search.everywhere.popup" timestamp="1659499500935">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="623" y="223" key="search.everywhere.popup/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1659499500935" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

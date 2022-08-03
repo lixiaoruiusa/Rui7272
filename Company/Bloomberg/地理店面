@@ -1,0 +1,29 @@
+198. House Robber
+
+[
+['c',.,.,.,]['r',.,'r',.'o']]
+['r',.,.,]
+[.,.,.,.]
+]
+
+input: 2d array, k
+在一个2d array 里面 给你 K gas
+找到车 然后看一下能不能 开到 ‍‍‌‍‌‌‍‍‌‍‌‍‌‌‍‍‍‌‌‍O
+用dfs 就好
+求米 看面经
+
+第一题：衣铒四舅 1249 第二题：而思洱 242
+
+
+刷题网 242 394
+刷题网 212
+刷题网 253 117
+Subsets 输入都是字母
+leetcode 380 乐透
+
+然后刷题网113 437
+
+蠡口要二丝丝的变体
+200， 649
+
+https://leetcode.com/discuss/interview-question/964672/bloomberg-software-engineering-prepration-list
