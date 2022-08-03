@@ -9,7 +9,13 @@ class Node:
 """
 
 """
-思路：利用 previously next指针，有两种情况: 4和5在同一个父节点2上； 5和6不在同一个父节点，但在上层父节点的下一个上
+题意：一个完美二叉树BT，所有的node都往右边指，最右边的指向Null
+思路：利用 previously next指针，
+有两种情况: 
+4和5在同一个父节点2上； 
+5和6不在同一个父节点，但在上层父节点的下一个上
+
+思路2：BFS每次node。next指向q[0]
 时间复杂度：O(N)，每个节点只访问一次。
 空间复杂度：O(1)，不需要存储额外的节点。
 """
@@ -25,6 +31,7 @@ class Solution:
             # 每下一行的虚拟head，cur是上一行的node
             dummy = Node(0)
             prev = dummy
+            # 每次搞的是下一层
             while cur:
                 if cur.left:
                     prev.next = cur.left
@@ -34,36 +41,16 @@ class Solution:
                     prev = prev.next
 
                 cur = cur.next
+            # 当本行都处理完了， 正好换到下一行的头
             cur = dummy.next
         return root
 
-        # if not root:
-        #     return root
-        #
-        # leftmost = root
-        #
-        # while leftmost.left:
-        #     # 遍历这层
-        #     head = leftmost
-        #     while head:
-        #         # CONNECTION 1
-        #         head.left.next = head.right
-        #
-        #         # CONNECTION 2
-        #         if head.next:
-        #             head.right.next = head.next.left
-        #
-        #         # 指针向后移动
-        #         head = head.next
-        #     # 去下一层的最左的节点
-        #     leftmost = leftmost.left
-        # return root
 
-
+"""
 BFS 解法：
 Time O(N)
 Space： O(N) 因为完全二叉树最后一层为 N/2 所以近似于N
-"""
+
 class Solution:
     def connect(self, root: 'Node') -> 'Node':
     
@@ -77,6 +64,7 @@ class Solution:
             size = len(q) 
             for i in range(len(q)):
                 node = q.popleft()
+                # 正好每次指向q[0],是本层下一个node
                 if i < size - 1:
                     node.next = q[0]
                 else:

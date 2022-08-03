@@ -6,7 +6,13 @@
 其中 k是words长度，l是最长单词的长度。用于存储前缀树
 """
 
+"""
+root
+{c1: TrieNode(),   c2, c3}
+      {cc1: TrieNode()}
 
+
+"""
 class TrieNode:
     def __init__(self):
         self.children = {}
@@ -43,7 +49,7 @@ class Solution:
         return results
 
     def dfs(self, board, root, i, j, visited, results):
-
+        # 当dfs到是一个word，而且不在results里时，加入结果。
         if root.word != "" and root.word not in results:
             results.append(root.word)
 
