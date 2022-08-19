@@ -1,3 +1,8 @@
+"""
+Time complexity:  O(N×2^N)
+Space complexity: O(N) for recersive
+"""
+# 先sort
 class Solution:
     """
     @param nums: A set of numbers.
