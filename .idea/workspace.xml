@@ -85,7 +85,7 @@
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\Company\JP" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.41. First Missing Positive">
+  <component name="RunManager" selected="Python.342. Power of Four">
     <configuration name="乘2除3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,6 +99,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/Bloomberg/乘2除3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="342. Power of Four" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Rui7272" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.MyLeetcode_tag/1我爱数学题" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.MyLeetcode_tag/1我爱数学题/342. Power of Four.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,7 +170,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="78 Subsets " type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="testfw" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rui7272" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,32 +178,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.MyLeetcode_tag/基于排列组合的DFS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.MyLeetcode_tag/基于排列组合的DFS/78 Subsets .py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="子集abc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Rui7272" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Company/Bloomberg" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Company/Bloomberg/子集abc.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testfw.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.342. Power of Four" />
+        <item itemvalue="Python.testfw" />
         <item itemvalue="Python.41. First Missing Positive" />
         <item itemvalue="Python.536. Construct Binary Tree from String" />
         <item itemvalue="Python.乘2除3" />
-        <item itemvalue="Python.78 Subsets " />
-        <item itemvalue="Python.子集abc" />
       </list>
     </recent_temporary>
   </component>
@@ -245,25 +245,25 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="721" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1659491791828" />
-    <state width="1515" height="143" key="GridCell.Tab.0.bottom" timestamp="1660765019720">
-      <screen x="1920" y="0" width="1536" height="816" />
+    <state width="1498" height="141" key="GridCell.Tab.0.bottom" timestamp="1660938108467">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1899" height="195" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1660340577046" />
+    <state width="1498" height="141" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1660938108467" />
     <state width="1515" height="143" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1660765019720" />
-    <state width="1515" height="143" key="GridCell.Tab.0.center" timestamp="1660765019720">
-      <screen x="1920" y="0" width="1536" height="816" />
+    <state width="1498" height="141" key="GridCell.Tab.0.center" timestamp="1660938108467">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1899" height="195" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1660340577046" />
+    <state width="1498" height="141" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1660938108467" />
     <state width="1515" height="143" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1660765019720" />
-    <state width="1515" height="143" key="GridCell.Tab.0.left" timestamp="1660765019720">
-      <screen x="1920" y="0" width="1536" height="816" />
+    <state width="1498" height="141" key="GridCell.Tab.0.left" timestamp="1660938108467">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1899" height="195" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1660340577046" />
+    <state width="1498" height="141" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1660938108467" />
     <state width="1515" height="143" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1660765019720" />
-    <state width="1515" height="143" key="GridCell.Tab.0.right" timestamp="1660765019720">
-      <screen x="1920" y="0" width="1536" height="816" />
+    <state width="1498" height="141" key="GridCell.Tab.0.right" timestamp="1660938108467">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1899" height="195" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1660340577046" />
+    <state width="1498" height="141" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1660938108467" />
     <state width="1515" height="143" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1660765019720" />
     <state x="2454" y="197" width="549" height="534" key="find.popup" timestamp="1659538011929">
       <screen x="1920" y="0" width="1536" height="816" />
