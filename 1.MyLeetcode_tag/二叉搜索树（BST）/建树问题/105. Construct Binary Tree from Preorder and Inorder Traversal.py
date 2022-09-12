@@ -10,6 +10,8 @@ right: preorder[mid+1:], inorder[mid+1:]  右子树有[mid+1：]的元素数量
 
 # Time complexity : O(N)
 # Space complexity : O(N)
+"""
+
 
 # Definition for a binary tree node.
 # class TreeNode:

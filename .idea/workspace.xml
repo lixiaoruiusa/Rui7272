@@ -70,19 +70,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\1.MyLeetcode_tag\二叉搜索树（BST）\建树问题" />
+      <recent name="$PROJECT_DIR$/Company/Bloomberg" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\1.MyLeetcode_tag\Queue题目" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\Company\面经整理OA\A家\6HE" />
+      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\1.MyLeetcode_tag\Stack题目" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\Company\Bloomberg" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\Company\面经整理OA\A家\6HE" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\Company\Coinbase" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\1.MyLeetcode_tag\基于排列组合的DFS" />
       <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\1.MyLeetcode_tag\基于图的DFS" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Company/Bloomberg" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\1.MyLeetcode_tag\Queue题目" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\Company\面经整理OA\A家\6HE" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\1.MyLeetcode_tag\Stack题目" />
-      <recent name="C:\Users\lirui\Desktop\GitHub\Rui7272\Company\JP" />
     </key>
   </component>
   <component name="RunManager" selected="Python.342. Power of Four">
@@ -265,10 +265,10 @@
     </state>
     <state width="1498" height="141" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1660938108467" />
     <state width="1515" height="143" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1660765019720" />
-    <state x="2454" y="197" width="549" height="534" key="find.popup" timestamp="1659538011929">
-      <screen x="1920" y="0" width="1536" height="816" />
+    <state x="667" y="249" width="598" height="534" key="find.popup" timestamp="1661310454401">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="667" y="249" width="598" height="534" key="find.popup/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1659499511816" />
+    <state x="667" y="249" width="598" height="534" key="find.popup/0.0.1920.1032/1920.0.1536.816@0.0.1920.1032" timestamp="1661310454401" />
     <state x="2454" y="197" width="549" height="534" key="find.popup/0.0.1920.1032/1920.0.1536.816@1920.0.1536.816" timestamp="1659538011929" />
     <state x="2418" y="176" width="672" height="678" key="search.everywhere.popup" timestamp="1660764257077">
       <screen x="1920" y="0" width="1536" height="816" />
