@@ -1,0 +1,49 @@
+Leetcode 28
+Leetcode 241
+
+
+https://www.1point3acres.com/bbs/thread-792448-1-1.html
+https://www.1point3acres.com/bbs/thread-890611-1-1.html
+https://www.1point3acres.com/bbs/thread-886414-1-1.html
+
+经典文件系统。
+地里和刷题网的最优答案是trie。我在面的时候说可以hashmap，也可以trie，然后和面试官讨论了一下两种方法各自的优劣。
+还有说了一下极端情况下，trie可能不是那么快。然后他说可以选任意一种实现。
+感觉主要还是交流，多说怎么想的，为啥这么想，alternatives是啥，为啥等等。
+聊了半天以后开始实现，我选了简单的hashmap。
+没啥难度，然后反向BQ。 当天下午邮件通知过了。
+
+
+写完问了系统设计，怎么scale。以及怎么搜索给定folder path下的所有文件。
+他问了有哪些api，schema，db怎么存，整个workflow是怎么样的，怎么sharding
+实现- tail功能，给一个文件，给一个number n， 返回从n开始一直到最后一行的文件内容
+
+基本流程就是5min相互介绍 + 40min coding + 15mins 问问题
+题目是实现一个in-memory file system, support
+createFolder(path:string)
+deleteFolder(path:string)
+traverseRoot() lists all folders and subfolders from root folder.
+create和delete需要验证路径是否有效，所有操作都是文件夹，没有文件。
+follow up 1： traverse‍‍‌‍‌‌‍‍‌‍‌‍‌‌‍‍‍‌‌‍ 输出的结果要按照字典序
+follow up 2： 现实中实现这个类似的file system，需要考虑那些scalability和reliability的问题
+最后求波大米，谢谢大家了！
+https://www.1point3acres.com/bbs/thread-863341-1-1.html
+技术电面是那个file system那个题，比力扣‍‍‌‍‌‌‍‍‌‍‌‍‌‌‍‍‍‌‌‍那个简单，只需要create file content, 和mkdir
+
+772. Basic Calculator III
+
+请问楼主关于 buy and sell textbooks 那道题 的input和output到底是什么啊？
+我的理解是这个market place 只有两个api ---> sell 和 buy
+大概就是这样一个object
+class BookMarket(object):
+    def __init__(self) -> None:
+        self.buys = PriorityQueue()
+        self.sells = PriorityQueue()
+    def buy(self, price):
+          pass
+    def sell(self, price):
+         pass
+然后人们只能interact with sell and buy function. 所以每个order是individually added.
+这个理解对吗？
+
+https://www.1point3acres.com/bbs/thread-858492-1-1.html

@@ -6,7 +6,7 @@
 #         self.right = right
 #
 # 思路：先打擂台记录结果，然后再向下travers
-# Time: 二分，所以是 O(H)
+# Time: 二分法binary search，所以是 O(H)
 # Space： O(1)
 class Solution:
     def closestValue(self, root: Optional[TreeNode], target: float) -> int:

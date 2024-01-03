@@ -19,12 +19,33 @@ class Solution:
 
         return cur
 
+# 二刷：
+# class Solution:
+#     def maxDepth(self, root: Optional[TreeNode]) -> int:
+#         res = [0]
+#         self.dfs(root, res)
+#         return res[0]
+#
+#     def dfs(self, root, res):
+#         if not root:
+#             return 0
+#
+#         left_height = self.dfs(root.left, res)
+#         right_height = self.dfs(root.right, res)
+#
+#         cur = max(left_height, right_height) + 1
+#         res[0] = max(res[0], cur)
+#
+#         return cur
+
 
 """
+# Time O(N)
+# Space O(N)
+
         stack = []
         if root is not None:
             stack.append((1, root))
-
         depth = 0
         while stack != []:
             current_depth, root = stack.pop()

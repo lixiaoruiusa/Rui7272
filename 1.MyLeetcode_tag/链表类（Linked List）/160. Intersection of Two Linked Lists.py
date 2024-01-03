@@ -1,5 +1,8 @@
 # 题意：找到两个linklist相交的点，并返回
-# 思路： 两个指针都遍历a+b+c的长度，就指到了公共节点, 如果不相交，正好两个指针指到None
+# 思路：
+# 1 两个指针都遍历a+b+c的长度，就指到了公共节点, 如果不相交，正好两个指针指到None
+# 2 所以a走完了指向b，b走完了指向a。
+# 3 最后要不指向None，要不指向相交的点，即p1 = p2
 # Time complexity : O(N+M)
 # Space complexity : O(1)
 # Definition for singly-linked list.
@@ -17,6 +20,7 @@ class Solution:
         p1 = headA
         p2 = headB
 
+        # 最后要不指向None，要不指向相交的点，即p1 = p2
         while p1 != p2:
             if not p1:
                 p1 = headB
@@ -28,4 +32,4 @@ class Solution:
             else:
                 p2 = p2.next
 
-        return p1 
+        return p1

@@ -1,0 +1,32 @@
+588:
+scalability和reliability
+写完问了系统设计，怎么scale。
+以及怎么搜索给定folder path下的所有文件。
+他问了有哪些api，
+schema，
+db怎么存，
+整个workflow是怎么样的，
+怎么sharding.
+
+4. system design部分是针对这个file system扩展问的
+     1. 如何防止一个这个host 出问题 --》 replica for backup
+     2. 如何保证strong consistency
+     3. 考虑scalability的话如何设计
+     4. 考虑大的read tps的话如何支持
+System design的话，基本上就是用replica防止single point failure，但由此产生consistency的问题。有两种方法实现，优缺点是什么。
+所以之后问我strong consistency怎么保证我就说之前提到的方法一就可以。
+scalability就是如何shard/partition不同directory到不同的file system server上。LoadBalancer，hash logic，hot partition risk & mitigation
+read tps就简单了，增加replica， 但由此造成write latency的问题，所以如果write很少read很多可以，不然可能要在write latency和strong consistency中间做平衡
+
+其实前面还问了http相关的，就是进一步让你理解这个file system的管理是通过http request。就相当于一个service。
+我是从database相关角度讲的，一般为了防止single point failure会选择再复制两份数据，例如一个master instance加两个replica instance。
+一种是single master来handle write request，在更新master node file system的时候也要更新两个replica，直到收到两个replica更新file system成功的消息后才返回给200给这个write request。 这种的话latency慢，reliability容易受影响但是所有instance上的数据理论上都是统一的。因为你的replica也要serve read requests。
+第二种就是不等replica更新完就返回200，这样子write latency低很多， replica那边的更新是会有一定延时算是eventual consistency。
+相对single master，multiple master with load balancer就是第三问scalability的回答。
+
+
+
+Leetcode 28
+Leetcode 241
+772. Basic Calculator III
+

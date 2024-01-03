@@ -25,3 +25,4 @@ if a == b:
         result.append("b")
         a -= 1
 print("".join(result))
+

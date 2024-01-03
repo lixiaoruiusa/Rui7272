@@ -1,9 +1,15 @@
-转自https://zhuanlan.zhihu.com/p/349940945
+https://zhuanlan.zhihu.com/p/349940945
+前言：
+
 这是本人在7个月刷了500道Leetcode题目并成功拿到几家北美Software Engineer Offer之后总结的Leetcode高频面试题目分类总结。这篇是高频题目的概述性总结，以后有时间打算单独给每个门类写一个详细的总结。希望对准备刷题面试的你有所帮助吧，谢谢！
 
+这里还有一篇我写的关于码农算法面试的Q&A:
+
+TimothyL：北美码农算法面试Q&A
+32 赞同 · 5 评论文章
 注：本文一共200多道题，算上一些附加的衍生题差不多有250+，基本上很少有easy题目，大部分都是medium，少部分hard，按照大多数人30% Easy，60% Medium， 10% Hard的刷题标准，刷好下面全部的题目相当于300题，足够应对大部分的算法面试了。如果你对算法与数据结构基础知识掌握的不够的情况下，先按照上面链接提到的基础补好再开始刷对应门类的题目，不然很容易“一个人一包烟，一道题目刷一天”。
 
-注：作者在北美各个大厂几乎全部面过，G家 A家 U家之类的大厂offer也都拿到过，可以确定刷好本文中的所有题以及掌握每道题对应知识点可以应对绝大多数的码农算法面试了。
+注：作者后来在北美各个大厂几乎全部面过，G家 A家 U家之类的大厂offer也都拿到过，可以确定刷好本文中的所有题以及掌握每道题对应知识点可以应对绝大多数的码农算法面试了。
 
 如果题目/答案看不懂又不喜欢看discussion的话，现在有很多视频资源可以看。个人比较喜欢花花酱的讲解（花花酱的表世界的个人空间_哔哩哔哩_Bilibili）， 墙外的同学们也可以看关神的视频讲解（https://www.youtube.com/channel/UCY5Z0of98W-YSdmPgAe1DaA）。
 
@@ -110,6 +116,7 @@ Leetcode 1891. Cutting Ribbons
 Leetcode 409. Longest Palindrome
 Leetcode 125. Valid Palindrome
 Leetcode 5. Longest Palindromic Substring
+Leetcode 647. Palindromic Substrings
 相向双指针：(以two sum为基础的一系列题)
 Leetcode 1. Two Sum (这里使用的是先排序的双指针算法，不同于hashmap做法)
 Leetcode 167. Two Sum II - Input array is sorted
@@ -119,6 +126,7 @@ Leetcode 18. 4Sum
 Leetcode 454. 4Sum II
 Leetcode 277. Find the Celebrity
 Leetcode 11. Container With Most Water
+Leetcode 186 Reverse Words in a String II
 同向双指针：（个人觉得最难的一类题，可以参考下这里 TimothyL：Leetcode 同向双指针/滑动窗口类代码模板）
 Leetcode 283. Move Zeroes
 Leetcode 26. Remove Duplicate Numbers in Array
@@ -151,13 +159,14 @@ Leetcode 815. Bus Routes
 Leetcode 1091. Shortest Path in Binary Matrix
 Leetcode 542. 01 Matrix
 Leetcode 1293. Shortest Path in a Grid with Obstacles Elimination
+Leetcode 417. Pacific Atlantic Water Flow
 拓扑排序：（https://zh.wikipedia.org/wiki/%E6%8B%93%E6%92%B2%E6%8E%92%E5%BA%8F）
 Leetcode 207 Course Schedule （I, II）
 Leetcode 444 Sequence Reconstruction
 Leetcode 269 Alien Dictionary
 Leetcode 310 Minimum Height Trees
 Leetcode 366 Find Leaves of Binary Tree
-深度优先搜索（DFS）：面试中最常考的
+深度优先搜索（DFS）：面试中最常考的（分类的稍微有点粗糙了，没有细分出回溯/分治来，准备找个时间给每个DFS的题标记下是哪种DFS）
 
 基础知识：
 常见的DFS用来解决什么问题？(1) 图中（有向无向皆可）的符合某种特征（比如最长）的路径以及长度（2）排列组合（3） 遍历一个图（或者树）（4）找出图或者树中符合题目要求的全部方案
@@ -165,28 +174,28 @@ DFS基本模板（需要记录路径，不需要返回值 and 不需要记录路
 除了遍历之外多数情况下时间复杂度是指数级别，一般是O(方案数×找到每个方案的时间复杂度)
 递归题目都可以用非递归迭代的方法写，但一般实现起来非常麻烦
 基于树的DFS：需要记住递归写前序中序后序遍历二叉树的模板
-Leetcode 543 Diameter of Binary Tree
-Leetcode 226 Invert Binary Tree
-Leetcode 101 Symmetric Tree
-Leetcode 951 Flip Equivalent Binary Trees
-Leetcode 124 Binary Tree Maximum Path Sum
-Leetcode 236 Lowest Common Ancestor of a Binary Tree (相似题：235、1650)
-Leetcode 105 Construct Binary Tree from Preorder and Inorder Traversal
-Leetcode 104 Maximum Depth of Binary Tree
+Leetcode 543 Diameter of Binary Tree (分治)
+Leetcode 124 Binary Tree Maximum Path Sum (分治)
+Leetcode 226 Invert Binary Tree (分治)
+Leetcode 101 Symmetric Tree (回溯 or 分治)
+Leetcode 951 Flip Equivalent Binary Trees (分治)
+Leetcode 236 Lowest Common Ancestor of a Binary Tree (相似题：235、1650) (回溯 or 分治)
+Leetcode 105 Construct Binary Tree from Preorder and Inorder Traversal (分治)
+Leetcode 104 Maximum Depth of Binary Tree (回溯 or 分治)
 Leetcode 987 Vertical Order Traversal of a Binary Tree
 Leetcode 1485 Clone Binary Tree With Random Pointer
-Leetcode 572 Subtree of Another Tree
+Leetcode 572 Subtree of Another Tree (分治)
 Leetcode 863 All Nodes Distance K in Binary Tree
-Leetcode 1110 Delete Nodes And Return Forest
+Leetcode 1110 Delete Nodes And Return Forest (分治)
 二叉搜索树（BST）：BST特征：中序遍历为单调递增的二叉树，换句话说，根节点的值比左子树任意节点值都大，比右子树任意节点值都小，增删查改均为O（h）复杂度，h为树的高度；注意不是所有的BST题目都需要递归，有的题目只需要while循环即可
 Leetcode 230 Kth Smallest element in a BST
 Leetcode 98 Validate Binary Search Tree
 Leetcode 270 Cloest Binary Search Tree Value
 Leetcode 235 Lowest Common Ancestor of a Binary Search Tree
-Leetcode 669 Trim a Binary Search Tree
+Leetcode 669 Trim a Binary Search Tree (分治)
 Leetcode 700 Search in a Binary Search Tree
-Leetcode 108 Convert Sorted Array to Binary Search Tree
-Leetcode 333 Largest BST Subtree (与98类似)
+Leetcode 108 Convert Sorted Array to Binary Search Tree (分治)
+Leetcode 333 Largest BST Subtree (与98类似) (分治)
 Leetcode 285 Inorder Successor in BST (I, II)
 基于图的DFS: 和BFS一样一般需要一个set来记录访问过的节点，避免重复访问造成死循环; Word XXX 系列面试中非常常见，例如word break，word ladder，word pattern，word search。
 Leetcode 341 Flatten Nested List Iterator (339 364)
@@ -322,6 +331,3 @@ Leetcode 32 Longest Valid Parentheses
 Leetcode 1235 Maximum Profit in Job Scheduling (DP + binary search)
 Leetcode 1043 Partition Array for Maximum Sum
 Leetcode 926 Flip String to Monotone Increasing
-编辑于 2022-02-11 12:06
-
-

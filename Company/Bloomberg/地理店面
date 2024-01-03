@@ -1,0 +1,9 @@
+input: 2d array, k
+在一个2d array 里面 给你 K gas
+找到车 然后看一下能不能 开到 ‍‍‌‍‌‌‍‍‌‍‌‍‌‌‍‍‍‌‌‍O
+用dfs 就好
+求米 看面经
+
+200
+
+https://leetcode.com/discuss/interview-question/964672/bloomberg-software-engineering-prepration-list

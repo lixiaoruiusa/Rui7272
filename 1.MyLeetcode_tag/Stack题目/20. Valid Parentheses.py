@@ -21,3 +21,27 @@ class Solution:
                     return False
         return stack == []
 
+
+# class Solution:
+#     def isValid(self, s: str) -> bool:
+#
+#         if not s:
+#             return True
+#
+#         dic = dict()
+#         dic["("] = ")"
+#         dic["["] = "]"
+#         dic["{"] = "}"
+# 
+#         stack = []
+#         for ch in s:
+#             # 是右
+#             if ch in dic.values():
+#                 if not stack or dic[stack[-1]] != ch:
+#                     return False
+#                 stack.pop()
+#             # 是左
+#             else:
+#                 stack.append(ch)
+#
+#         return not stack

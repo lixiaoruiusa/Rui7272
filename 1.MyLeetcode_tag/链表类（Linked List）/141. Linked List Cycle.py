@@ -1,7 +1,10 @@
 # 题意：找有无环，返回True or False
 # 思路：快慢指针，如果相遇，就证明有环。
-# Time complexity：O(N+K), which is O(n) 无环是n/2，有环是n + k 环里最多k次，就是len of 环，n是未进环的len
+# Time complexity：
+# O(N+K), non-cyclic length=N,
+# Number of iterations=almost cyclic length K
 # Space complexity : O(1)
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):

@@ -1,4 +1,4 @@
-# 切鱼头 切2次鱼中段
+# 切鱼头 先判断在左段还是右段
 # Time O(logN).
 # Space O(1)
 
@@ -14,12 +14,13 @@ class Solution:
             mid = (left + right) // 2
             if nums[mid] == target:
                 return mid
-
+            # mid在左段
             if nums[mid] > nums[left]:
                 if nums[left] <= target < nums[mid]:
                     right = mid
                 else:
                     left = mid
+            # mid在右段
             else:
                 if nums[mid] < target <= nums[right]:
                     left = mid

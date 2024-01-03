@@ -1,5 +1,6 @@
 # 题意：实现showFirstUnique和add number
-# 思路：用queue和counter, while queue去找freq == 1的元素，appendleft, return
+# 思路：用queue和counter, while self.queue去找freq == 1的元素。
+# 如果全部遍历在q上留下唯一的话，可能超时，所以最好的就是找到结果后appendleft(x)，return
 # Time O(n)
 # Space O(n)
 

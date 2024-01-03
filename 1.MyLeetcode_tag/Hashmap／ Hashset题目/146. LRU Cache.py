@@ -4,28 +4,28 @@
 # cache.popitem(last=False) pop左边第一元素，默认pop最后
 # self.cache.pop(key) pop要有参数key
 # 
-from collections import OrderedDict
-class LRUCache:
-
-    def __init__(self, capacity: int):
-        self.capacity = capacity
-        self.cache = OrderedDict()
-
-    def get(self, key: int) -> int:
-        if key not in self.cache:
-            return -1
-        # self.cache.move_to_end(key)
-        # return self.cache[key]
-        value = self.cache.pop(key)
-        self.cache[key] = value
-        return value
-
-    def put(self, key: int, value: int) -> None:
-        if key in self.cache:
-            self.cache.pop(key)
-        self.cache[key] = value
-        if len(self.cache) > self.capacity:
-            self.cache.popitem(last=False)
+# from collections import OrderedDict
+# class LRUCache:
+#
+#     def __init__(self, capacity: int):
+#         self.capacity = capacity
+#         self.cache = OrderedDict()
+#
+#     def get(self, key: int) -> int:
+#         if key not in self.cache:
+#             return -1
+#         # self.cache.move_to_end(key)
+#         # return self.cache[key]
+#         value = self.cache.pop(key)
+#         self.cache[key] = value
+#         return value
+#
+#     def put(self, key: int, value: int) -> None:
+#         if key in self.cache:
+#             self.cache.pop(key)
+#         self.cache[key] = value
+#         if len(self.cache) > self.capacity:
+#             self.cache.popitem(last=False)
 
 # Your LRUCache object will be instantiated and called as such:
 # obj = LRUCache(capacity)
@@ -37,6 +37,7 @@ class LRUCache:
 # 2 初始化LRU参数：capacity，cache {key:node}, head,tail 两个node，并且建立两者链接
 # 3 get中：取出node，remove_node，add_to_tail, return node.value
 # 4 set/put中：如果key存在，remove_node[cache[key]];  建立node，更新cache[key] = node;  add_to_tail; if 超过capacity，pop_front
+"""
 
 class Node:
     def __init__(self, key=None, value=None):
@@ -56,6 +57,7 @@ class LRUCache:
         self.tail.prev = self.head
         self.head.next = self.tail
 
+    # get O(1) from dict
     def get(self, key: int) -> int:
         if key not in self.cache:
             return -1
@@ -63,6 +65,10 @@ class LRUCache:
         self.remove_node(node)
         self.add_to_tail(node)
         return node.value
+
+
+    # get O(1) from double linkedlist, 
+    # it takes constant O(1) time to add and remove nodes from the head or tail
 
     def put(self, key: int, value: int) -> None:
         if key in self.cache:
@@ -92,4 +98,3 @@ class LRUCache:
 # obj = LRUCache(capacity)
 # param_1 = obj.get(key)
 # obj.put(key,value)
-"""

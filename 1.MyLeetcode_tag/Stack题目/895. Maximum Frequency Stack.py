@@ -19,14 +19,20 @@ class FreqStack:
         self.maxfreq = 0
 
     def push(self, val: int) -> None:
+        # push的时候 1更新counter 2如果更大了，更新maxfreq 3把值append到频率组里
         self.counter[val] = self.counter.get(val, 0) + 1
         if self.counter[val] > self.maxfreq:
             self.maxfreq = self.counter[val]
+
         self.group[self.counter[val]].append(val)
 
     def pop(self) -> int:
+        # as 5 and 7 is the most frequent, but 7 is closest to the top
+        # 所以正好从group[self.maxfreq]里pop
         num = self.group[self.maxfreq].pop()
+        # 更新counter
         self.counter[num] -= 1
+        # 如果self.maxfreq的组空了，就self.maxfreq -= 1
         if not self.group[self.maxfreq]:
             self.maxfreq -= 1
 

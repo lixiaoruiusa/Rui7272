@@ -1,9 +1,8 @@
 # 题意： 猜数字： 数字和位置都对num + A, 数字猜对位置不对用num + B
-# 思路：
-# 1 循环一遍，把相等位置的secret和guess数量求出来，即为A。
-# 2 同时， 把不相等的值放入两个dic中
-# 3 循环字典，都在两个字典内的数字，取min值，即为B
-# O(n) time
+# 思路：(先求A，把不在正确位置的数字用字典求B)
+# 1 循环一遍，把相等位置的secret和guess数量求出来，即为A。同时，把不相等的值放入两个dic中
+# 2 循环字典，都在两个字典内的数字，取min值，即为B
+# O(n) time n is length of secret or guess
 # O(1) space 最多0-9
 class Solution:
     def getHint(self, secret: str, guess: str) -> str:

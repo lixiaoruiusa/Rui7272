@@ -1,0 +1,211 @@
+hhh
+https://www.1point3acres.com/bbs/thread-897786-1-1.html
+https://www.1point3acres.com/bbs/thread-874349-1-1.html
+今天的OA
+第一题：
+There are two wooden sticks of lengths A and B respectively. Each of them can be cut
+into shorter sticks of integer lengths. Our goal is to construct the largest possible
+square. In order to do this, we want to cut the sticks in such a way as to achieve four
+sticks of the same length (note that there can be some leftover pieces). What is the
+longest side of square that we can achieve?
+Write a function:
+def solution(A, B)
+that, given two integers A, B, returns the side length of the largest square that we can
+obtain. If it is not possible to create any square, the function should return 0.
+Examples:
+1. Given A = 10, B = 21, the function should return 7. We can split the second stick into
+three sticks of length 7 and shorten the first stick by 3.
+2. Given A = 13, B = 11, the function should return 5. We can cut two sticks of length 5
+from each of the given sticks.
+3. Given A = 2, B = 1, the function should return 0. It is not possible to make any square
+from the given sticks.
+4. Given A = 1, B = 8, the function should return 2. We can cut stick B into four parts.
+以下内容需要积分高于 188 您已经可以浏览
+第二题
+A game of dominos consists of 28 domino tiles. Between 0 and 6 dots appear at each
+end of every tile. Tiles can be reversed during the game, so the tile showing
+"2-3"
+can
+be played as "3-2".
+You are given a list of N unique domino tiles. Your task is to find any domino tile not on
+the list and return it in the format "X-Y", where X and Y are digits representing the
+number of dots on each end of the tile. Note that because domino tiles can be reversed,
+tiles "2-3" and "3-2" are treated as the same tile.
+Write a function:
+func Solution(A []string) string
+that, given an array A of N strings representing unique domino tiles, returns a string
+representing any tile which is not in the array A. Tiles in A are given in the format
+described above. You can assume that there will always exist a tile not listed in A
+Examples:
+1. Given A = "O-0", "O-1", "2-3", "2-0"], one of the possible outputs is "0-3". Note that
+"1-0" is not a valid answer, as "0-1" represents the same tile.
+2. Given A = "O-0", "1-1", "2-2", "3-3" "4-4', "5-5" "6-6'), one of the possible outputs is
+"2-4"
+第三题
+An infrastructure consisting of N cities, numbered from 1 to N, and M bidirectional
+roads between them is given. Roads do not intersect apart from at their start and end
+points (they can pass through underground‍‌‌‌‍‌‍‌‌‍‌‌‍‍‌‍‌‌‍‍ tunnels to avoid collisions).
+For each pair of cities directly connected by a road, let's define their network rank as the
+total number of roads that are connected to either of the two cities.
+Write a function:
+def solution (A, Br N)
+that, given two arrays A, B consisting of M integers each and an integer N, where Ali
+and Blil are cities at the two ends of the i-th road, returns the maximal network rank in
+the whole infrastructure.
+Examples:
+1. Given A = [1, 2, 3, 3], B = [2, 3, 1, 4] and N = 4, the function should return 4. The chosen
+cities may be 2 and 3, and the four roads connected to them are: (2, 1), (2, 3), (3, 1), (3,
+4)
+以下是搜集的最近3个月题目
+Process Tasks Using Servers
+https://leetcode.com/problems/process-tasks-using-servers/
+Cinema Seat Allocation
+https://leetcode.com/problems/cinema-seat-allocation/
+Longest Happy String
+https://leetcode.com/problems/longest-happy-string/
+Equal Sum Arrays With Minimum Number of Operations
+https://leetcode.com/problems/eq ... mber-of-operations/
+Minimum Time to Make Rope Colorful
+https://leetcode.com/problems/minimum-time-to-make-rope-colorful/
+Sign of the Product of an Array
+https://leetcode.com/problems/sign-of-the-product-of-an-array/
+Delete 5
+给一个数字（可正可负），数字里面至少包括一个数字5，求删除一个5之后的最大值。
+【-99‍‌‌‌‍‌‍‌‌‍‌‌‍‍‌‍‌‌‍‍95】-》-999
+【15859】-〉1859
+【-15853】 -》-1583
+【5000】 -〉0
+类似于https://leetcode.com/problems/re ... to-maximize-result/
+Get Maximum Distance of Same Elements in an Array
+https://leetcode.com/discuss/int ... lements-in-an-Array
+数字相加
+把一个三位数N的任意一位加一，加K次或直到九九九，对给定的N和K，求可能的最大数，例如：N512 K10，可‍‌‌‌‍‌‍‌‌‍‌‌‍‍‌‍‌‌‍‍以变成972; N191 K4 ->591; N285 K20 -> 999.
+Fair Index
+给 A 和 B 两个长度都是 N 的数组，返回 fair index 的个数。每个数组从 index K 劈成两部分，四部分的和相等，K 就是 fair index。
+sum(A[0]+A[1] + …… + A[K-1]),
+sum(A[K] + A[K+1] + …… + A[N-1]),
+sum(B[0]+B[1] + …… + B[K-1]),
+sum(B[K] + B[K+1] + …… + B[N-1]) 这四个 sum 相等。
+A = [A0, A1, A2, A3]
+B = [B0, B1, B2, B3]
+如果 A0 + A1 = A2 + A3 = B0 + B1 = B2 + B3，2 就是 fair index
+Example：
+A = [0, 4, -1, 0, 3]，B = [0, -2, 5, 0, 3]，有 3 和 4 两个 fair index，所以 return 2；
+A = [2, -2, -3, 3]，B = [0, 0, 4, -4]‍‌‌‌‍‌‍‌‌‍‌‌‍‍‌‍‌‌‍‍，只有 2 一个 fair index，所以 return 1；
+A = [4, -1, 0, 3]，B = [-2, 6, 0, 4]，没有 fair index，所以 return 0；
+A = [3, 2, 6]，B = [4, 1, 6]， return 0；
+A = [1, 4, 2, -2, 5]，B = [7, -2, -2, 2, 5] 有 2 和 4 两个 fair index，return 2。
+连续数值（1到K) 改错
+Given an non-decreasing array A, and integer K, find and correct bugs in a function that checks whether A contains numbers 1, 2, ..., K and no other numbers.
+Count Good Nodes in Binary Tree
+https://leetcode.com/problems/count-good-nodes-in-binary-tree/
+Maximum Number of Balloons
+https://leetcode.com/problems/maximum-number-of-balloons/
+Battleships
+https://www.chegg.com/homework-h ... t-x-m-wid-q97030738
+https://leetcode.com/discuss/int ... soft-or-OA-Codility
+Next integer does not contain two identical consecutive digits
+https://leetcode.com/discuss/int ... or-SDE-1-or-OA-2022
+https://leetcode.com/discuss/int ... -Digit-manipulation
+Given integer N, find the smallest larger number that doesn't have the same two digits in consecutive positions.
+Example: N = 76.
+Answer: 78. Explanation -> 77 is the smallest larger number after 76 but hence we havedigit 7 in two consecuitive positions, that doesn't satisify our condition.
+Note:N=766 -> answer should be 767, the number digits don't need to be unique, only they have not to be in consecutive positions.
+You are given a positive Integer N, your task is to find the next smallest integer greater than N that does not contain two identical consecutive digits
+ex: N=1765 -> 1767 beause 1766 has two identical consecutive digits
+N=54 -> 56 not 55 because two identical digits
+Rehabilitation
+https://leetcode.com/discuss/int ... or-SDE-1-or-OA-2022
+https://leetcode.com/discuss/int ... -Digit-manipulation
+Max Number of Distinct Notes along a Root-Node Path
+https://leetcode.com/discuss/int ... ng-a-Root-Node-Path
+Find the largest K for which -K and +K exist in the array
+https://algo.monster/problems/largest_k_positive_and_negative
+OCR check
+https://leetcode.com/discuss/int ... p-codility-question
+Missing connections in binary tree
+https://leetcode.com/discuss/int ... ions-in-binary-tree
+Number of Slices to sort an array
+https://leetcode.com/discuss/int ... es-to-sort-an-array
+Time to reach a hospital
+https://leetcode.com/discuss/int ... A-or-Graph-Question
+https://leetcode.com/discuss/int ... -or-SDE-I-or-Graphs
+https://leetcode.com/discuss/int ... -or-SDE-I-or-Graphs
+https://leetcode.com/discuss/int ... crosoft-OA-Question
+There are N cities. Cities are connected by roads .(Basically given a graph). K of the cities has a hospital(Given an array of size K). Time taken to reach a hospital from a city is no of edges to the nearest city which contains a hospital. Find the maximum time taken to reach a hospital from all the N cities.
+Problem
+There are n locations ( vertices ) in a city, which are connected through streets of length 1 ( edge length = 1 ). Some of the locations have petrol stations ( colored vertex ) while others don't. People at locations with no petrol stations, go to their closest petrol st‍‍‌‍‌‌‍‍‌‍‌‍‌‌‍‍‍‌‌‍ation. What is the maximum distance one may have to travel to find a petrol station?
+Constraints: 1 <= no of location <= 10^5
+N-ary tree with alternating characters
+Given an n-ary tree with N nodes numbered 0..N-1. Each node is marked as 'a' or 'b'.
+Find longest path in a tree with alternating characters.
+Input : parent array of size n, string tag
+Example 1 :
+parent : [-1, 0, 1] , tag ="abb"
+       0 'a'
+    |
+    1 'b'
+    |
+    2 'b'
+Path length = 2 (0->1)
+Example 2:
+parent : [-1, 0, 0] , tag ="abb"
+        0 'a'
+  /     \
+   1 'b'   2'b'
+Path length = 2 (1->0->2)
+Building blocks
+https://leetcode.com/discuss/int ... 866439/Microsoft-OA
+Maximum pair sum
+Question1: Given an array A consisting of N integers, returns the maximum sum of two numbers whose digits add up to an equal sum.
+if there are not two numbers whose digits have an equal sum, the function should return -1.
+Constraints: N is integer within the range [1, 200000]
+each element of array A is an integer within the range [1, 1000000000]
+Example1:
+Input:
+A = [51, 71, 17, 42]
+Output: 93
+Explanation: There are two pairs of numbers whose digits add up to an equal sum: (51, 42) and (17, 71), The first pair sums up  to 93
+Example2:
+Input:
+A = [42, 33, 60]
+Output: 102
+Explanation: The digits of all numbers in A add up the same sum, and choosing to add 42 and 60 gives the result 102
+Example3:
+Input:
+A = [51, 32, 43]
+Output: -1
+Explanation: All numbers in A have digits that add up to different, unique sums
+Minimum number of substrings you can create
+https://leetcode.com/discuss/int ... or-OA-or-MaximumSum
+/* Given a string s, find the minimum number of substrings you can create
+* without having the same letters repeating in each substring.
+* Example:
+* world -> 1, as the string has no letters that occur more than once.
+    dddd -> 4, as you can only create substring of each character.
+    abba -> 2, as you can make substrings of ab, ba.       
+    cycle-> 2, you can create substrings of (cy, cle) or (c, ycle)
+*
+*/
+Palindrome creation
+https://leetcode.com/discuss/int ... or-OA-or-MaximumSum
+You are given a string S, which consists entirely of decimal digits (0−9).
+Using digits from S, create a palindromic number with the largest possible decimal value.
+You should use at least one digit and you can reorder the digits.
+A palindromic number remains the same when its digits are reversed; for instance, "7", "44" or "83238".
+Any palindromic number you create should not, however, have any leading zeros, such as in "0990" or "010".
+For example, decimal palindromic numbers that can be created from "8199" are:
+"1", "8", "9", "99", "919" and "989".
+Among them, “989” has the largest value.
+Write a function:
+class Solution { public String solution(String S); }
+that, given a string S of N digits, returns the string representing the palindromic number with the largest value.
+Examples:
+1. Given "39878", your function should return "898".
+2. Given "00900", your function should return "9".
+3. Given "0000", your function should return "0".
+4. Given "54321", your function should return "5".
+Write an efficient algorithm for the following assumptions:
+N is an integer within the range [1..100,000];
+string S consists only of digits (0−9).
+如果你觉得有用的话，求大米啊

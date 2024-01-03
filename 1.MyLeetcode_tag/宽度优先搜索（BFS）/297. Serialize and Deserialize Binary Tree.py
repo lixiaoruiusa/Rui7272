@@ -16,8 +16,8 @@ deserialize: 要检查conner case：  if data[0] == "[]"， 用queue把TreeNode(
 # 时间复杂度：O(n)
 # 空间复杂度：O(n)
 
-import collections
 class Codec:
+
     def serialize(self, root):
         if not root:
             return "[]"
@@ -35,6 +35,10 @@ class Codec:
 
         return ",".join(res)
 
+    # <class 'str'>
+    # 1,2,3,Null,Null,4,5,Null,Null,Null,Null
+
+
     def deserialize(self, data):
 
         if not data:
@@ -43,19 +47,20 @@ class Codec:
         i = 0
         if data[i] == "[]":
             return None
-        root = TreeNode(int(data[i]))
+        root = TreeNode(data[i])
         queue = collections.deque([root])
         while queue:
             cur = queue.popleft()
             i += 1
-            if data[i] != "Null":  # # 因为null不用操作，相当于skip即可，也不用append到queue中
-                cur.left = TreeNode(int(data[i]))
+            if data[i] != "Null": # 因为null不用操作，不用吧left和right弄上去，相当于skip即可，也不用append到queue中
+                cur.left = TreeNode(data[i])
                 queue.append(cur.left)
             i += 1
             if data[i] != "Null":
-                cur.right = TreeNode(int(data[i]))
+                cur.right = TreeNode(data[i])
                 queue.append(cur.right)
         return root
+
 
 # Your Codec object will be instantiated and called as such:
 # ser = Codec()

@@ -1,5 +1,5 @@
-# 题意：只给了pq，没有给root，求LCA
-# 思路：求depth，然后走到同意depth，再一起向上
+# 题意：只给了pq，没有给root，求LCA， p and q exist in the tree
+# 思路：求depth，然后走到同一depth，再一起向上
 # time: O(n)
 # space: O(1)
 """
@@ -40,40 +40,42 @@ class Solution:
         return depth
 
 
-"""
-# 思路：p一直向上，自己和全部parent都入set(); q一直向上，每一步检查是否在set()
+# 思路：p全部parent都入set(); q一直向上check set()
 # time: O(h)
 # space: O(h)
 class Solution:
     def lowestCommonAncestor(self, p: 'Node', q: 'Node') -> 'Node':
-
-        s = set()
+        visited = set()
         while p:
-            s.add(p)
+            visited.add(p.val)
             p = p.parent
+
         while q:
-            if q in s:
+            if q.val in visited:
                 return q
             q = q.parent
-"""
+        return -1
+
 
 """
-类似于快慢指针
-        point_p = p
-        point_q = q
+和链表相交一样，双指针
+class Solution:
+    def lowestCommonAncestor(self, p: 'Node', q: 'Node') -> 'Node':
         
-        while point_p != point_q:
-            
-            if point_p.parent:
-                point_p = point_p.parent 
-            else:
-                point_p = q
-            
-            if point_q.parent:
-                point_q = point_q.parent
-            else:
-                point_q = p
+        p_hat = p
+        q_hat = q
         
-        return point_p
-
+        while p_hat != q_hat:
+            
+            if p_hat.parent:
+                p_hat = p_hat.parent 
+            else:
+                p_hat = q
+            
+            if q_hat.parent:
+                q_hat = q_hat.parent
+            else:
+                q_hat = p
+        
+        return p_hat
 """

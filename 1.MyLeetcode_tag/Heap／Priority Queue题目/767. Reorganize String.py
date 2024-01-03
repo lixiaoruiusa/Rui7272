@@ -1,37 +1,44 @@
 # 题意：重排string到没有同样的字母相邻
 # 思路：
-# 1 所有counter 放入最大堆
-# 2 初始化 prev_a, prev_b = 0, "" ，存pop出来的值
-# 3 pop值，把prev_b存入res中
-# 3 检查 prev_a 是否还存在if prev_a < 0， 把prev push回来
-# 4 更新freq，prev_a，prev_b
-# Time O(nlogn)
-# Space O(n)
+# 二刷
+# 1 先counter，把[-f,c] 放入最大堆heap
+# 2 每次pop两个值，append到res，更新freq在放回heap
+# 3 最后len(heap) == 1 or == 0, 再更新res
+# Time O(n) + O(k) + n * logk   , n is length of s, k <= 26
+# Space O(n) for res, O(1) for counter and heap
 
 import heapq
 class Solution:
-    def reorganizeString(self, S: str) -> str:
+    def reorganizeString(self, s: str) -> str:
 
-        res = []
-        counter = Counter(S)
+        counter = Counter(s)
         # 边界条件,有字母数量多于半数，无法组成不相邻
-        if max(counter.values()) > (len(S) + 1) // 2:
+        if max(counter.values()) > (len(s) + 1) // 2:
             return ""
 
-        heap = []
-        for ch, freq in counter.items():
-            heap.append((-freq, ch))
-        heapq.heapify(heap)
+        h = []
+        for c, f in counter.items():
+            h.append([-f, c])
+        heapq.heapify(h)
 
-        prev_a, prev_b = 0, ""
-        while heap:
-            a, b = heapq.heappop(heap)
-            res.append(b)
-            if prev_a < 0:
-                heapq.heappush(heap, (prev_a, prev_b))
-            a += 1
-            prev_a, prev_b = a, b
+        res = []
+        while len(h) > 1:
+            f1, ch1 = heapq.heappop(h)
+            f2, ch2 = heapq.heappop(h)
+            res.append(ch1)
+            res.append(ch2)
+            f1 += 1
+            f2 += 1
+            if f1 != 0:
+                heapq.heappush(h, [f1, ch1])
+            if f2 != 0:
+                heapq.heappush(h, [f2, ch2])
 
-        return ''.join(res)
-
+        if h:
+            f, c = heapq.heappop(h)
+            if f < -1:
+                return ""
+            else:
+                res.append(c)
+        return "".join(res)
 

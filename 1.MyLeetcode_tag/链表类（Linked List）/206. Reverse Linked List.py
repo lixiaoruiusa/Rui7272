@@ -4,10 +4,11 @@
 # 因为head.next可能不存在，nxt在循环中定义，这样如果head为空就不会进入循环
 # 迭代过程
 """
-nxt指向cur.next
-cur.next指向pre
-pre移动到cur位置
-cur移动到nxt位置
+1 生成nxt
+2 断开当前指针 指向新方向
+3 prev指向cur
+4 cur指向nxt
+5 返回prev
 
 """
 

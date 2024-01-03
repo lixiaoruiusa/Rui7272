@@ -2,15 +2,14 @@
 # 思路：1 建一个 {student_id: [top-5 scores]} 字典, 用min_heap维持 dic[student_id] 最多5个。
 #      2 把id和平均分加入res
 #      3 最后要sort res
-# Time: O(Nlogk) 我觉得是nlogk
+# Time: O(Nlogn) 我觉得是nlogn
 # Space: O(N)
 
 import heapq
-
-
 class Solution:
     def highFive(self, items: List[List[int]]) -> List[List[int]]:
         # cache = defaultdict(list)  # {student_id: [top-5 scores]}
+        # {1:[91,92,93,94,95]}
         dic = {}
         for student_id, score in items:
             if student_id not in dic:
@@ -25,5 +24,6 @@ class Solution:
             average = sum(scores) // len(scores)
             res.append([student_id, average])
 
+        # nlogn
         res.sort()
         return res

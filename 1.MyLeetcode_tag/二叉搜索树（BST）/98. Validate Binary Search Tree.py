@@ -22,6 +22,7 @@ class Solution:
 
 """
 遍历也可以：
+二刷，这样入栈的方式，保证了栈顶是最小的，所以能用prev比较
 所有左边的node入栈，pop
 如果node.right也入栈，把new_node = node.right左右的左边也都入栈，保证了stack栈顶一直是最小，根据BST性质
 用一个prev记录之前的值,如果prev >= cur就False 

@@ -1,18 +1,21 @@
+# time nlog(n) because of sorting | space O(n) of meetings
 class Solution:
     def minMeetingRooms(self, intervals: List[List[int]]) -> int:
+        if not intervals:
+            return 0
 
-        room = []
-        for i in intervals:
-            room.append([i[0], 1])
-            room.append([i[1], -1])
+        meetings = []
+        for interval in intervals:
+            meetings.append([interval[0], 1])
+            meetings.append([interval[1], -1])
 
-        room = sorted(room)
+        # meetings = sorted(meetings)
+        meetings = sorted(meetings, key=lambda x: (x[0], x[1]))
+        #print(meetings)
 
-        res = 0
-        tmp = 0
-
-        for idx, cost in room:
-            tmp += cost
-            res = max(res, tmp)
-
-        return res
+        count = 0
+        running_cost = 0
+        for time, cost in meetings:
+            running_cost += cost
+            count = max(count, running_cost)
+        return count

@@ -6,31 +6,12 @@ pre = [3,9,20,15,7]  in = [9,3,15,20,7]
 ------------------------------------------------------
 left:  preorder[1:mid+1] inorder[:mid]    左子树有mid数量的元素
 right: preorder[mid+1:], inorder[mid+1:]  右子树有[mid+1：]的元素数量
-------------------------------------------------------
-                root(3)
-left:pre [9,20,15,7]  right: ?
-left:in [9]           right: in [15,20,7]
-------------------------------------------------------
-                root(3)
-        root(9)     right: pre [20,15,7]
-                    right: in [15,20,7]
-------------------------------------------------------
-                root(3)
-        root(9)          root(20)
-               left: pre [15,7]  right: pre ?
-               left: in [15]     right: in [7]
-------------------------------------------------------
-                root(3)
-        root(9)          root(20)
-                   root(15)  right: pre [7]
-                             right: in [7]
-
-
-"""
 
 
 # Time complexity : O(N)
 # Space complexity : O(N)
+"""
+
 
 # Definition for a binary tree node.
 # class TreeNode:

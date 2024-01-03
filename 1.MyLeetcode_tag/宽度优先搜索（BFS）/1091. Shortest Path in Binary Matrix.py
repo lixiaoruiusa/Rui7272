@@ -7,6 +7,7 @@ import collections
 class Solution:
     def shortestPathBinaryMatrix(self, grid: List[List[int]]) -> int:
 
+        # conner case此题比较重要
         if not grid or not grid[0] or grid[0][0] == 1:
             return -1
 
